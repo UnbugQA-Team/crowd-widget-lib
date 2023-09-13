@@ -16,22 +16,13 @@ import {
 const widgetOrigin = "*";
 const widgetVariablePrefix = "crowd-widget";
 const cookieLifetime = 0.5; // Hour(s)
-const baseURL = "https://staging.crowdapp.io/widget-extension"; //"http://localhost:2222/widget-extension"; // "https://staging.crowdapp.io/widget-extension";
+const environment = "dev";
+const baseURL =
+  environment === "dev"
+    ? "http://localhost:2222/widget-extension"
+    : "https://staging.crowdapp.io/widget-extension"; // "https://staging.crowdapp.io/widget-extension";
 
 let isWidgetPanelVisible = false;
-
-// const pullWidgetTokenFromURL = () => {
-//   const url = new URL(window.location.href);
-//   //** Get the URLSearchParams object from the URL */
-//   const params = new URLSearchParams(url.search);
-//   //** Get the value of the 'widget-token' parameter from the query */
-//   (window as any).crowd_access_token = params.get("widget-token");
-//   //** Setup widget frame */
-//   const crowdWidgetClass = new SetupCrowdWidget(
-//     (window as any).crowd_access_token
-//   );
-//   crowdWidgetClass.setupWidgetContainer();
-// };
 
 const initCrowdWidget = () => {
   if ((window as any).CrowdApp && (window as any).CrowdApp.widget_token) {
@@ -45,9 +36,17 @@ const initCrowdWidget = () => {
   }
 };
 
+/**
+ * @class SetupCrowdWidget
+ * @constructor (widgetToken: string)
+ *
+ * @description The SetupCrowdWidget class provides functionality for creating and embedding crowd widget on client website.
+ */
 class SetupCrowdWidget {
+  //** Variable that holds the widget token and it will be used across the class*/
   private widgetToken: string = "";
 
+  //** Generate IDs for the div container that will be used for the IFrames */
   private panelFrameId = generateId(`${widgetVariablePrefix}-body`);
   private launcherFrameId = generateId(`${widgetVariablePrefix}-launcher`);
   private controllerFrameId = generateId(`${widgetVariablePrefix}-controller`);
@@ -70,6 +69,7 @@ class SetupCrowdWidget {
     this.widgetToken = widgetToken;
   }
 
+  /** Return all the iFrame reference  */
   private getWidgetElementsReference() {
     const panelIframe = document.getElementById(
       this.panelFrameId
@@ -95,6 +95,9 @@ class SetupCrowdWidget {
     };
   }
 
+  /**
+   * This private method provides the endpoint for each of the iframe containers that will be created
+   */
   private getwidgetFrameEndpoint() {
     return {
       panelEndpoint: `${baseURL}?token=${this.widgetToken}`,
@@ -118,19 +121,22 @@ class SetupCrowdWidget {
     enableControllerDragging(
       this.getWidgetElementsReference().controllerWapper
     );
-    this.assignListenerTOCntrolButton();
+    this.assignListenerToControlButton();
   }
 
+  //** Setup the iframe for the widget launcher */
   private setupWidgetLauncherElement() {
     const widgetLauncherIframe = `<iframe id="${this.launcherFrameId}" frameborder="0" class="crowd-widget-launcher-frame" allowtransparency="true" style="height: 0;"></iframe>`;
     this.widgetParentContainer.innerHTML += widgetLauncherIframe;
   }
 
+  //** Setup the iframe for the widget panel */
   private setupWidgetPanelElement() {
     const widgetPanelIframe = `<iframe id="${this.panelFrameId}" frameborder="0" class="crowd-widget-body-frame" allowtransparency="true" style="height: 0; visibility: hidden;"></iframe>`;
     this.widgetParentContainer.innerHTML += widgetPanelIframe;
   }
 
+  //** Setup the iframe for the widget controller basically for the screen recording container */
   private setupWidgetControllerElement() {
     const controllerIframeHtml = `<div id="${this.controllerFrameWrapperId}" class="controller-frame crowd-block" style="visibility: hidden;"><div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
@@ -150,7 +156,7 @@ class SetupCrowdWidget {
     this.widgetParentContainer.innerHTML += controllerIframeHtml;
   }
 
-  private assignListenerTOCntrolButton() {
+  private assignListenerToControlButton() {
     document
       .getElementById("delete-screen-record")
       ?.addEventListener("click", () => {
@@ -272,6 +278,13 @@ class SetupCrowdWidget {
     } else if (event.data.eventType === "PANELRESIZE") {
       this.adjustWidgetPanelPositionDimension("Resize", event.data.body);
     } else if (event.data.eventType === "LAUNCHERLOADED") {
+      if (
+        !event.data.body.showFeedbackWidget ||
+        event.data.body.showFeedbackWidget === "false"
+      ) {
+        this.clearWidgetOnDeactivation();
+        return;
+      }
       checkDeviceAndPageCompability(event.data.body.displayRule).then(
         (response) => {
           if (response) {
@@ -287,7 +300,9 @@ class SetupCrowdWidget {
               }
             }, response.showAfter);
           } else {
-            elementRefs.launcherIframe.style.visibility = "hidden";
+            this.clearWidgetOnDeactivation();
+            return;
+            // elementRefs.launcherIframe.style.visibility = "hidden";
           }
         }
       );
@@ -313,9 +328,17 @@ class SetupCrowdWidget {
       this.toggleCrowdWidgetControllerVisibility("STOPRECORDING");
     }
   }
+
+  clearWidgetOnDeactivation() {
+    this.widgetParentContainer.remove();
+  }
+
+  getClientSiteDomain() {
+    const currentURL = window.location.href;
+    const url = new URL(currentURL);
+    const hostname = url.hostname;
+    console.log(hostname);
+    return hostname;
+  }
 }
 initCrowdWidget();
-
-// document.addEventListener("DOMContentLoaded", function () {
-//   initCrowdWidget();
-// });

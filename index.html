@@ -14,17 +14,14 @@
     <script>
       window.CrowdApp = window.CrowdApp || {};
       CrowdApp.widget_token = "d78df046-a3af-4e13-966c-2208c51a2640";
-      console.log(CrowdApp);
       (function (d) {
         var s = d.createElement("script");
-        // s.async = true;
         s.type = "module";
-        s.src = "/src/main.ts";
+        var timestamp = new Date().getTime();
+        s.src = "/src/main.ts?_=" + timestamp;
         (d.head || d.body).appendChild(s);
       })(document);
     </script>
-
-    <!-- <script type="module" src="/src/main.ts"></script> -->
   </head>
 
   <body class="min-h-screen flex items-center justify-center">
