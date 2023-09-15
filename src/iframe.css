@@ -13,7 +13,12 @@
   width: 400px;
   background: transparent;
   position: fixed;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 5px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 6px;
+  border-radius: 10px 10px 10px 10px;
 }
+
 @media (max-width: 500px) {
   .crowd-widget .crowd-widget-body-frame {
     width: 100%;
