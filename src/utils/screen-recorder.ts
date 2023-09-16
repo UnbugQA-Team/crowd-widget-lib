@@ -18,7 +18,31 @@ export const startBugTrackingScreenRecording = () => {
   });
 };
 
+const generateHeightForPlayer = () => {
+  const windowHeight = window.innerHeight;
+  const playerFrameElement = document.querySelector(
+    ".record-player-frame"
+  ) as HTMLDivElement;
+  if (playerFrameElement) {
+    const computedStyle = window.getComputedStyle(playerFrameElement);
+    const paddingTop = parseInt(
+      computedStyle.getPropertyValue("padding-top"),
+      10
+    );
+    // const paddingLeft = parseInt(
+    //   computedStyle.getPropertyValue("padding-left"),
+    //   10
+    // );
+    console.log(windowHeight);
+    const playerHeight = windowHeight - (paddingTop * 2 + 60 + 20);
+    console.log(playerHeight);
+    return playerHeight;
+  }
+  return 0;
+};
+
 export const stopBugTrackingScreenRecording = () => {
+  generateHeightForPlayer();
   recorderObj();
   const playerContainer = document.getElementById(
     "record-player"
@@ -29,6 +53,8 @@ export const stopBugTrackingScreenRecording = () => {
       target: playerContainer,
       props: {
         events: screenRecordEvent,
+        height: generateHeightForPlayer(),
+        skipInactive: true,
       },
     });
   }, 200);

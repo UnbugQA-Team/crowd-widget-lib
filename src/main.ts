@@ -14,6 +14,7 @@ import {
 } from "./utils";
 
 const widgetOrigin = "*";
+const crowdOrigin = "https://staging.crowdapp.io"; // "http://localhost:2222";
 const widgetVariablePrefix = "crowd-widget";
 const cookieLifetime = 0.5; // Hour(s)
 // const environment = "dev";
@@ -23,6 +24,9 @@ const cookieLifetime = 0.5; // Hour(s)
 //     : "https://staging.crowdapp.io/widget-extension"; // "https://staging.crowdapp.io/widget-extension";
 
 const baseURL = "https://staging.crowdapp.io/widget-extension";
+
+// https://admin200.lfxedu.com/test.html
+
 let isWidgetPanelVisible = false;
 
 const initCrowdWidget = () => {
@@ -116,6 +120,7 @@ class SetupCrowdWidget {
     this.setupWidgetRecordPlayerElement();
     document.body.appendChild(this.widgetParentContainer);
     window.addEventListener("message", (event) => {
+      if (event.origin !== crowdOrigin) return;
       this.listenAndExecutePostMessageInteration(event);
     });
     this.assignWidgetPanelAndLauncherEndpoints();
@@ -248,7 +253,7 @@ class SetupCrowdWidget {
         {
           eventType: "STARTCOUNTDOWN",
         },
-        widgetOrigin
+        crowdOrigin
       );
     }
     isWidgetPanelVisible = !isWidgetPanelVisible;
@@ -296,14 +301,12 @@ class SetupCrowdWidget {
                   {
                     eventType: "WIDGETIMPRESSION",
                   },
-                  widgetOrigin
+                  crowdOrigin
                 );
               }
             }, response.showAfter);
           } else {
             this.clearWidgetOnDeactivation();
-            return;
-            // elementRefs.launcherIframe.style.visibility = "hidden";
           }
         }
       );

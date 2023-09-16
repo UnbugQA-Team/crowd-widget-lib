@@ -1,14 +1,14 @@
-(function(){"use strict";try{if(typeof document<"u"){var e=document.createElement("style");e.id="crowd-app-29.084033518876183",e.appendChild(document.createTextNode('.crowd-widget{position:fixed}.crowd-widget iframe{z-index:1100;background-color:transparent;border:none}.crowd-widget .crowd-widget-body-frame{width:400px;background:transparent;position:fixed;box-shadow:#00000029 0 5px 5px;-webkit-box-shadow:rgba(0,0,0,.16) 0px 5px 5px;-moz-box-shadow:rgba(0,0,0,.16) 0px 5px 6px;border-radius:10px}@media (max-width: 500px){.crowd-widget .crowd-widget-body-frame{width:100%}}.crowd-widget .crowd-widget-body-frame,.crowd-widget .crowd-widget-launcher-frame{opacity:1;transition:visibility 0s,opacity .9s}.crowd-widget-body-frame.widget-panel-bottom-right{position:fixed;right:10px;bottom:10px}.crowd-widget-body-frame.widget-panel-bottom-left{position:fixed;left:10px;bottom:10px}.crowd-widget-body-frame.widget-panel-middle-left{position:fixed;top:50%;left:10px;transform:translateY(-50%)}.crowd-widget-body-frame.widget-panel-middle-right{position:fixed;top:50%;right:10px;transform:translateY(-50%)}.crowd-widget-launcher-frame.widget-launcher-bottom-right{position:fixed;right:0;bottom:0}.crowd-widget-launcher-frame.widget-launcher-bottom-left{position:fixed;left:0;bottom:0}.crowd-widget-launcher-frame.widget-launcher-middle-left{position:fixed;left:-2px;top:50%;transform:translate(-50%) rotate(-90deg);transform-origin:50% 0%}.crowd-widget-launcher-frame.widget-launcher-middle-right{position:fixed;top:50%;right:0;transform:rotate(-90deg) translate(50%,-50%);transform-origin:100% 50%}@media (max-width: 500px){.crowd-widget-body-frame.widget-panel-bottom-right{right:0;bottom:0}.crowd-widget-body-frame.widget-panel-bottom-left{left:0;bottom:0}.crowd-widget-body-frame.widget-panel-middle-left{left:0;transform:translateY(0);top:auto!important;bottom:0}.crowd-widget-body-frame.widget-panel-middle-right{right:0;transform:translateY(0);top:auto!important;bottom:0}}.controller-frame{position:fixed;bottom:15px;left:calc(50% - 135px);right:calc(50% - 135px);padding:0;transform-origin:50% 50%;cursor:move;background-color:#fff!important;border-radius:7px;height:60px!important;display:flex;justify-content:center;align-items:center;width:300px;min-width:300px;max-width:300px}.controller-frame div{height:30px;width:30px}.controller-frame svg{height:30px;width:30px;stroke:#000}.controller-frame iframe{position:relative;height:60px!important;width:250px!important}.crowd-recording-frame{padding:10px}.crowd-recording-frame .recording-frame{position:fixed;border:5px solid red;top:0;left:0;right:0;bottom:0;z-index:-1}body.show-crowd-player{overflow:hidden!important}.crowd-widget .record-player-frame{position:fixed;background:rgba(0,0,0,.72);width:100vw;height:100vh;padding:80px 100px;top:0;left:0;right:0;bottom:0;display:flex;justify-content:center;flex-direction:column;align-items:center;gap:20px}.crowd-widget .player-action{width:100%;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:20px}.crowd-widget .player-action button{display:flex;padding:8px 16px;justify-content:center;align-items:center;gap:10px;width:130px;border-radius:4px;border:1px solid #fff}.crowd-widget .crowd-player-container{width:100%;display:flex;justify-content:center}@media (max-width: 500px){.crowd-widget .record-player-frame{padding:40px 20px}}.replayer-wrapper{position:relative}.replayer-mouse{position:absolute;width:20px;height:20px;transition:left .05s linear,top .05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==);border-color:transparent}.replayer-mouse:after{content:"";display:inline-block;width:20px;height:20px;background:#4950f6;border-radius:100%;transform:translate(-50%,-50%);opacity:.3}.replayer-mouse.active:after{animation:click .2s ease-in-out 1}.replayer-mouse.touch-device{background-image:none;width:70px;height:70px;border-radius:100%;margin-left:-37px;margin-top:-37px;border:4px solid rgba(73,80,246,0);transition:left 0s linear,top 0s linear,border-color .2s ease-in-out}.replayer-mouse.touch-device.touch-active{border-color:#4950f6;transition:left .25s linear,top .25s linear,border-color .2s ease-in-out}.replayer-mouse.touch-device:after{opacity:0}.replayer-mouse.touch-device.active:after{animation:touch-click .2s ease-in-out 1}.replayer-mouse-tail{position:absolute;pointer-events:none}@keyframes click{0%{opacity:.3;width:20px;height:20px}50%{opacity:.5;width:10px;height:10px}}@keyframes touch-click{0%{opacity:0;width:20px;height:20px}50%{opacity:.5;width:10px;height:10px}}.rr-player{position:relative;background:white;float:left;border-radius:5px;box-shadow:0 24px 48px #11103e1f}.rr-player__frame{overflow:hidden}.replayer-wrapper{float:left;clear:both;transform-origin:top left;left:50%;top:50%}.replayer-wrapper>iframe{border:none}.rr-controller.svelte-19ke1iv.svelte-19ke1iv{width:100%;height:80px;background:#fff;display:flex;flex-direction:column;justify-content:space-around;align-items:center;border-radius:0 0 5px 5px}.rr-timeline.svelte-19ke1iv.svelte-19ke1iv{width:80%;display:flex;align-items:center}.rr-timeline__time.svelte-19ke1iv.svelte-19ke1iv{display:inline-block;width:100px;text-align:center;color:#11103e}.rr-progress.svelte-19ke1iv.svelte-19ke1iv{flex:1;height:12px;background:#eee;position:relative;border-radius:3px;cursor:pointer;box-sizing:border-box;border-top:solid 4px #fff;border-bottom:solid 4px #fff}.rr-progress.disabled.svelte-19ke1iv.svelte-19ke1iv{cursor:not-allowed}.rr-progress__step.svelte-19ke1iv.svelte-19ke1iv{height:100%;position:absolute;left:0;top:0;background:#e0e1fe}.rr-progress__handler.svelte-19ke1iv.svelte-19ke1iv{width:20px;height:20px;border-radius:10px;position:absolute;top:2px;transform:translate(-50%,-50%);background:rgb(73,80,246)}.rr-controller__btns.svelte-19ke1iv.svelte-19ke1iv{display:flex;align-items:center;justify-content:center;font-size:13px}.rr-controller__btns.svelte-19ke1iv button.svelte-19ke1iv{width:32px;height:32px;display:flex;padding:0;align-items:center;justify-content:center;background:none;border:none;border-radius:50%;cursor:pointer}.rr-controller__btns.svelte-19ke1iv button.svelte-19ke1iv:active{background:#e0e1fe}.rr-controller__btns.svelte-19ke1iv button.active.svelte-19ke1iv{color:#fff;background:rgb(73,80,246)}.rr-controller__btns.svelte-19ke1iv button.svelte-19ke1iv:disabled{cursor:not-allowed}.switch.svelte-9brlez.svelte-9brlez.svelte-9brlez{height:1em;display:flex;align-items:center}.switch.disabled.svelte-9brlez.svelte-9brlez.svelte-9brlez{opacity:.5}.label.svelte-9brlez.svelte-9brlez.svelte-9brlez{margin:0 8px}.switch.svelte-9brlez input[type=checkbox].svelte-9brlez.svelte-9brlez{position:absolute;opacity:0}.switch.svelte-9brlez label.svelte-9brlez.svelte-9brlez{width:2em;height:1em;position:relative;cursor:pointer;display:block}.switch.disabled.svelte-9brlez label.svelte-9brlez.svelte-9brlez{cursor:not-allowed}.switch.svelte-9brlez label.svelte-9brlez.svelte-9brlez:before{content:"";position:absolute;width:2em;height:1em;left:.1em;transition:background .1s ease;background:rgba(73,80,246,.5);border-radius:50px}.switch.svelte-9brlez label.svelte-9brlez.svelte-9brlez:after{content:"";position:absolute;width:1em;height:1em;border-radius:50px;left:0;transition:all .2s ease;box-shadow:0 2px 5px #0000004d;background:#fcfff4;animation:switch-off .2s ease-out;z-index:2}.switch.svelte-9brlez input[type=checkbox].svelte-9brlez:checked+label.svelte-9brlez:before{background:rgb(73,80,246)}.switch.svelte-9brlez input[type=checkbox].svelte-9brlez:checked+label.svelte-9brlez:after{animation:switch-on .2s ease-out;left:1.1em}')),document.head.appendChild(e)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
-var Ci = Object.defineProperty;
-var vi = (t, e, n) => e in t ? Ci(t, e, { enumerable: !0, configurable: !0, writable: !0, value: n }) : t[e] = n;
-var bi = (t, e) => () => (e || t((e = { exports: {} }).exports, e), e.exports);
-var Se = (t, e, n) => (vi(t, typeof e != "symbol" ? e + "" : e, n), n);
-var na = bi((ia, We) => {
+(function(){"use strict";try{if(typeof document<"u"){var e=document.createElement("style");e.id="crowd-app-54.42620150274102",e.appendChild(document.createTextNode('.crowd-widget{position:fixed}.crowd-widget iframe{z-index:1100;background-color:transparent;border:none}.crowd-widget .crowd-widget-body-frame{width:400px;background:transparent;position:fixed;box-shadow:#00000029 0 5px 5px;-webkit-box-shadow:rgba(0,0,0,.16) 0px 5px 5px;-moz-box-shadow:rgba(0,0,0,.16) 0px 5px 6px;border-radius:10px}@media (max-width: 500px){.crowd-widget .crowd-widget-body-frame{width:100%}}.crowd-widget .crowd-widget-body-frame,.crowd-widget .crowd-widget-launcher-frame{opacity:1;transition:visibility 0s,opacity .9s}.crowd-widget-body-frame.widget-panel-bottom-right{position:fixed;right:10px;bottom:10px}.crowd-widget-body-frame.widget-panel-bottom-left{position:fixed;left:10px;bottom:10px}.crowd-widget-body-frame.widget-panel-middle-left{position:fixed;top:50%;left:10px;transform:translateY(-50%)}.crowd-widget-body-frame.widget-panel-middle-right{position:fixed;top:50%;right:10px;transform:translateY(-50%)}.crowd-widget-launcher-frame.widget-launcher-bottom-right{position:fixed;right:0;bottom:0}.crowd-widget-launcher-frame.widget-launcher-bottom-left{position:fixed;left:0;bottom:0}.crowd-widget-launcher-frame.widget-launcher-middle-left{position:fixed;left:-2px;top:50%;transform:translate(-50%) rotate(-90deg);transform-origin:50% 0%}.crowd-widget-launcher-frame.widget-launcher-middle-right{position:fixed;top:50%;right:0;transform:rotate(-90deg) translate(50%,-50%);transform-origin:100% 50%}@media (max-width: 500px){.crowd-widget-body-frame.widget-panel-bottom-right{right:0;bottom:0}.crowd-widget-body-frame.widget-panel-bottom-left{left:0;bottom:0}.crowd-widget-body-frame.widget-panel-middle-left{left:0;transform:translateY(0);top:auto!important;bottom:0}.crowd-widget-body-frame.widget-panel-middle-right{right:0;transform:translateY(0);top:auto!important;bottom:0}}.controller-frame{position:fixed;bottom:15px;left:calc(50% - 135px);right:calc(50% - 135px);padding:0;transform-origin:50% 50%;cursor:move;background-color:#fff!important;border-radius:7px;height:60px!important;display:flex;justify-content:center;align-items:center;width:300px;min-width:300px;max-width:300px}.controller-frame div{height:30px;width:30px}.controller-frame svg{height:30px;width:30px;stroke:#000}.controller-frame iframe{position:relative;height:60px!important;width:250px!important}.crowd-recording-frame{padding:10px}.crowd-recording-frame .recording-frame{position:fixed;border:5px solid red;top:0;left:0;right:0;bottom:0;z-index:-1}body.show-crowd-player{overflow:hidden!important}.crowd-widget .record-player-frame{position:fixed!important;background:rgba(0,0,0,.72)!important;width:100vw!important;height:100vh!important;padding:80px 100px!important;top:0!important;left:0!important;right:0!important;bottom:0!important;display:flex!important;justify-content:center!important;flex-direction:column!important;align-items:center!important;gap:20px!important}.crowd-widget .player-action{width:100%!important;height:50px!important;min-height:50px!important;display:flex!important;flex-direction:row!important;justify-content:center!important;align-items:center!important;gap:20px!important}.crowd-widget .player-action button{display:flex!important;padding:8px 16px!important;justify-content:center!important;align-items:center!important;gap:10px!important;min-width:130px!important;width:130px!important;border-radius:4px!important;color:#fff!important;border:1px solid #fff!important}.crowd-widget .crowd-player-container{width:100%;display:flex;justify-content:center}@media (max-width: 500px){.crowd-widget .record-player-frame{padding:40px 20px}}.replayer-wrapper{position:relative}.replayer-mouse{position:absolute;width:20px;height:20px;transition:left .05s linear,top .05s linear;background-size:contain;background-position:50%;background-repeat:no-repeat;background-image:url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMwMCIgd2lkdGg9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkYXRhLW5hbWU9IkxheWVyIDEiIHZpZXdCb3g9IjAgMCA1MCA1MCI+PHBhdGggZD0iTTQ4LjcxIDQyLjkxTDM0LjA4IDI4LjI5IDQ0LjMzIDE4YTEgMSAwIDAwLS4zMy0xLjYxTDIuMzUgMS4wNmExIDEgMCAwMC0xLjI5IDEuMjlMMTYuMzkgNDRhMSAxIDAgMDAxLjY1LjM2bDEwLjI1LTEwLjI4IDE0LjYyIDE0LjYzYTEgMSAwIDAwMS40MSAwbDQuMzgtNC4zOGExIDEgMCAwMC4wMS0xLjQyem0tNS4wOSAzLjY3TDI5IDMyYTEgMSAwIDAwLTEuNDEgMGwtOS44NSA5Ljg1TDMuNjkgMy42OWwzOC4xMiAxNEwzMiAyNy41OEExIDEgMCAwMDMyIDI5bDE0LjU5IDE0LjYyeiIvPjwvc3ZnPg==);border-color:transparent}.replayer-mouse:after{content:"";display:inline-block;width:20px;height:20px;background:#4950f6;border-radius:100%;transform:translate(-50%,-50%);opacity:.3}.replayer-mouse.active:after{animation:click .2s ease-in-out 1}.replayer-mouse.touch-device{background-image:none;width:70px;height:70px;border-radius:100%;margin-left:-37px;margin-top:-37px;border:4px solid rgba(73,80,246,0);transition:left 0s linear,top 0s linear,border-color .2s ease-in-out}.replayer-mouse.touch-device.touch-active{border-color:#4950f6;transition:left .25s linear,top .25s linear,border-color .2s ease-in-out}.replayer-mouse.touch-device:after{opacity:0}.replayer-mouse.touch-device.active:after{animation:touch-click .2s ease-in-out 1}.replayer-mouse-tail{position:absolute;pointer-events:none}@keyframes click{0%{opacity:.3;width:20px;height:20px}50%{opacity:.5;width:10px;height:10px}}@keyframes touch-click{0%{opacity:0;width:20px;height:20px}50%{opacity:.5;width:10px;height:10px}}.rr-player{position:relative;background:white;float:left;border-radius:5px;box-shadow:0 24px 48px #11103e1f}.rr-player__frame{overflow:hidden}.replayer-wrapper{float:left;clear:both;transform-origin:top left;left:50%;top:50%}.replayer-wrapper>iframe{border:none}.rr-controller.svelte-19ke1iv.svelte-19ke1iv{width:100%;height:80px;background:#fff;display:flex;flex-direction:column;justify-content:space-around;align-items:center;border-radius:0 0 5px 5px}.rr-timeline.svelte-19ke1iv.svelte-19ke1iv{width:80%;display:flex;align-items:center}.rr-timeline__time.svelte-19ke1iv.svelte-19ke1iv{display:inline-block;width:100px;text-align:center;color:#11103e}.rr-progress.svelte-19ke1iv.svelte-19ke1iv{flex:1;height:12px;background:#eee;position:relative;border-radius:3px;cursor:pointer;box-sizing:border-box;border-top:solid 4px #fff;border-bottom:solid 4px #fff}.rr-progress.disabled.svelte-19ke1iv.svelte-19ke1iv{cursor:not-allowed}.rr-progress__step.svelte-19ke1iv.svelte-19ke1iv{height:100%;position:absolute;left:0;top:0;background:#e0e1fe}.rr-progress__handler.svelte-19ke1iv.svelte-19ke1iv{width:20px;height:20px;border-radius:10px;position:absolute;top:2px;transform:translate(-50%,-50%);background:rgb(73,80,246)}.rr-controller__btns.svelte-19ke1iv.svelte-19ke1iv{display:flex;align-items:center;justify-content:center;font-size:13px}.rr-controller__btns.svelte-19ke1iv button.svelte-19ke1iv{width:32px;height:32px;display:flex;padding:0;align-items:center;justify-content:center;background:none;border:none;border-radius:50%;cursor:pointer}.rr-controller__btns.svelte-19ke1iv button.svelte-19ke1iv:active{background:#e0e1fe}.rr-controller__btns.svelte-19ke1iv button.active.svelte-19ke1iv{color:#fff;background:rgb(73,80,246)}.rr-controller__btns.svelte-19ke1iv button.svelte-19ke1iv:disabled{cursor:not-allowed}.switch.svelte-9brlez.svelte-9brlez.svelte-9brlez{height:1em;display:flex;align-items:center}.switch.disabled.svelte-9brlez.svelte-9brlez.svelte-9brlez{opacity:.5}.label.svelte-9brlez.svelte-9brlez.svelte-9brlez{margin:0 8px}.switch.svelte-9brlez input[type=checkbox].svelte-9brlez.svelte-9brlez{position:absolute;opacity:0}.switch.svelte-9brlez label.svelte-9brlez.svelte-9brlez{width:2em;height:1em;position:relative;cursor:pointer;display:block}.switch.disabled.svelte-9brlez label.svelte-9brlez.svelte-9brlez{cursor:not-allowed}.switch.svelte-9brlez label.svelte-9brlez.svelte-9brlez:before{content:"";position:absolute;width:2em;height:1em;left:.1em;transition:background .1s ease;background:rgba(73,80,246,.5);border-radius:50px}.switch.svelte-9brlez label.svelte-9brlez.svelte-9brlez:after{content:"";position:absolute;width:1em;height:1em;border-radius:50px;left:0;transition:all .2s ease;box-shadow:0 2px 5px #0000004d;background:#fcfff4;animation:switch-off .2s ease-out;z-index:2}.switch.svelte-9brlez input[type=checkbox].svelte-9brlez:checked+label.svelte-9brlez:before{background:rgb(73,80,246)}.switch.svelte-9brlez input[type=checkbox].svelte-9brlez:checked+label.svelte-9brlez:after{animation:switch-on .2s ease-out;left:1.1em}')),document.head.appendChild(e)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
+var vi = Object.defineProperty;
+var bi = (t, e, n) => e in t ? vi(t, e, { enumerable: !0, configurable: !0, writable: !0, value: n }) : t[e] = n;
+var Ai = (t, e) => () => (e || t((e = { exports: {} }).exports, e), e.exports);
+var Se = (t, e, n) => (bi(t, typeof e != "symbol" ? e + "" : e, n), n);
+var ia = Ai((sa, We) => {
   var ce;
   (function(t) {
     t[t.Document = 0] = "Document", t[t.DocumentType = 1] = "DocumentType", t[t.Element = 2] = "Element", t[t.Text = 3] = "Text", t[t.CDATA = 4] = "CDATA", t[t.Comment = 5] = "Comment";
   })(ce || (ce = {}));
-  function Ai(t) {
+  function Si(t) {
     return t.nodeType === t.ELEMENT_NODE;
   }
   function it(t) {
@@ -18,30 +18,30 @@ var na = bi((ia, We) => {
   function ot(t) {
     return Object.prototype.toString.call(t) === "[object ShadowRoot]";
   }
-  function Si(t) {
+  function wi(t) {
     return t.includes(" background-clip: text;") && !t.includes(" -webkit-background-clip: text;") && (t = t.replace(" background-clip: text;", " -webkit-background-clip: text; background-clip: text;")), t;
   }
   function jt(t) {
     try {
       var e = t.rules || t.cssRules;
-      return e ? Si(Array.from(e).map(hr).join("")) : null;
+      return e ? wi(Array.from(e).map(gr).join("")) : null;
     } catch {
       return null;
     }
   }
-  function hr(t) {
+  function gr(t) {
     var e = t.cssText;
-    if (wi(t))
+    if (Ni(t))
       try {
         e = jt(t.styleSheet) || e;
       } catch {
       }
     return e;
   }
-  function wi(t) {
+  function Ni(t) {
     return "styleSheet" in t;
   }
-  var gr = function() {
+  var pr = function() {
     function t() {
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }
@@ -80,15 +80,15 @@ var na = bi((ia, We) => {
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }, t;
   }();
-  function Ni() {
-    return new gr();
+  function Ei() {
+    return new pr();
   }
   function dn(t) {
     var e = t.maskInputOptions, n = t.tagName, r = t.type, i = t.value, o = t.maskInputFn, s = i || "";
     return (e[n.toLowerCase()] || e[r]) && (o ? s = o(s) : s = "*".repeat(s.length)), s;
   }
   var yn = "__rrweb_original__";
-  function Ei(t) {
+  function Ti(t) {
     var e = t.getContext("2d");
     if (!e)
       return !0;
@@ -102,35 +102,35 @@ var na = bi((ia, We) => {
       }
     return !0;
   }
-  var Ti = 1, Mi = new RegExp("[^a-z0-9-_:]"), dt = -2;
-  function pr() {
-    return Ti++;
+  var Mi = 1, Ri = new RegExp("[^a-z0-9-_:]"), dt = -2;
+  function mr() {
+    return Mi++;
   }
-  function Ri(t) {
+  function ki(t) {
     if (t instanceof HTMLFormElement)
       return "form";
     var e = t.tagName.toLowerCase().trim();
-    return Mi.test(e) ? "div" : e;
+    return Ri.test(e) ? "div" : e;
   }
-  function ki(t) {
+  function Di(t) {
     return t.cssRules ? Array.from(t.cssRules).map(function(e) {
       return e.cssText || "";
     }).join("") : "";
   }
-  function Di(t) {
+  function xi(t) {
     var e = "";
     return t.indexOf("//") > -1 ? e = t.split("/").slice(0, 3).join("/") : e = t.split("/")[0], e = e.split("?")[0], e;
   }
-  var _e, In, xi = /url\((?:(')([^']*)'|(")(.*?)"|([^)]*))\)/gm, Fi = /^(?!www\.|(?:http|ftp)s?:\/\/|[A-Za-z]:\\|\/\/|#).*/, Oi = /^(data:)([^,]*),(.*)/i;
+  var _e, In, Fi = /url\((?:(')([^']*)'|(")(.*?)"|([^)]*))\)/gm, Oi = /^(?!www\.|(?:http|ftp)s?:\/\/|[A-Za-z]:\\|\/\/|#).*/, Li = /^(data:)([^,]*),(.*)/i;
   function Et(t, e) {
-    return (t || "").replace(xi, function(n, r, i, o, s, a) {
+    return (t || "").replace(Fi, function(n, r, i, o, s, a) {
       var l = i || s || a, c = r || o || "";
       if (!l)
         return n;
-      if (!Fi.test(l) || Oi.test(l))
+      if (!Oi.test(l) || Li.test(l))
         return "url(".concat(c).concat(l).concat(c, ")");
       if (l[0] === "/")
-        return "url(".concat(c).concat(Di(e) + l).concat(c, ")");
+        return "url(".concat(c).concat(xi(e) + l).concat(c, ")");
       var d = e.split("/"), u = l.split("/");
       d.pop();
       for (var g = 0, m = u; g < m.length; g++) {
@@ -140,8 +140,8 @@ var na = bi((ia, We) => {
       return "url(".concat(c).concat(d.join("/")).concat(c, ")");
     });
   }
-  var Li = /^[^ \t\n\r\u000c]+/, Wi = /^[, \t\n\r\u000c]+/;
-  function Bi(t, e) {
+  var Wi = /^[^ \t\n\r\u000c]+/, Bi = /^[, \t\n\r\u000c]+/;
+  function _i(t, e) {
     if (e.trim() === "")
       return e;
     var n = 0;
@@ -149,8 +149,8 @@ var na = bi((ia, We) => {
       var d, u = c.exec(e.substring(n));
       return u ? (d = u[0], n += d.length, d) : "";
     }
-    for (var i = []; r(Wi), !(n >= e.length); ) {
-      var o = r(Li);
+    for (var i = []; r(Bi), !(n >= e.length); ) {
+      var o = r(Wi);
       if (o.slice(-1) === ",")
         o = Pe(t, o.substring(0, o.length - 1)), i.push(o);
       else {
@@ -180,17 +180,17 @@ var na = bi((ia, We) => {
     var n = t.createElement("a");
     return n.href = e, n.href;
   }
-  function _i(t) {
+  function Gi(t) {
     return !!(t.tagName === "svg" || t.ownerSVGElement);
   }
   function un() {
     var t = document.createElement("a");
     return t.href = "", t.href;
   }
-  function mr(t, e, n, r) {
-    return n === "src" || n === "href" && r && !(e === "use" && r[0] === "#") || n === "xlink:href" && r && r[0] !== "#" || n === "background" && r && (e === "table" || e === "td" || e === "th") ? Pe(t, r) : n === "srcset" && r ? Bi(t, r) : n === "style" && r ? Et(r, un()) : e === "object" && n === "data" && r ? Pe(t, r) : r;
+  function fr(t, e, n, r) {
+    return n === "src" || n === "href" && r && !(e === "use" && r[0] === "#") || n === "xlink:href" && r && r[0] !== "#" || n === "background" && r && (e === "table" || e === "td" || e === "th") ? Pe(t, r) : n === "srcset" && r ? _i(t, r) : n === "style" && r ? Et(r, un()) : e === "object" && n === "data" && r ? Pe(t, r) : r;
   }
-  function Gi(t, e, n) {
+  function Vi(t, e, n) {
     if (typeof e == "string") {
       if (t.classList.contains(e))
         return !0;
@@ -214,7 +214,7 @@ var na = bi((ia, We) => {
     }
     return n ? Tt(t.parentNode, e, n) : !1;
   }
-  function fr(t, e, n) {
+  function yr(t, e, n) {
     var r = t.nodeType === t.ELEMENT_NODE ? t : t.parentElement;
     if (r === null)
       return !1;
@@ -225,7 +225,7 @@ var na = bi((ia, We) => {
       return !0;
     return !!(n && (r.matches(n) || r.closest(n)));
   }
-  function Vi(t, e, n) {
+  function Zi(t, e, n) {
     var r = t.contentWindow;
     if (r) {
       var i = !1, o;
@@ -249,7 +249,7 @@ var na = bi((ia, We) => {
       t.addEventListener("load", e);
     }
   }
-  function Zi(t, e, n) {
+  function Ui(t, e, n) {
     var r = !1, i;
     try {
       i = t.sheet;
@@ -265,8 +265,8 @@ var na = bi((ia, We) => {
       });
     }
   }
-  function Ui(t, e) {
-    var n = e.doc, r = e.mirror, i = e.blockClass, o = e.blockSelector, s = e.maskTextClass, a = e.maskTextSelector, l = e.inlineStylesheet, c = e.maskInputOptions, d = c === void 0 ? {} : c, u = e.maskTextFn, g = e.maskInputFn, m = e.dataURLOptions, h = m === void 0 ? {} : m, p = e.inlineImages, y = e.recordCanvas, I = e.keepIframeSrcFn, f = e.newlyAddedElement, C = f === void 0 ? !1 : f, w = Pi(n, r);
+  function Pi(t, e) {
+    var n = e.doc, r = e.mirror, i = e.blockClass, o = e.blockSelector, s = e.maskTextClass, a = e.maskTextSelector, l = e.inlineStylesheet, c = e.maskInputOptions, d = c === void 0 ? {} : c, u = e.maskTextFn, g = e.maskInputFn, m = e.dataURLOptions, h = m === void 0 ? {} : m, p = e.inlineImages, y = e.recordCanvas, I = e.keepIframeSrcFn, f = e.newlyAddedElement, C = f === void 0 ? !1 : f, w = Ki(n, r);
     switch (t.nodeType) {
       case t.DOCUMENT_NODE:
         return t.compatMode !== "CSS1Compat" ? {
@@ -286,7 +286,7 @@ var na = bi((ia, We) => {
           rootId: w
         };
       case t.ELEMENT_NODE:
-        return Yi(t, {
+        return zi(t, {
           doc: n,
           blockClass: i,
           blockSelector: o,
@@ -301,7 +301,7 @@ var na = bi((ia, We) => {
           rootId: w
         });
       case t.TEXT_NODE:
-        return Ki(t, {
+        return Yi(t, {
           maskTextClass: s,
           maskTextSelector: a,
           maskTextFn: u,
@@ -323,33 +323,33 @@ var na = bi((ia, We) => {
         return !1;
     }
   }
-  function Pi(t, e) {
+  function Ki(t, e) {
     if (e.hasNode(t)) {
       var n = e.getId(t);
       return n === 1 ? void 0 : n;
     }
   }
-  function Ki(t, e) {
+  function Yi(t, e) {
     var n, r = e.maskTextClass, i = e.maskTextSelector, o = e.maskTextFn, s = e.rootId, a = t.parentNode && t.parentNode.tagName, l = t.textContent, c = a === "STYLE" ? !0 : void 0, d = a === "SCRIPT" ? !0 : void 0;
     if (c && l) {
       try {
-        t.nextSibling || t.previousSibling || !((n = t.parentNode.sheet) === null || n === void 0) && n.cssRules && (l = ki(t.parentNode.sheet));
+        t.nextSibling || t.previousSibling || !((n = t.parentNode.sheet) === null || n === void 0) && n.cssRules && (l = Di(t.parentNode.sheet));
       } catch (u) {
         console.warn("Cannot get CSS styles from text's parentNode. Error: ".concat(u), t);
       }
       l = Et(l, un());
     }
-    return d && (l = "SCRIPT_PLACEHOLDER"), !c && !d && l && fr(t, r, i) && (l = o ? o(l) : l.replace(/[\S]/g, "*")), {
+    return d && (l = "SCRIPT_PLACEHOLDER"), !c && !d && l && yr(t, r, i) && (l = o ? o(l) : l.replace(/[\S]/g, "*")), {
       type: ce.Text,
       textContent: l || "",
       isStyle: c,
       rootId: s
     };
   }
-  function Yi(t, e) {
-    for (var n = e.doc, r = e.blockClass, i = e.blockSelector, o = e.inlineStylesheet, s = e.maskInputOptions, a = s === void 0 ? {} : s, l = e.maskInputFn, c = e.dataURLOptions, d = c === void 0 ? {} : c, u = e.inlineImages, g = e.recordCanvas, m = e.keepIframeSrcFn, h = e.newlyAddedElement, p = h === void 0 ? !1 : h, y = e.rootId, I = Gi(t, r, i), f = Ri(t), C = {}, w = t.attributes.length, O = 0; O < w; O++) {
+  function zi(t, e) {
+    for (var n = e.doc, r = e.blockClass, i = e.blockSelector, o = e.inlineStylesheet, s = e.maskInputOptions, a = s === void 0 ? {} : s, l = e.maskInputFn, c = e.dataURLOptions, d = c === void 0 ? {} : c, u = e.inlineImages, g = e.recordCanvas, m = e.keepIframeSrcFn, h = e.newlyAddedElement, p = h === void 0 ? !1 : h, y = e.rootId, I = Vi(t, r, i), f = ki(t), C = {}, w = t.attributes.length, O = 0; O < w; O++) {
       var F = t.attributes[O];
-      C[F.name] = mr(n, f, F.name, F.value);
+      C[F.name] = fr(n, f, F.name, F.value);
     }
     if (f === "link" && o) {
       var W = Array.from(n.styleSheets).find(function(Z) {
@@ -373,7 +373,7 @@ var na = bi((ia, We) => {
     }
     if (f === "option" && (t.selected && !a.select ? C.selected = !0 : delete C.selected), f === "canvas" && g) {
       if (t.__context === "2d")
-        Ei(t) || (C.rr_dataURL = t.toDataURL(d.type, d.quality));
+        Ti(t) || (C.rr_dataURL = t.toDataURL(d.type, d.quality));
       else if (!("__context" in t)) {
         var A = t.toDataURL(d.type, d.quality), v = document.createElement("canvas");
         v.width = t.width, v.height = t.height;
@@ -408,7 +408,7 @@ var na = bi((ia, We) => {
       tagName: f,
       attributes: C,
       childNodes: [],
-      isSVG: _i(t) || void 0,
+      isSVG: Gi(t) || void 0,
       needBlock: I,
       rootId: y
     };
@@ -416,7 +416,7 @@ var na = bi((ia, We) => {
   function ee(t) {
     return t === void 0 ? "" : t.toLowerCase();
   }
-  function zi(t, e) {
+  function Hi(t, e) {
     if (e.comment && t.type === ce.Comment)
       return !0;
     if (t.type === ce.Element) {
@@ -444,7 +444,7 @@ var na = bi((ia, We) => {
   function Ke(t, e) {
     var n = e.doc, r = e.mirror, i = e.blockClass, o = e.blockSelector, s = e.maskTextClass, a = e.maskTextSelector, l = e.skipChild, c = l === void 0 ? !1 : l, d = e.inlineStylesheet, u = d === void 0 ? !0 : d, g = e.maskInputOptions, m = g === void 0 ? {} : g, h = e.maskTextFn, p = e.maskInputFn, y = e.slimDOMOptions, I = e.dataURLOptions, f = I === void 0 ? {} : I, C = e.inlineImages, w = C === void 0 ? !1 : C, O = e.recordCanvas, F = O === void 0 ? !1 : O, W = e.onSerialize, R = e.onIframeLoad, b = e.iframeLoadTimeout, x = b === void 0 ? 5e3 : b, A = e.onStylesheetLoad, v = e.stylesheetLoadTimeout, M = v === void 0 ? 5e3 : v, T = e.keepIframeSrcFn, G = T === void 0 ? function() {
       return !1;
-    } : T, B = e.newlyAddedElement, S = B === void 0 ? !1 : B, _ = e.preserveWhiteSpace, D = _ === void 0 ? !0 : _, Z = Ui(t, {
+    } : T, B = e.newlyAddedElement, S = B === void 0 ? !1 : B, _ = e.preserveWhiteSpace, D = _ === void 0 ? !0 : _, Z = Pi(t, {
       doc: n,
       mirror: r,
       blockClass: i,
@@ -464,7 +464,7 @@ var na = bi((ia, We) => {
     if (!Z)
       return console.warn(t, "not serialized"), null;
     var X;
-    r.hasNode(t) ? X = r.getId(t) : zi(Z, y) || !D && Z.type === ce.Text && !Z.isStyle && !Z.textContent.replace(/^\s+|\s+$/gm, "").length ? X = dt : X = pr();
+    r.hasNode(t) ? X = r.getId(t) : Hi(Z, y) || !D && Z.type === ce.Text && !Z.isStyle && !Z.textContent.replace(/^\s+|\s+$/gm, "").length ? X = dt : X = mr();
     var $ = Object.assign(Z, { id: X });
     if (r.add(t, $), X === dt)
       return null;
@@ -504,13 +504,13 @@ var na = bi((ia, We) => {
         var k = q[E], P = Ke(k, V);
         P && $.childNodes.push(P);
       }
-      if (Ai(t) && t.shadowRoot)
+      if (Si(t) && t.shadowRoot)
         for (var de = 0, Y = Array.from(t.shadowRoot.childNodes); de < Y.length; de++) {
           var k = Y[de], P = Ke(k, V);
           P && (ot(t.shadowRoot) && (P.isShadow = !0), $.childNodes.push(P));
         }
     }
-    return t.parentNode && it(t.parentNode) && ot(t.parentNode) && ($.isShadow = !0), $.type === ce.Element && $.tagName === "iframe" && Vi(t, function() {
+    return t.parentNode && it(t.parentNode) && ot(t.parentNode) && ($.isShadow = !0), $.type === ce.Element && $.tagName === "iframe" && Zi(t, function() {
       var me = t.contentDocument;
       if (me && R) {
         var qe = Ke(me, {
@@ -539,7 +539,7 @@ var na = bi((ia, We) => {
         });
         qe && R(t, qe);
       }
-    }, x), $.type === ce.Element && $.tagName === "link" && $.attributes.rel === "stylesheet" && Zi(t, function() {
+    }, x), $.type === ce.Element && $.tagName === "link" && $.attributes.rel === "stylesheet" && Ui(t, function() {
       if (A) {
         var me = Ke(t, {
           doc: n,
@@ -569,8 +569,8 @@ var na = bi((ia, We) => {
       }
     }, M), $;
   }
-  function Hi(t, e) {
-    var n = e || {}, r = n.mirror, i = r === void 0 ? new gr() : r, o = n.blockClass, s = o === void 0 ? "rr-block" : o, a = n.blockSelector, l = a === void 0 ? null : a, c = n.maskTextClass, d = c === void 0 ? "rr-mask" : c, u = n.maskTextSelector, g = u === void 0 ? null : u, m = n.inlineStylesheet, h = m === void 0 ? !0 : m, p = n.inlineImages, y = p === void 0 ? !1 : p, I = n.recordCanvas, f = I === void 0 ? !1 : I, C = n.maskAllInputs, w = C === void 0 ? !1 : C, O = n.maskTextFn, F = n.maskInputFn, W = n.slimDOM, R = W === void 0 ? !1 : W, b = n.dataURLOptions, x = n.preserveWhiteSpace, A = n.onSerialize, v = n.onIframeLoad, M = n.iframeLoadTimeout, T = n.onStylesheetLoad, G = n.stylesheetLoadTimeout, B = n.keepIframeSrcFn, S = B === void 0 ? function() {
+  function Qi(t, e) {
+    var n = e || {}, r = n.mirror, i = r === void 0 ? new pr() : r, o = n.blockClass, s = o === void 0 ? "rr-block" : o, a = n.blockSelector, l = a === void 0 ? null : a, c = n.maskTextClass, d = c === void 0 ? "rr-mask" : c, u = n.maskTextSelector, g = u === void 0 ? null : u, m = n.inlineStylesheet, h = m === void 0 ? !0 : m, p = n.inlineImages, y = p === void 0 ? !1 : p, I = n.recordCanvas, f = I === void 0 ? !1 : I, C = n.maskAllInputs, w = C === void 0 ? !1 : C, O = n.maskTextFn, F = n.maskInputFn, W = n.slimDOM, R = W === void 0 ? !1 : W, b = n.dataURLOptions, x = n.preserveWhiteSpace, A = n.onSerialize, v = n.onIframeLoad, M = n.iframeLoadTimeout, T = n.onStylesheetLoad, G = n.stylesheetLoadTimeout, B = n.keepIframeSrcFn, S = B === void 0 ? function() {
       return !1;
     } : B, _ = w === !0 ? {
       color: !0,
@@ -699,10 +699,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
       };
     }
   }
-  function yr() {
+  function Ir() {
     return window.innerHeight || document.documentElement && document.documentElement.clientHeight || document.body && document.body.clientHeight;
   }
-  function Ir() {
+  function Cr() {
     return window.innerWidth || document.documentElement && document.documentElement.clientWidth || document.body && document.body.clientWidth;
   }
   function pe(t, e, n, r) {
@@ -718,22 +718,22 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return !0;
     return !!(n && (t.matches(n) || r && i.closest(n) !== null));
   }
-  function Qi(t, e) {
+  function Ji(t, e) {
     return e.getId(t) !== -1;
   }
   function Gt(t, e) {
     return e.getId(t) === dt;
   }
-  function Cr(t, e) {
+  function vr(t, e) {
     if (it(t))
       return !1;
     const n = e.getId(t);
-    return e.has(n) ? t.parentNode && t.parentNode.nodeType === t.DOCUMENT_NODE ? !1 : t.parentNode ? Cr(t.parentNode, e) : !0 : !0;
+    return e.has(n) ? t.parentNode && t.parentNode.nodeType === t.DOCUMENT_NODE ? !1 : t.parentNode ? vr(t.parentNode, e) : !0 : !0;
   }
-  function vr(t) {
+  function br(t) {
     return !!t.changedTouches;
   }
-  function Ji(t = window) {
+  function $i(t = window) {
     "NodeList" in t && !t.NodeList.prototype.forEach && (t.NodeList.prototype.forEach = Array.prototype.forEach), "DOMTokenList" in t && !t.DOMTokenList.prototype.forEach && (t.DOMTokenList.prototype.forEach = Array.prototype.forEach), Node.prototype.contains || (Node.prototype.contains = (...e) => {
       let n = e[0];
       if (!(0 in e))
@@ -745,16 +745,16 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return !1;
     });
   }
-  function br(t, e) {
+  function Ar(t, e) {
     return !!(t.nodeName === "IFRAME" && e.getMeta(t));
   }
-  function Ar(t, e) {
+  function Sr(t, e) {
     return !!(t.nodeName === "LINK" && t.nodeType === t.ELEMENT_NODE && t.getAttribute && t.getAttribute("rel") === "stylesheet" && e.getMeta(t));
   }
-  function Sr(t) {
+  function wr(t) {
     return !!(t != null && t.shadowRoot);
   }
-  class $i {
+  class Xi {
     constructor() {
       this.id = 1, this.styleIDMap = /* @__PURE__ */ new WeakMap(), this.idStyleMap = /* @__PURE__ */ new Map();
     }
@@ -785,7 +785,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   function vn(t) {
     return "__ln" in t;
   }
-  class Xi {
+  class ji {
     constructor() {
       this.length = 0, this.head = null;
     }
@@ -819,14 +819,14 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
   }
   const bn = (t, e) => `${t}@${e}`;
-  class ji {
+  class qi {
     constructor() {
       this.frozen = !1, this.locked = !1, this.texts = [], this.attributes = [], this.removes = [], this.mapRemoves = [], this.movedMap = {}, this.addedSet = /* @__PURE__ */ new Set(), this.movedSet = /* @__PURE__ */ new Set(), this.droppedSet = /* @__PURE__ */ new Set(), this.processMutations = (e) => {
         e.forEach(this.processMutation), this.emit();
       }, this.emit = () => {
         if (this.frozen || this.locked)
           return;
-        const e = [], n = new Xi(), r = (a) => {
+        const e = [], n = new ji(), r = (a) => {
           let l = a, c = dt;
           for (; c === dt; )
             l = l && l.nextSibling, c = l && this.mirror.getId(l);
@@ -862,7 +862,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
             recordCanvas: this.recordCanvas,
             inlineImages: this.inlineImages,
             onSerialize: (f) => {
-              br(f, this.mirror) && this.iframeManager.addIframe(f), Ar(f, this.mirror) && this.stylesheetManager.trackLinkElement(f), Sr(a) && this.shadowDomManager.addShadowRoot(a.shadowRoot, this.doc);
+              Ar(f, this.mirror) && this.iframeManager.addIframe(f), Sr(f, this.mirror) && this.stylesheetManager.trackLinkElement(f), wr(a) && this.shadowDomManager.addShadowRoot(a.shadowRoot, this.doc);
             },
             onIframeLoad: (f, C) => {
               this.iframeManager.attachIframe(f, C), this.shadowDomManager.observeAttachShadow(f);
@@ -938,7 +938,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
             case "characterData": {
               const n = e.target.textContent;
               !pe(e.target, this.blockClass, this.blockSelector, !1) && n !== e.oldValue && this.texts.push({
-                value: fr(e.target, this.maskTextClass, this.maskTextSelector) && n ? this.maskTextFn ? this.maskTextFn(n) : n.replace(/[\S]/g, "*") : n,
+                value: yr(e.target, this.maskTextClass, this.maskTextSelector) && n ? this.maskTextFn ? this.maskTextFn(n) : n.replace(/[\S]/g, "*") : n,
                 node: e.target
               });
               break;
@@ -974,7 +974,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
                 for (const a of Array.from(o.style))
                   n.style.getPropertyValue(a) === "" && (s[a] = !1);
               } else
-                i.attributes[e.attributeName] = mr(this.doc, n.tagName, e.attributeName, r);
+                i.attributes[e.attributeName] = fr(this.doc, n.tagName, e.attributeName, r);
               break;
             }
             case "childList": {
@@ -982,7 +982,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
                 return;
               e.addedNodes.forEach((n) => this.genAdds(n, e.target)), e.removedNodes.forEach((n) => {
                 const r = this.mirror.getId(n), i = it(e.target) ? this.mirror.getId(e.target.host) : this.mirror.getId(e.target);
-                pe(e.target, this.blockClass, this.blockSelector, !1) || Gt(n, this.mirror) || !Qi(n, this.mirror) || (this.addedSet.has(n) ? (en(this.addedSet, n), this.droppedSet.add(n)) : this.addedSet.has(e.target) && r === -1 || Cr(e.target, this.mirror) || (this.movedSet.has(n) && this.movedMap[bn(r, i)] ? en(this.movedSet, n) : this.removes.push({
+                pe(e.target, this.blockClass, this.blockSelector, !1) || Gt(n, this.mirror) || !Ji(n, this.mirror) || (this.addedSet.has(n) ? (en(this.addedSet, n), this.droppedSet.add(n)) : this.addedSet.has(e.target) && r === -1 || vr(e.target, this.mirror) || (this.movedSet.has(n) && this.movedMap[bn(r, i)] ? en(this.movedSet, n) : this.removes.push({
                   parentId: i,
                   id: r,
                   isShadow: it(e.target) && ot(e.target) ? !0 : void 0
@@ -1052,23 +1052,23 @@ or you can use record.mirror to access the mirror instance during recording.`;
     t.delete(e), e.childNodes.forEach((n) => en(t, n));
   }
   function An(t, e, n) {
-    return t.length === 0 ? !1 : wr(t, e, n);
+    return t.length === 0 ? !1 : Nr(t, e, n);
   }
-  function wr(t, e, n) {
+  function Nr(t, e, n) {
     const { parentNode: r } = e;
     if (!r)
       return !1;
     const i = n.getId(r);
-    return t.some((o) => o.id === i) ? !0 : wr(t, r, n);
+    return t.some((o) => o.id === i) ? !0 : Nr(t, r, n);
   }
   function Sn(t, e) {
-    return t.size === 0 ? !1 : Nr(t, e);
+    return t.size === 0 ? !1 : Er(t, e);
   }
-  function Nr(t, e) {
+  function Er(t, e) {
     const { parentNode: n } = e;
-    return n ? t.has(n) ? !0 : Nr(t, n) : !1;
+    return n ? t.has(n) ? !0 : Er(t, n) : !1;
   }
-  const Fe = [], Er = typeof CSSGroupingRule < "u", Tr = typeof CSSMediaRule < "u", Mr = typeof CSSSupportsRule < "u", Rr = typeof CSSConditionRule < "u";
+  const Fe = [], Tr = typeof CSSGroupingRule < "u", Mr = typeof CSSMediaRule < "u", Rr = typeof CSSSupportsRule < "u", kr = typeof CSSConditionRule < "u";
   function gt(t) {
     try {
       if ("composedPath" in t) {
@@ -1082,9 +1082,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return t.target;
     }
   }
-  function kr(t, e) {
+  function Dr(t, e) {
     var n, r;
-    const i = new ji();
+    const i = new qi();
     Fe.push(i), i.init(t);
     let o = window.MutationObserver || window.__rrMutationObserver;
     const s = (r = (n = window == null ? void 0 : window.Zone) === null || n === void 0 ? void 0 : n.__symbol__) === null || r === void 0 ? void 0 : r.call(n, "MutationObserver");
@@ -1099,7 +1099,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       subtree: !0
     }), a;
   }
-  function qi({ mousemoveCb: t, sampling: e, doc: n, mirror: r }) {
+  function eo({ mousemoveCb: t, sampling: e, doc: n, mirror: r }) {
     if (e.mousemove === !1)
       return () => {
       };
@@ -1109,7 +1109,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       const g = Date.now() - a;
       t(s.map((m) => (m.timeOffset -= g, m)), u), s = [], a = null;
     }, o), c = ut((u) => {
-      const g = gt(u), { clientX: m, clientY: h } = vr(u) ? u.changedTouches[0] : u;
+      const g = gt(u), { clientX: m, clientY: h } = br(u) ? u.changedTouches[0] : u;
       a || (a = Date.now()), s.push({
         x: m,
         y: h,
@@ -1127,7 +1127,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       d.forEach((u) => u());
     };
   }
-  function eo({ mouseInteractionCb: t, doc: e, mirror: n, blockClass: r, blockSelector: i, sampling: o }) {
+  function to({ mouseInteractionCb: t, doc: e, mirror: n, blockClass: r, blockSelector: i, sampling: o }) {
     if (o.mouseInteraction === !1)
       return () => {
       };
@@ -1135,7 +1135,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       const u = gt(d);
       if (pe(u, r, i, !0))
         return;
-      const g = vr(d) ? d.changedTouches[0] : d;
+      const g = br(d) ? d.changedTouches[0] : d;
       if (!g)
         return;
       const m = n.getId(u), { clientX: h, clientY: p } = g;
@@ -1153,7 +1153,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       a.forEach((c) => c());
     };
   }
-  function Dr({ scrollCb: t, doc: e, mirror: n, blockClass: r, blockSelector: i, sampling: o }) {
+  function xr({ scrollCb: t, doc: e, mirror: n, blockClass: r, blockSelector: i, sampling: o }) {
     const s = ut((a) => {
       const l = gt(a);
       if (!l || pe(l, r, i, !0))
@@ -1175,10 +1175,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }, o.scroll || 100);
     return ge("scroll", s, e);
   }
-  function to({ viewportResizeCb: t }) {
+  function no({ viewportResizeCb: t }) {
     let e = -1, n = -1;
     const r = ut(() => {
-      const i = yr(), o = Ir();
+      const i = Ir(), o = Cr();
       (e !== i || n !== o) && (t({
         width: Number(o),
         height: Number(i)
@@ -1190,12 +1190,12 @@ or you can use record.mirror to access the mirror instance during recording.`;
     const n = Object.assign({}, t);
     return e || delete n.userTriggered, n;
   }
-  const no = ["INPUT", "TEXTAREA", "SELECT"], Nn = /* @__PURE__ */ new WeakMap();
-  function ro({ inputCb: t, doc: e, mirror: n, blockClass: r, blockSelector: i, ignoreClass: o, maskInputOptions: s, maskInputFn: a, sampling: l, userTriggeredOnInput: c }) {
+  const ro = ["INPUT", "TEXTAREA", "SELECT"], Nn = /* @__PURE__ */ new WeakMap();
+  function io({ inputCb: t, doc: e, mirror: n, blockClass: r, blockSelector: i, ignoreClass: o, maskInputOptions: s, maskInputFn: a, sampling: l, userTriggeredOnInput: c }) {
     function d(I) {
       let f = gt(I);
       const C = I.isTrusted;
-      if (f && f.tagName === "OPTION" && (f = f.parentElement), !f || !f.tagName || no.indexOf(f.tagName) < 0 || pe(f, r, i, !0))
+      if (f && f.tagName === "OPTION" && (f = f.parentElement), !f || !f.tagName || ro.indexOf(f.tagName) < 0 || pe(f, r, i, !0))
         return;
       const w = f.type;
       if (f.classList.contains(o))
@@ -1249,7 +1249,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   function Mt(t) {
     const e = [];
     function n(r, i) {
-      if (Er && r.parentRule instanceof CSSGroupingRule || Tr && r.parentRule instanceof CSSMediaRule || Mr && r.parentRule instanceof CSSSupportsRule || Rr && r.parentRule instanceof CSSConditionRule) {
+      if (Tr && r.parentRule instanceof CSSGroupingRule || Mr && r.parentRule instanceof CSSMediaRule || Rr && r.parentRule instanceof CSSSupportsRule || kr && r.parentRule instanceof CSSConditionRule) {
         const s = Array.from(r.parentRule.cssRules).indexOf(r);
         i.unshift(s);
       } else if (r.parentStyleSheet) {
@@ -1267,7 +1267,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       id: r
     }) : {};
   }
-  function io({ styleSheetRuleCb: t, mirror: e, stylesheetManager: n }, { win: r }) {
+  function oo({ styleSheetRuleCb: t, mirror: e, stylesheetManager: n }, { win: r }) {
     const i = r.CSSStyleSheet.prototype.insertRule;
     r.CSSStyleSheet.prototype.insertRule = function(d, u) {
       const { id: g, styleId: m } = Te(this, e, n.styleMirror);
@@ -1305,7 +1305,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }), a.apply(this, [d]);
     });
     const l = {};
-    Er ? l.CSSGroupingRule = r.CSSGroupingRule : (Tr && (l.CSSMediaRule = r.CSSMediaRule), Rr && (l.CSSConditionRule = r.CSSConditionRule), Mr && (l.CSSSupportsRule = r.CSSSupportsRule));
+    Tr ? l.CSSGroupingRule = r.CSSGroupingRule : (Mr && (l.CSSMediaRule = r.CSSMediaRule), kr && (l.CSSConditionRule = r.CSSConditionRule), Rr && (l.CSSSupportsRule = r.CSSSupportsRule));
     const c = {};
     return Object.entries(l).forEach(([d, u]) => {
       c[d] = {
@@ -1342,7 +1342,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       });
     };
   }
-  function xr({ mirror: t, stylesheetManager: e }, n) {
+  function Fr({ mirror: t, stylesheetManager: e }, n) {
     var r, i, o;
     let s = null;
     n.nodeName === "#document" ? s = t.getId(n) : s = t.getId(n.host);
@@ -1374,7 +1374,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       });
     });
   }
-  function oo({ styleDeclarationCb: t, mirror: e, ignoreCSSAttributes: n, stylesheetManager: r }, { win: i }) {
+  function so({ styleDeclarationCb: t, mirror: e, ignoreCSSAttributes: n, stylesheetManager: r }, { win: i }) {
     const o = i.CSSStyleDeclaration.prototype.setProperty;
     i.CSSStyleDeclaration.prototype.setProperty = function(a, l, c) {
       var d;
@@ -1410,7 +1410,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       i.CSSStyleDeclaration.prototype.setProperty = o, i.CSSStyleDeclaration.prototype.removeProperty = s;
     };
   }
-  function so({ mediaInteractionCb: t, blockClass: e, blockSelector: n, mirror: r, sampling: i }) {
+  function ao({ mediaInteractionCb: t, blockClass: e, blockSelector: n, mirror: r, sampling: i }) {
     const o = (a) => ut((l) => {
       const c = gt(l);
       if (!c || pe(c, e, n, !0))
@@ -1435,7 +1435,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       s.forEach((a) => a());
     };
   }
-  function ao({ fontCb: t, doc: e }) {
+  function lo({ fontCb: t, doc: e }) {
     const n = e.defaultView;
     if (!n)
       return () => {
@@ -1464,7 +1464,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       r.forEach((a) => a());
     };
   }
-  function lo(t) {
+  function co(t) {
     const { doc: e, mirror: n, blockClass: r, blockSelector: i, selectionCb: o } = t;
     let s = !0;
     const a = () => {
@@ -1486,7 +1486,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     };
     return a(), ge("selectionchange", a);
   }
-  function co(t, e) {
+  function uo(t, e) {
     const { mutationCb: n, mousemoveCb: r, mouseInteractionCb: i, scrollCb: o, viewportResizeCb: s, inputCb: a, mediaInteractionCb: l, styleSheetRuleCb: c, styleDeclarationCb: d, canvasMutationCb: u, fontCb: g, selectionCb: m } = t;
     t.mutationCb = (...h) => {
       e.mutation && e.mutation(...h), n(...h);
@@ -1514,16 +1514,16 @@ or you can use record.mirror to access the mirror instance during recording.`;
       e.selection && e.selection(...h), m(...h);
     };
   }
-  function uo(t, e = {}) {
+  function ho(t, e = {}) {
     const n = t.doc.defaultView;
     if (!n)
       return () => {
       };
-    co(t, e);
-    const r = kr(t, t.doc), i = qi(t), o = eo(t), s = Dr(t), a = to(t), l = ro(t), c = so(t), d = io(t, { win: n }), u = xr(t, t.doc), g = oo(t, {
+    uo(t, e);
+    const r = Dr(t, t.doc), i = eo(t), o = to(t), s = xr(t), a = no(t), l = io(t), c = ao(t), d = oo(t, { win: n }), u = Fr(t, t.doc), g = so(t, {
       win: n
-    }), m = t.collectFonts ? ao(t) : () => {
-    }, h = lo(t), p = [];
+    }), m = t.collectFonts ? lo(t) : () => {
+    }, h = co(t), p = [];
     for (const y of t.plugins)
       p.push(y.observer(y.callback, n, y.options));
     return () => {
@@ -1570,9 +1570,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return n || (n = /* @__PURE__ */ new Map(), this.iframeRemoteIdToIdMap.set(e, n)), n;
     }
   }
-  class ho {
+  class go {
     constructor(e) {
-      this.iframes = /* @__PURE__ */ new WeakMap(), this.crossOriginIframeMap = /* @__PURE__ */ new WeakMap(), this.crossOriginIframeMirror = new En(pr), this.mutationCb = e.mutationCb, this.wrappedEmit = e.wrappedEmit, this.stylesheetManager = e.stylesheetManager, this.recordCrossOriginIframes = e.recordCrossOriginIframes, this.crossOriginIframeStyleMirror = new En(this.stylesheetManager.styleMirror.generateId.bind(this.stylesheetManager.styleMirror)), this.mirror = e.mirror, this.recordCrossOriginIframes && window.addEventListener("message", this.handleMessage.bind(this));
+      this.iframes = /* @__PURE__ */ new WeakMap(), this.crossOriginIframeMap = /* @__PURE__ */ new WeakMap(), this.crossOriginIframeMirror = new En(mr), this.mutationCb = e.mutationCb, this.wrappedEmit = e.wrappedEmit, this.stylesheetManager = e.stylesheetManager, this.recordCrossOriginIframes = e.recordCrossOriginIframes, this.crossOriginIframeStyleMirror = new En(this.stylesheetManager.styleMirror.generateId.bind(this.stylesheetManager.styleMirror)), this.mirror = e.mirror, this.recordCrossOriginIframes && window.addEventListener("message", this.handleMessage.bind(this));
     }
     addIframe(e) {
       this.iframes.set(e, !0), e.contentWindow && this.crossOriginIframeMap.set(e.contentWindow, e);
@@ -1700,7 +1700,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       });
     }
   }
-  class go {
+  class po {
     constructor(e) {
       this.shadowDoms = /* @__PURE__ */ new WeakSet(), this.restorePatches = [], this.mutationCb = e.mutationCb, this.scrollCb = e.scrollCb, this.bypassOptions = e.bypassOptions, this.mirror = e.mirror;
       const n = this;
@@ -1712,8 +1712,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }));
     }
     addShadowRoot(e, n) {
-      ot(e) && (this.shadowDoms.has(e) || (this.shadowDoms.add(e), kr(Object.assign(Object.assign({}, this.bypassOptions), { doc: n, mutationCb: this.mutationCb, mirror: this.mirror, shadowDomManager: this }), e), Dr(Object.assign(Object.assign({}, this.bypassOptions), { scrollCb: this.scrollCb, doc: e, mirror: this.mirror })), setTimeout(() => {
-        e.adoptedStyleSheets && e.adoptedStyleSheets.length > 0 && this.bypassOptions.stylesheetManager.adoptStyleSheets(e.adoptedStyleSheets, this.mirror.getId(e.host)), xr({
+      ot(e) && (this.shadowDoms.has(e) || (this.shadowDoms.add(e), Dr(Object.assign(Object.assign({}, this.bypassOptions), { doc: n, mutationCb: this.mutationCb, mirror: this.mirror, shadowDomManager: this }), e), xr(Object.assign(Object.assign({}, this.bypassOptions), { scrollCb: this.scrollCb, doc: e, mirror: this.mirror })), setTimeout(() => {
+        e.adoptedStyleSheets && e.adoptedStyleSheets.length > 0 && this.bypassOptions.stylesheetManager.adoptStyleSheets(e.adoptedStyleSheets, this.mirror.getId(e.host)), Fr({
           mirror: this.mirror,
           stylesheetManager: this.bypassOptions.stylesheetManager
         }, e);
@@ -1748,7 +1748,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
   PERFORMANCE OF THIS SOFTWARE.
   ***************************************************************************** */
-  function po(t, e) {
+  function mo(t, e) {
     var n = {};
     for (var r in t)
       Object.prototype.hasOwnProperty.call(t, r) && e.indexOf(r) < 0 && (n[r] = t[r]);
@@ -1757,7 +1757,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         e.indexOf(r[i]) < 0 && Object.prototype.propertyIsEnumerable.call(t, r[i]) && (n[r[i]] = t[r[i]]);
     return n;
   }
-  function mo(t, e, n, r) {
+  function fo(t, e, n, r) {
     function i(o) {
       return o instanceof n ? o : new n(function(s) {
         s(o);
@@ -1784,24 +1784,24 @@ or you can use record.mirror to access the mirror instance during recording.`;
       c((r = r.apply(t, e || [])).next());
     });
   }
-  var Ye = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/", fo = typeof Uint8Array > "u" ? [] : new Uint8Array(256);
+  var Ye = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/", yo = typeof Uint8Array > "u" ? [] : new Uint8Array(256);
   for (var yt = 0; yt < Ye.length; yt++)
-    fo[Ye.charCodeAt(yt)] = yt;
-  var yo = function(t) {
+    yo[Ye.charCodeAt(yt)] = yt;
+  var Io = function(t) {
     var e = new Uint8Array(t), n, r = e.length, i = "";
     for (n = 0; n < r; n += 3)
       i += Ye[e[n] >> 2], i += Ye[(e[n] & 3) << 4 | e[n + 1] >> 4], i += Ye[(e[n + 1] & 15) << 2 | e[n + 2] >> 6], i += Ye[e[n + 2] & 63];
     return r % 3 === 2 ? i = i.substring(0, i.length - 1) + "=" : r % 3 === 1 && (i = i.substring(0, i.length - 2) + "=="), i;
   };
   const Tn = /* @__PURE__ */ new Map();
-  function Io(t, e) {
+  function Co(t, e) {
     let n = Tn.get(t);
     return n || (n = /* @__PURE__ */ new Map(), Tn.set(t, n)), n.has(e) || n.set(e, []), n.get(e);
   }
-  const Fr = (t, e, n) => {
-    if (!t || !(Lr(t, e) || typeof t == "object"))
+  const Or = (t, e, n) => {
+    if (!t || !(Wr(t, e) || typeof t == "object"))
       return;
-    const r = t.constructor.name, i = Io(n, r);
+    const r = t.constructor.name, i = Co(n, r);
     let o = i.indexOf(t);
     return o === -1 && (o = i.length, i.push(t)), o;
   };
@@ -1816,7 +1816,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         args: [Object.values(t)]
       };
     if (t instanceof ArrayBuffer) {
-      const r = t.constructor.name, i = yo(t);
+      const r = t.constructor.name, i = Io(t);
       return {
         rr_type: r,
         base64: i
@@ -1849,8 +1849,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
             rr_type: t.constructor.name,
             args: [At(t.data, e, n), t.width, t.height]
           };
-        if (Lr(t, e) || typeof t == "object") {
-          const r = t.constructor.name, i = Fr(t, e, n);
+        if (Wr(t, e) || typeof t == "object") {
+          const r = t.constructor.name, i = Or(t, e, n);
           return {
             rr_type: r,
             index: i
@@ -1860,7 +1860,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
     return t;
   }
-  const Or = (t, e, n) => [...t].map((r) => At(r, e, n)), Lr = (t, e) => !![
+  const Lr = (t, e, n) => [...t].map((r) => At(r, e, n)), Wr = (t, e) => !![
     "WebGLActiveInfo",
     "WebGLBuffer",
     "WebGLFramebuffer",
@@ -1873,7 +1873,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     "WebGLVertexArrayObject",
     "WebGLVertexArrayObjectOES"
   ].filter((i) => typeof e[i] == "function").find((i) => t instanceof e[i]);
-  function Co(t, e, n, r) {
+  function vo(t, e, n, r) {
     const i = [], o = Object.getOwnPropertyNames(e.CanvasRenderingContext2D.prototype);
     for (const s of o)
       try {
@@ -1882,7 +1882,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         const a = He(e.CanvasRenderingContext2D.prototype, s, function(l) {
           return function(...c) {
             return pe(this.canvas, n, r, !0) || setTimeout(() => {
-              const d = Or([...c], e, this);
+              const d = Lr([...c], e, this);
               t(this.canvas, {
                 type: Qe["2D"],
                 property: s,
@@ -1940,8 +1940,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
           const d = He(t, c, function(u) {
             return function(...g) {
               const m = u.apply(this, g);
-              if (Fr(m, s, this), !pe(this.canvas, r, i, !0)) {
-                const h = Or([...g], s, this), p = {
+              if (Or(m, s, this), !pe(this.canvas, r, i, !0)) {
+                const h = Lr([...g], s, this), p = {
                   type: e,
                   property: c,
                   args: h
@@ -1967,29 +1967,29 @@ or you can use record.mirror to access the mirror instance during recording.`;
         }
     return a;
   }
-  function vo(t, e, n, r, i) {
+  function bo(t, e, n, r, i) {
     const o = [];
     return o.push(...Rn(e.WebGLRenderingContext.prototype, Qe.WebGL, t, n, r, i, e)), typeof e.WebGL2RenderingContext < "u" && o.push(...Rn(e.WebGL2RenderingContext.prototype, Qe.WebGL2, t, n, r, i, e)), () => {
       o.forEach((s) => s());
     };
   }
-  var Wr = null;
+  var Br = null;
   try {
-    var bo = typeof We < "u" && typeof We.require == "function" && We.require("worker_threads") || typeof __non_webpack_require__ == "function" && __non_webpack_require__("worker_threads") || typeof require == "function" && require("worker_threads");
-    Wr = bo.Worker;
+    var Ao = typeof We < "u" && typeof We.require == "function" && We.require("worker_threads") || typeof __non_webpack_require__ == "function" && __non_webpack_require__("worker_threads") || typeof require == "function" && require("worker_threads");
+    Br = Ao.Worker;
   } catch {
   }
-  function Ao(t, e) {
+  function So(t, e) {
     return Buffer.from(t, "base64").toString(e ? "utf16" : "utf8");
   }
-  function So(t, e, n) {
-    var r = e === void 0 ? null : e, i = n === void 0 ? !1 : n, o = Ao(t, i), s = o.indexOf(`
+  function wo(t, e, n) {
+    var r = e === void 0 ? null : e, i = n === void 0 ? !1 : n, o = So(t, i), s = o.indexOf(`
 `, 10) + 1, a = o.substring(s) + (r ? "//# sourceMappingURL=" + r : "");
     return function(c) {
-      return new Wr(a, Object.assign({}, c, { eval: !0 }));
+      return new Br(a, Object.assign({}, c, { eval: !0 }));
     };
   }
-  function wo(t, e) {
+  function No(t, e) {
     var n = atob(t);
     if (e) {
       for (var r = new Uint8Array(n.length), i = 0, o = n.length; i < o; ++i)
@@ -1998,26 +1998,26 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
     return n;
   }
-  function No(t, e, n) {
-    var r = e === void 0 ? null : e, i = n === void 0 ? !1 : n, o = wo(t, i), s = o.indexOf(`
+  function Eo(t, e, n) {
+    var r = e === void 0 ? null : e, i = n === void 0 ? !1 : n, o = No(t, i), s = o.indexOf(`
 `, 10) + 1, a = o.substring(s) + (r ? "//# sourceMappingURL=" + r : ""), l = new Blob([a], { type: "application/javascript" });
     return URL.createObjectURL(l);
   }
-  function Eo(t, e, n) {
+  function To(t, e, n) {
     var r;
     return function(o) {
-      return r = r || No(t, e, n), new Worker(r, o);
+      return r = r || Eo(t, e, n), new Worker(r, o);
     };
   }
-  var To = Object.prototype.toString.call(typeof process < "u" ? process : 0) === "[object process]";
-  function Mo() {
-    return To;
+  var Mo = Object.prototype.toString.call(typeof process < "u" ? process : 0) === "[object process]";
+  function Ro() {
+    return Mo;
   }
-  function Ro(t, e, n) {
-    return Mo() ? So(t, e, n) : Eo(t, e, n);
+  function ko(t, e, n) {
+    return Ro() ? wo(t, e, n) : To(t, e, n);
   }
-  var ko = Ro("Lyogcm9sbHVwLXBsdWdpbi13ZWItd29ya2VyLWxvYWRlciAqLwooZnVuY3Rpb24gKCkgewogICAgJ3VzZSBzdHJpY3QnOwoKICAgIC8qISAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKg0KICAgIENvcHlyaWdodCAoYykgTWljcm9zb2Z0IENvcnBvcmF0aW9uLg0KDQogICAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgYW5kL29yIGRpc3RyaWJ1dGUgdGhpcyBzb2Z0d2FyZSBmb3IgYW55DQogICAgcHVycG9zZSB3aXRoIG9yIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLg0KDQogICAgVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIFRIRSBBVVRIT1IgRElTQ0xBSU1TIEFMTCBXQVJSQU5USUVTIFdJVEgNCiAgICBSRUdBUkQgVE8gVEhJUyBTT0ZUV0FSRSBJTkNMVURJTkcgQUxMIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkNCiAgICBBTkQgRklUTkVTUy4gSU4gTk8gRVZFTlQgU0hBTEwgVEhFIEFVVEhPUiBCRSBMSUFCTEUgRk9SIEFOWSBTUEVDSUFMLCBESVJFQ1QsDQogICAgSU5ESVJFQ1QsIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFUyBPUiBBTlkgREFNQUdFUyBXSEFUU09FVkVSIFJFU1VMVElORyBGUk9NDQogICAgTE9TUyBPRiBVU0UsIERBVEEgT1IgUFJPRklUUywgV0hFVEhFUiBJTiBBTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIE5FR0xJR0VOQ0UgT1INCiAgICBPVEhFUiBUT1JUSU9VUyBBQ1RJT04sIEFSSVNJTkcgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgVVNFIE9SDQogICAgUEVSRk9STUFOQ0UgT0YgVEhJUyBTT0ZUV0FSRS4NCiAgICAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqLw0KDQogICAgZnVuY3Rpb24gX19hd2FpdGVyKHRoaXNBcmcsIF9hcmd1bWVudHMsIFAsIGdlbmVyYXRvcikgew0KICAgICAgICBmdW5jdGlvbiBhZG9wdCh2YWx1ZSkgeyByZXR1cm4gdmFsdWUgaW5zdGFuY2VvZiBQID8gdmFsdWUgOiBuZXcgUChmdW5jdGlvbiAocmVzb2x2ZSkgeyByZXNvbHZlKHZhbHVlKTsgfSk7IH0NCiAgICAgICAgcmV0dXJuIG5ldyAoUCB8fCAoUCA9IFByb21pc2UpKShmdW5jdGlvbiAocmVzb2x2ZSwgcmVqZWN0KSB7DQogICAgICAgICAgICBmdW5jdGlvbiBmdWxmaWxsZWQodmFsdWUpIHsgdHJ5IHsgc3RlcChnZW5lcmF0b3IubmV4dCh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiByZWplY3RlZCh2YWx1ZSkgeyB0cnkgeyBzdGVwKGdlbmVyYXRvclsidGhyb3ciXSh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiBzdGVwKHJlc3VsdCkgeyByZXN1bHQuZG9uZSA/IHJlc29sdmUocmVzdWx0LnZhbHVlKSA6IGFkb3B0KHJlc3VsdC52YWx1ZSkudGhlbihmdWxmaWxsZWQsIHJlamVjdGVkKTsgfQ0KICAgICAgICAgICAgc3RlcCgoZ2VuZXJhdG9yID0gZ2VuZXJhdG9yLmFwcGx5KHRoaXNBcmcsIF9hcmd1bWVudHMgfHwgW10pKS5uZXh0KCkpOw0KICAgICAgICB9KTsNCiAgICB9CgogICAgLyoKICAgICAqIGJhc2U2NC1hcnJheWJ1ZmZlciAxLjAuMSA8aHR0cHM6Ly9naXRodWIuY29tL25pa2xhc3ZoL2Jhc2U2NC1hcnJheWJ1ZmZlcj4KICAgICAqIENvcHlyaWdodCAoYykgMjAyMSBOaWtsYXMgdm9uIEhlcnR6ZW4gPGh0dHBzOi8vaGVydHplbi5jb20+CiAgICAgKiBSZWxlYXNlZCB1bmRlciBNSVQgTGljZW5zZQogICAgICovCiAgICB2YXIgY2hhcnMgPSAnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLyc7CiAgICAvLyBVc2UgYSBsb29rdXAgdGFibGUgdG8gZmluZCB0aGUgaW5kZXguCiAgICB2YXIgbG9va3VwID0gdHlwZW9mIFVpbnQ4QXJyYXkgPT09ICd1bmRlZmluZWQnID8gW10gOiBuZXcgVWludDhBcnJheSgyNTYpOwogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGFycy5sZW5ndGg7IGkrKykgewogICAgICAgIGxvb2t1cFtjaGFycy5jaGFyQ29kZUF0KGkpXSA9IGk7CiAgICB9CiAgICB2YXIgZW5jb2RlID0gZnVuY3Rpb24gKGFycmF5YnVmZmVyKSB7CiAgICAgICAgdmFyIGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYXJyYXlidWZmZXIpLCBpLCBsZW4gPSBieXRlcy5sZW5ndGgsIGJhc2U2NCA9ICcnOwogICAgICAgIGZvciAoaSA9IDA7IGkgPCBsZW47IGkgKz0gMykgewogICAgICAgICAgICBiYXNlNjQgKz0gY2hhcnNbYnl0ZXNbaV0gPj4gMl07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1soKGJ5dGVzW2ldICYgMykgPDwgNCkgfCAoYnl0ZXNbaSArIDFdID4+IDQpXTsKICAgICAgICAgICAgYmFzZTY0ICs9IGNoYXJzWygoYnl0ZXNbaSArIDFdICYgMTUpIDw8IDIpIHwgKGJ5dGVzW2kgKyAyXSA+PiA2KV07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1tieXRlc1tpICsgMl0gJiA2M107CiAgICAgICAgfQogICAgICAgIGlmIChsZW4gJSAzID09PSAyKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDEpICsgJz0nOwogICAgICAgIH0KICAgICAgICBlbHNlIGlmIChsZW4gJSAzID09PSAxKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDIpICsgJz09JzsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGJhc2U2NDsKICAgIH07CgogICAgY29uc3QgbGFzdEJsb2JNYXAgPSBuZXcgTWFwKCk7DQogICAgY29uc3QgdHJhbnNwYXJlbnRCbG9iTWFwID0gbmV3IE1hcCgpOw0KICAgIGZ1bmN0aW9uIGdldFRyYW5zcGFyZW50QmxvYkZvcih3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucykgew0KICAgICAgICByZXR1cm4gX19hd2FpdGVyKHRoaXMsIHZvaWQgMCwgdm9pZCAwLCBmdW5jdGlvbiogKCkgew0KICAgICAgICAgICAgY29uc3QgaWQgPSBgJHt3aWR0aH0tJHtoZWlnaHR9YDsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgaWYgKHRyYW5zcGFyZW50QmxvYk1hcC5oYXMoaWQpKQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJhbnNwYXJlbnRCbG9iTWFwLmdldChpZCk7DQogICAgICAgICAgICAgICAgY29uc3Qgb2Zmc2NyZWVuID0gbmV3IE9mZnNjcmVlbkNhbnZhcyh3aWR0aCwgaGVpZ2h0KTsNCiAgICAgICAgICAgICAgICBvZmZzY3JlZW4uZ2V0Q29udGV4dCgnMmQnKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGFycmF5QnVmZmVyID0geWllbGQgYmxvYi5hcnJheUJ1ZmZlcigpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGJhc2U2NCA9IGVuY29kZShhcnJheUJ1ZmZlcik7DQogICAgICAgICAgICAgICAgdHJhbnNwYXJlbnRCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICByZXR1cm4gYmFzZTY0Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZWxzZSB7DQogICAgICAgICAgICAgICAgcmV0dXJuICcnOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCiAgICB9DQogICAgY29uc3Qgd29ya2VyID0gc2VsZjsNCiAgICB3b3JrZXIub25tZXNzYWdlID0gZnVuY3Rpb24gKGUpIHsNCiAgICAgICAgcmV0dXJuIF9fYXdhaXRlcih0aGlzLCB2b2lkIDAsIHZvaWQgMCwgZnVuY3Rpb24qICgpIHsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgY29uc3QgeyBpZCwgYml0bWFwLCB3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucyB9ID0gZS5kYXRhOw0KICAgICAgICAgICAgICAgIGNvbnN0IHRyYW5zcGFyZW50QmFzZTY0ID0gZ2V0VHJhbnNwYXJlbnRCbG9iRm9yKHdpZHRoLCBoZWlnaHQsIGRhdGFVUkxPcHRpb25zKTsNCiAgICAgICAgICAgICAgICBjb25zdCBvZmZzY3JlZW4gPSBuZXcgT2Zmc2NyZWVuQ2FudmFzKHdpZHRoLCBoZWlnaHQpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGN0eCA9IG9mZnNjcmVlbi5nZXRDb250ZXh0KCcyZCcpOw0KICAgICAgICAgICAgICAgIGN0eC5kcmF3SW1hZ2UoYml0bWFwLCAwLCAwKTsNCiAgICAgICAgICAgICAgICBiaXRtYXAuY2xvc2UoKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IHR5cGUgPSBibG9iLnR5cGU7DQogICAgICAgICAgICAgICAgY29uc3QgYXJyYXlCdWZmZXIgPSB5aWVsZCBibG9iLmFycmF5QnVmZmVyKCk7DQogICAgICAgICAgICAgICAgY29uc3QgYmFzZTY0ID0gZW5jb2RlKGFycmF5QnVmZmVyKTsNCiAgICAgICAgICAgICAgICBpZiAoIWxhc3RCbG9iTWFwLmhhcyhpZCkgJiYgKHlpZWxkIHRyYW5zcGFyZW50QmFzZTY0KSA9PT0gYmFzZTY0KSB7DQogICAgICAgICAgICAgICAgICAgIGxhc3RCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHdvcmtlci5wb3N0TWVzc2FnZSh7IGlkIH0pOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAobGFzdEJsb2JNYXAuZ2V0KGlkKSA9PT0gYmFzZTY0KQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQgfSk7DQogICAgICAgICAgICAgICAgd29ya2VyLnBvc3RNZXNzYWdlKHsNCiAgICAgICAgICAgICAgICAgICAgaWQsDQogICAgICAgICAgICAgICAgICAgIHR5cGUsDQogICAgICAgICAgICAgICAgICAgIGJhc2U2NCwNCiAgICAgICAgICAgICAgICAgICAgd2lkdGgsDQogICAgICAgICAgICAgICAgICAgIGhlaWdodCwNCiAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgICAgICBsYXN0QmxvYk1hcC5zZXQoaWQsIGJhc2U2NCk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBlbHNlIHsNCiAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQ6IGUuZGF0YS5pZCB9KTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSk7DQogICAgfTsKCn0pKCk7Cgo=", null, !1);
-  class Do {
+  var Do = ko("Lyogcm9sbHVwLXBsdWdpbi13ZWItd29ya2VyLWxvYWRlciAqLwooZnVuY3Rpb24gKCkgewogICAgJ3VzZSBzdHJpY3QnOwoKICAgIC8qISAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKg0KICAgIENvcHlyaWdodCAoYykgTWljcm9zb2Z0IENvcnBvcmF0aW9uLg0KDQogICAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgYW5kL29yIGRpc3RyaWJ1dGUgdGhpcyBzb2Z0d2FyZSBmb3IgYW55DQogICAgcHVycG9zZSB3aXRoIG9yIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLg0KDQogICAgVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIFRIRSBBVVRIT1IgRElTQ0xBSU1TIEFMTCBXQVJSQU5USUVTIFdJVEgNCiAgICBSRUdBUkQgVE8gVEhJUyBTT0ZUV0FSRSBJTkNMVURJTkcgQUxMIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkNCiAgICBBTkQgRklUTkVTUy4gSU4gTk8gRVZFTlQgU0hBTEwgVEhFIEFVVEhPUiBCRSBMSUFCTEUgRk9SIEFOWSBTUEVDSUFMLCBESVJFQ1QsDQogICAgSU5ESVJFQ1QsIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFUyBPUiBBTlkgREFNQUdFUyBXSEFUU09FVkVSIFJFU1VMVElORyBGUk9NDQogICAgTE9TUyBPRiBVU0UsIERBVEEgT1IgUFJPRklUUywgV0hFVEhFUiBJTiBBTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIE5FR0xJR0VOQ0UgT1INCiAgICBPVEhFUiBUT1JUSU9VUyBBQ1RJT04sIEFSSVNJTkcgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgVVNFIE9SDQogICAgUEVSRk9STUFOQ0UgT0YgVEhJUyBTT0ZUV0FSRS4NCiAgICAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqLw0KDQogICAgZnVuY3Rpb24gX19hd2FpdGVyKHRoaXNBcmcsIF9hcmd1bWVudHMsIFAsIGdlbmVyYXRvcikgew0KICAgICAgICBmdW5jdGlvbiBhZG9wdCh2YWx1ZSkgeyByZXR1cm4gdmFsdWUgaW5zdGFuY2VvZiBQID8gdmFsdWUgOiBuZXcgUChmdW5jdGlvbiAocmVzb2x2ZSkgeyByZXNvbHZlKHZhbHVlKTsgfSk7IH0NCiAgICAgICAgcmV0dXJuIG5ldyAoUCB8fCAoUCA9IFByb21pc2UpKShmdW5jdGlvbiAocmVzb2x2ZSwgcmVqZWN0KSB7DQogICAgICAgICAgICBmdW5jdGlvbiBmdWxmaWxsZWQodmFsdWUpIHsgdHJ5IHsgc3RlcChnZW5lcmF0b3IubmV4dCh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiByZWplY3RlZCh2YWx1ZSkgeyB0cnkgeyBzdGVwKGdlbmVyYXRvclsidGhyb3ciXSh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiBzdGVwKHJlc3VsdCkgeyByZXN1bHQuZG9uZSA/IHJlc29sdmUocmVzdWx0LnZhbHVlKSA6IGFkb3B0KHJlc3VsdC52YWx1ZSkudGhlbihmdWxmaWxsZWQsIHJlamVjdGVkKTsgfQ0KICAgICAgICAgICAgc3RlcCgoZ2VuZXJhdG9yID0gZ2VuZXJhdG9yLmFwcGx5KHRoaXNBcmcsIF9hcmd1bWVudHMgfHwgW10pKS5uZXh0KCkpOw0KICAgICAgICB9KTsNCiAgICB9CgogICAgLyoKICAgICAqIGJhc2U2NC1hcnJheWJ1ZmZlciAxLjAuMSA8aHR0cHM6Ly9naXRodWIuY29tL25pa2xhc3ZoL2Jhc2U2NC1hcnJheWJ1ZmZlcj4KICAgICAqIENvcHlyaWdodCAoYykgMjAyMSBOaWtsYXMgdm9uIEhlcnR6ZW4gPGh0dHBzOi8vaGVydHplbi5jb20+CiAgICAgKiBSZWxlYXNlZCB1bmRlciBNSVQgTGljZW5zZQogICAgICovCiAgICB2YXIgY2hhcnMgPSAnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLyc7CiAgICAvLyBVc2UgYSBsb29rdXAgdGFibGUgdG8gZmluZCB0aGUgaW5kZXguCiAgICB2YXIgbG9va3VwID0gdHlwZW9mIFVpbnQ4QXJyYXkgPT09ICd1bmRlZmluZWQnID8gW10gOiBuZXcgVWludDhBcnJheSgyNTYpOwogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGFycy5sZW5ndGg7IGkrKykgewogICAgICAgIGxvb2t1cFtjaGFycy5jaGFyQ29kZUF0KGkpXSA9IGk7CiAgICB9CiAgICB2YXIgZW5jb2RlID0gZnVuY3Rpb24gKGFycmF5YnVmZmVyKSB7CiAgICAgICAgdmFyIGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYXJyYXlidWZmZXIpLCBpLCBsZW4gPSBieXRlcy5sZW5ndGgsIGJhc2U2NCA9ICcnOwogICAgICAgIGZvciAoaSA9IDA7IGkgPCBsZW47IGkgKz0gMykgewogICAgICAgICAgICBiYXNlNjQgKz0gY2hhcnNbYnl0ZXNbaV0gPj4gMl07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1soKGJ5dGVzW2ldICYgMykgPDwgNCkgfCAoYnl0ZXNbaSArIDFdID4+IDQpXTsKICAgICAgICAgICAgYmFzZTY0ICs9IGNoYXJzWygoYnl0ZXNbaSArIDFdICYgMTUpIDw8IDIpIHwgKGJ5dGVzW2kgKyAyXSA+PiA2KV07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1tieXRlc1tpICsgMl0gJiA2M107CiAgICAgICAgfQogICAgICAgIGlmIChsZW4gJSAzID09PSAyKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDEpICsgJz0nOwogICAgICAgIH0KICAgICAgICBlbHNlIGlmIChsZW4gJSAzID09PSAxKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDIpICsgJz09JzsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGJhc2U2NDsKICAgIH07CgogICAgY29uc3QgbGFzdEJsb2JNYXAgPSBuZXcgTWFwKCk7DQogICAgY29uc3QgdHJhbnNwYXJlbnRCbG9iTWFwID0gbmV3IE1hcCgpOw0KICAgIGZ1bmN0aW9uIGdldFRyYW5zcGFyZW50QmxvYkZvcih3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucykgew0KICAgICAgICByZXR1cm4gX19hd2FpdGVyKHRoaXMsIHZvaWQgMCwgdm9pZCAwLCBmdW5jdGlvbiogKCkgew0KICAgICAgICAgICAgY29uc3QgaWQgPSBgJHt3aWR0aH0tJHtoZWlnaHR9YDsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgaWYgKHRyYW5zcGFyZW50QmxvYk1hcC5oYXMoaWQpKQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJhbnNwYXJlbnRCbG9iTWFwLmdldChpZCk7DQogICAgICAgICAgICAgICAgY29uc3Qgb2Zmc2NyZWVuID0gbmV3IE9mZnNjcmVlbkNhbnZhcyh3aWR0aCwgaGVpZ2h0KTsNCiAgICAgICAgICAgICAgICBvZmZzY3JlZW4uZ2V0Q29udGV4dCgnMmQnKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGFycmF5QnVmZmVyID0geWllbGQgYmxvYi5hcnJheUJ1ZmZlcigpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGJhc2U2NCA9IGVuY29kZShhcnJheUJ1ZmZlcik7DQogICAgICAgICAgICAgICAgdHJhbnNwYXJlbnRCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICByZXR1cm4gYmFzZTY0Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZWxzZSB7DQogICAgICAgICAgICAgICAgcmV0dXJuICcnOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCiAgICB9DQogICAgY29uc3Qgd29ya2VyID0gc2VsZjsNCiAgICB3b3JrZXIub25tZXNzYWdlID0gZnVuY3Rpb24gKGUpIHsNCiAgICAgICAgcmV0dXJuIF9fYXdhaXRlcih0aGlzLCB2b2lkIDAsIHZvaWQgMCwgZnVuY3Rpb24qICgpIHsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgY29uc3QgeyBpZCwgYml0bWFwLCB3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucyB9ID0gZS5kYXRhOw0KICAgICAgICAgICAgICAgIGNvbnN0IHRyYW5zcGFyZW50QmFzZTY0ID0gZ2V0VHJhbnNwYXJlbnRCbG9iRm9yKHdpZHRoLCBoZWlnaHQsIGRhdGFVUkxPcHRpb25zKTsNCiAgICAgICAgICAgICAgICBjb25zdCBvZmZzY3JlZW4gPSBuZXcgT2Zmc2NyZWVuQ2FudmFzKHdpZHRoLCBoZWlnaHQpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGN0eCA9IG9mZnNjcmVlbi5nZXRDb250ZXh0KCcyZCcpOw0KICAgICAgICAgICAgICAgIGN0eC5kcmF3SW1hZ2UoYml0bWFwLCAwLCAwKTsNCiAgICAgICAgICAgICAgICBiaXRtYXAuY2xvc2UoKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IHR5cGUgPSBibG9iLnR5cGU7DQogICAgICAgICAgICAgICAgY29uc3QgYXJyYXlCdWZmZXIgPSB5aWVsZCBibG9iLmFycmF5QnVmZmVyKCk7DQogICAgICAgICAgICAgICAgY29uc3QgYmFzZTY0ID0gZW5jb2RlKGFycmF5QnVmZmVyKTsNCiAgICAgICAgICAgICAgICBpZiAoIWxhc3RCbG9iTWFwLmhhcyhpZCkgJiYgKHlpZWxkIHRyYW5zcGFyZW50QmFzZTY0KSA9PT0gYmFzZTY0KSB7DQogICAgICAgICAgICAgICAgICAgIGxhc3RCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHdvcmtlci5wb3N0TWVzc2FnZSh7IGlkIH0pOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAobGFzdEJsb2JNYXAuZ2V0KGlkKSA9PT0gYmFzZTY0KQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQgfSk7DQogICAgICAgICAgICAgICAgd29ya2VyLnBvc3RNZXNzYWdlKHsNCiAgICAgICAgICAgICAgICAgICAgaWQsDQogICAgICAgICAgICAgICAgICAgIHR5cGUsDQogICAgICAgICAgICAgICAgICAgIGJhc2U2NCwNCiAgICAgICAgICAgICAgICAgICAgd2lkdGgsDQogICAgICAgICAgICAgICAgICAgIGhlaWdodCwNCiAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgICAgICBsYXN0QmxvYk1hcC5zZXQoaWQsIGJhc2U2NCk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBlbHNlIHsNCiAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQ6IGUuZGF0YS5pZCB9KTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSk7DQogICAgfTsKCn0pKCk7Cgo=", null, !1);
+  class xo {
     constructor(e) {
       this.pendingCanvasMutations = /* @__PURE__ */ new Map(), this.rafStamps = { latestId: 0, invokeId: null }, this.frozen = !1, this.locked = !1, this.processMutation = (l, c) => {
         (this.rafStamps.invokeId && this.rafStamps.latestId !== this.rafStamps.invokeId || !this.rafStamps.invokeId) && (this.rafStamps.invokeId = this.rafStamps.latestId), this.pendingCanvasMutations.has(l) || this.pendingCanvasMutations.set(l, []), this.pendingCanvasMutations.get(l).push(c);
@@ -2043,7 +2043,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       this.locked = !1;
     }
     initCanvasFPSObserver(e, n, r, i, o) {
-      const s = Mn(n, r, i), a = /* @__PURE__ */ new Map(), l = new ko();
+      const s = Mn(n, r, i), a = /* @__PURE__ */ new Map(), l = new Do();
       l.onmessage = (h) => {
         const { id: p } = h.data;
         if (a.set(p, !1), !("base64" in h.data))
@@ -2089,7 +2089,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
           u = requestAnimationFrame(m);
           return;
         }
-        d = h, g().forEach((p) => mo(this, void 0, void 0, function* () {
+        d = h, g().forEach((p) => fo(this, void 0, void 0, function* () {
           var y;
           const I = this.mirror.getId(p);
           if (a.get(I))
@@ -2114,7 +2114,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
     initCanvasMutationObserver(e, n, r) {
       this.startRAFTimestamping(), this.startPendingCanvasMutationFlusher();
-      const i = Mn(e, n, r), o = Co(this.processMutation.bind(this), e, n, r), s = vo(this.processMutation.bind(this), e, n, r, this.mirror);
+      const i = Mn(e, n, r), o = vo(this.processMutation.bind(this), e, n, r), s = bo(this.processMutation.bind(this), e, n, r, this.mirror);
       this.resetObservers = () => {
         i(), o(), s();
       };
@@ -2140,13 +2140,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
       const r = this.pendingCanvasMutations.get(e);
       if (!r || n === -1)
         return;
-      const i = r.map((s) => po(s, ["type"])), { type: o } = r[0];
+      const i = r.map((s) => mo(s, ["type"])), { type: o } = r[0];
       this.mutationCb({ id: n, type: o, commands: i }), this.pendingCanvasMutations.delete(e);
     }
   }
-  class xo {
+  class Fo {
     constructor(e) {
-      this.trackedLinkElements = /* @__PURE__ */ new WeakSet(), this.styleMirror = new $i(), this.mutationCb = e.mutationCb, this.adoptedStyleSheetCb = e.adoptedStyleSheetCb;
+      this.trackedLinkElements = /* @__PURE__ */ new WeakSet(), this.styleMirror = new Xi(), this.mutationCb = e.mutationCb, this.adoptedStyleSheetCb = e.adoptedStyleSheetCb;
     }
     attachLinkElement(e, n) {
       "_cssText" in n.attributes && this.mutationCb({
@@ -2181,7 +2181,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
           i.push({
             styleId: s,
             rules: a.map((l, c) => ({
-              rule: hr(l),
+              rule: gr(l),
               index: c
             }))
           });
@@ -2200,7 +2200,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     return Object.assign(Object.assign({}, t), { timestamp: Date.now() });
   }
   let ie, St, Vt, Rt = !1;
-  const Ce = Ni();
+  const Ce = Ei();
   function pt(t = {}) {
     const { emit: e, checkoutEveryNms: n, checkoutEveryNth: r, blockClass: i = "rr-block", blockSelector: o = null, ignoreClass: s = "rr-ignore", maskTextClass: a = "rr-mask", maskTextSelector: l = null, inlineStylesheet: c = !0, maskAllInputs: d, maskInputOptions: u, slimDOMOptions: g, maskInputFn: m, maskTextFn: h, hooks: p, packFn: y, sampling: I = {}, dataURLOptions: f = {}, mousemoveWait: C, recordCanvas: w = !1, recordCrossOriginIframes: O = !1, userTriggeredOnInput: F = !1, collectFonts: W = !1, inlineImages: R = !1, plugins: b, keepIframeSrcFn: x = () => !1, ignoreCSSAttributes: A = /* @__PURE__ */ new Set([]) } = t, v = O ? window.parent === window : !0;
     let M = !1;
@@ -2242,7 +2242,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       headMetaAuthorship: g === "all",
       headMetaDescKeywords: g === "all"
     } : g || {};
-    Ji();
+    $i();
     let B, S = 0;
     const _ = (E) => {
       for (const q of b || [])
@@ -2285,10 +2285,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
     })), $ = (E) => ie(se({
       type: Q.IncrementalSnapshot,
       data: Object.assign({ source: K.AdoptedStyleSheet }, E)
-    })), z = new xo({
+    })), z = new Fo({
       mutationCb: D,
       adoptedStyleSheetCb: $
-    }), N = new ho({
+    }), N = new go({
       mirror: Ce,
       mutationCb: D,
       stylesheetManager: z,
@@ -2301,7 +2301,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         crossOriginIframeMirror: N.crossOriginIframeMirror,
         crossOriginIframeStyleMirror: N.crossOriginIframeStyleMirror
       });
-    Vt = new Do({
+    Vt = new xo({
       recordCanvas: w,
       mutationCb: X,
       win: window,
@@ -2311,7 +2311,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       sampling: I.canvas,
       dataURLOptions: f
     });
-    const V = new go({
+    const V = new po({
       mutationCb: D,
       scrollCb: Z,
       bypassOptions: {
@@ -2341,11 +2341,11 @@ or you can use record.mirror to access the mirror instance during recording.`;
         type: Q.Meta,
         data: {
           href: window.location.href,
-          width: Ir(),
-          height: yr()
+          width: Cr(),
+          height: Ir()
         }
       }), E), z.reset(), Fe.forEach((ue) => ue.lock());
-      const qe = Hi(document, {
+      const qe = Qi(document, {
         mirror: Ce,
         blockClass: i,
         blockSelector: o,
@@ -2359,7 +2359,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         recordCanvas: w,
         inlineImages: R,
         onSerialize: (ue) => {
-          br(ue, Ce) && N.addIframe(ue), Ar(ue, Ce) && z.trackLinkElement(ue), Sr(ue) && V.addShadowRoot(ue.shadowRoot, document);
+          Ar(ue, Ce) && N.addIframe(ue), Sr(ue, Ce) && z.trackLinkElement(ue), wr(ue) && V.addShadowRoot(ue.shadowRoot, document);
         },
         onIframeLoad: (ue, _t) => {
           N.attachIframe(ue, _t), V.observeAttachShadow(ue);
@@ -2392,7 +2392,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }));
       const q = (P) => {
         var de;
-        return uo({
+        return ho({
           mutationCb: D,
           mousemoveCb: (Y, me) => ie(se({
             type: Q.IncrementalSnapshot,
@@ -2519,16 +2519,16 @@ or you can use record.mirror to access the mirror instance during recording.`;
       t[n] = e[n];
     return t;
   }
-  function Br(t) {
+  function _r(t) {
     return t();
   }
   function Dn() {
     return /* @__PURE__ */ Object.create(null);
   }
   function Xe(t) {
-    t.forEach(Br);
+    t.forEach(_r);
   }
-  function Fo(t) {
+  function Oo(t) {
     return typeof t == "function";
   }
   function hn(t, e) {
@@ -2589,13 +2589,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
       throw new Error("Function called outside component initialization");
     return ht;
   }
-  function _r(t) {
+  function Gr(t) {
     Wt().$$.on_mount.push(t);
   }
-  function Gr(t) {
+  function Vr(t) {
     Wt().$$.on_destroy.push(t);
   }
-  function Oo() {
+  function Lo() {
     const t = Wt();
     return (e, n, { cancelable: r = !1 } = {}) => {
       const i = t.$$.callbacks[e];
@@ -2611,19 +2611,19 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return !0;
     };
   }
-  const tt = [], ke = [], wt = [], tn = [], Lo = Promise.resolve();
+  const tt = [], ke = [], wt = [], tn = [], Wo = Promise.resolve();
   let nn = !1;
   function rn(t) {
     wt.push(t);
   }
   const Ut = /* @__PURE__ */ new Set();
   let It = 0;
-  function Vr() {
+  function Zr() {
     const t = ht;
     do {
       for (; It < tt.length; ) {
         const e = tt[It];
-        It++, at(e), Wo(e.$$);
+        It++, at(e), Bo(e.$$);
       }
       for (at(null), tt.length = 0, It = 0; ke.length; )
         ke.pop()();
@@ -2637,7 +2637,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       tn.pop()();
     nn = !1, Ut.clear(), at(t);
   }
-  function Wo(t) {
+  function Bo(t) {
     if (t.fragment !== null) {
       t.update(), Xe(t.before_update);
       const e = t.dirty;
@@ -2646,10 +2646,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
   }
   const Nt = /* @__PURE__ */ new Set();
   let Oe;
-  function Zr() {
+  function Ur() {
     Oe = { r: 0, c: [], p: Oe };
   }
-  function Ur() {
+  function Pr() {
     Oe.r || Xe(Oe.c), Oe = Oe.p;
   }
   function Ne(t, e) {
@@ -2665,13 +2665,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
     } else
       r && r();
   }
-  function Pr(t) {
+  function Kr(t) {
     t && t.c();
   }
   function gn(t, e, n, r) {
     const { fragment: i, on_mount: o, on_destroy: s, after_update: a } = t.$$;
     i && i.m(e, n), r || rn(() => {
-      const l = o.map(Br).filter(Fo);
+      const l = o.map(_r).filter(Oo);
       s ? s.push(...l) : Xe(l), t.$$.on_mount = [];
     }), a.forEach(rn);
   }
@@ -2679,8 +2679,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
     const n = t.$$;
     n.fragment !== null && (Xe(n.on_destroy), n.fragment && n.fragment.d(e), n.on_destroy = n.fragment = null, n.ctx = []);
   }
-  function Bo(t, e) {
-    t.$$.dirty[0] === -1 && (tt.push(t), nn || (nn = !0, Lo.then(Vr)), t.$$.dirty.fill(0)), t.$$.dirty[e / 31 | 0] |= 1 << e % 31;
+  function _o(t, e) {
+    t.$$.dirty[0] === -1 && (tt.push(t), nn || (nn = !0, Wo.then(Zr)), t.$$.dirty.fill(0)), t.$$.dirty[e / 31 | 0] |= 1 << e % 31;
   }
   function mn(t, e, n, r, i, o, s, a = [-1]) {
     const l = ht;
@@ -2690,7 +2690,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     let d = !1;
     if (c.ctx = n ? n(t, e.props || {}, (u, g, ...m) => {
       const h = m.length ? m[0] : g;
-      return c.ctx && i(c.ctx[u], c.ctx[u] = h) && (!c.skip_bound && c.bound[u] && c.bound[u](h), d && Bo(t, u)), g;
+      return c.ctx && i(c.ctx[u], c.ctx[u] = h) && (!c.skip_bound && c.bound[u] && c.bound[u](h), d && _o(t, u)), g;
     }) : [], c.update(), d = !0, Xe(c.before_update), c.fragment = !!r && r(c.ctx), e.target) {
       if (e.hydrate) {
         const u = function(g) {
@@ -2699,7 +2699,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         c.fragment && c.fragment.l(u), u.forEach(Ae);
       } else
         c.fragment && c.fragment.c();
-      e.intro && Ne(t.$$.fragment), gn(t, e.target, e.anchor, e.customElement), Vr();
+      e.intro && Ne(t.$$.fragment), gn(t, e.target, e.anchor, e.customElement), Zr();
     }
     at(l);
   }
@@ -2720,13 +2720,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
   }
   var le;
-  function _o(t) {
+  function Go(t) {
     return t.nodeType === t.ELEMENT_NODE;
   }
   (function(t) {
     t[t.Document = 0] = "Document", t[t.DocumentType = 1] = "DocumentType", t[t.Element = 2] = "Element", t[t.Text = 3] = "Text", t[t.CDATA = 4] = "CDATA", t[t.Comment = 5] = "Comment";
   })(le || (le = {}));
-  var Kr = function() {
+  var Yr = function() {
     function t() {
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }
@@ -2765,11 +2765,11 @@ or you can use record.mirror to access the mirror instance during recording.`;
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }, t;
   }();
-  function Go() {
-    return new Kr();
+  function Vo() {
+    return new Yr();
   }
   var Fn = /\/\*[^*]*\*+([^/*][^*]*\*+)*\//g;
-  function Vo(t, e) {
+  function Zo(t, e) {
     e === void 0 && (e = {});
     var n = 1, r = 1;
     function i(A) {
@@ -2972,18 +2972,18 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
     return n && Object.defineProperty(t, "parent", { configurable: !0, writable: !0, enumerable: !1, value: e || null }), t;
   }
-  var On = { script: "noscript", altglyph: "altGlyph", altglyphdef: "altGlyphDef", altglyphitem: "altGlyphItem", animatecolor: "animateColor", animatemotion: "animateMotion", animatetransform: "animateTransform", clippath: "clipPath", feblend: "feBlend", fecolormatrix: "feColorMatrix", fecomponenttransfer: "feComponentTransfer", fecomposite: "feComposite", feconvolvematrix: "feConvolveMatrix", fediffuselighting: "feDiffuseLighting", fedisplacementmap: "feDisplacementMap", fedistantlight: "feDistantLight", fedropshadow: "feDropShadow", feflood: "feFlood", fefunca: "feFuncA", fefuncb: "feFuncB", fefuncg: "feFuncG", fefuncr: "feFuncR", fegaussianblur: "feGaussianBlur", feimage: "feImage", femerge: "feMerge", femergenode: "feMergeNode", femorphology: "feMorphology", feoffset: "feOffset", fepointlight: "fePointLight", fespecularlighting: "feSpecularLighting", fespotlight: "feSpotLight", fetile: "feTile", feturbulence: "feTurbulence", foreignobject: "foreignObject", glyphref: "glyphRef", lineargradient: "linearGradient", radialgradient: "radialGradient" }, Yr = /([^\\]):hover/, Zo = new RegExp(Yr.source, "g");
+  var On = { script: "noscript", altglyph: "altGlyph", altglyphdef: "altGlyphDef", altglyphitem: "altGlyphItem", animatecolor: "animateColor", animatemotion: "animateMotion", animatetransform: "animateTransform", clippath: "clipPath", feblend: "feBlend", fecolormatrix: "feColorMatrix", fecomponenttransfer: "feComponentTransfer", fecomposite: "feComposite", feconvolvematrix: "feConvolveMatrix", fediffuselighting: "feDiffuseLighting", fedisplacementmap: "feDisplacementMap", fedistantlight: "feDistantLight", fedropshadow: "feDropShadow", feflood: "feFlood", fefunca: "feFuncA", fefuncb: "feFuncB", fefuncg: "feFuncG", fefuncr: "feFuncR", fegaussianblur: "feGaussianBlur", feimage: "feImage", femerge: "feMerge", femergenode: "feMergeNode", femorphology: "feMorphology", feoffset: "feOffset", fepointlight: "fePointLight", fespecularlighting: "feSpecularLighting", fespotlight: "feSpotLight", fetile: "feTile", feturbulence: "feTurbulence", foreignobject: "foreignObject", glyphref: "glyphRef", lineargradient: "linearGradient", radialgradient: "radialGradient" }, zr = /([^\\]):hover/, Uo = new RegExp(zr.source, "g");
   function Ln(t, e) {
     var n = e == null ? void 0 : e.stylesWithHoverClass.get(t);
     if (n)
       return n;
-    var r = Vo(t, { silent: !0 });
+    var r = Zo(t, { silent: !0 });
     if (!r.stylesheet)
       return t;
     var i = [];
     if (r.stylesheet.rules.forEach(function(a) {
       "selectors" in a && (a.selectors || []).forEach(function(l) {
-        Yr.test(l) && i.push(l);
+        zr.test(l) && i.push(l);
       });
     }), i.length === 0)
       return t;
@@ -2994,7 +2994,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }).map(function(a) {
       return a.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     }).join("|"), "g"), s = t.replace(o, function(a) {
-      var l = a.replace(Zo, "$1.\\:hover");
+      var l = a.replace(Uo, "$1.\\:hover");
       return "".concat(a, ", ").concat(l);
     });
     return e == null || e.stylesWithHoverClass.set(t, s), s;
@@ -3002,7 +3002,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   function Wn() {
     return { stylesWithHoverClass: /* @__PURE__ */ new Map() };
   }
-  function Uo(t, e) {
+  function Po(t, e) {
     var n = e.doc, r = e.hackCss, i = e.cache;
     switch (t.type) {
       case le.Document:
@@ -3097,18 +3097,18 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
   }
   function lt(t, e) {
-    var n = e.doc, r = e.mirror, i = e.skipChild, o = i !== void 0 && i, s = e.hackCss, a = s === void 0 || s, l = e.afterAppend, c = e.cache, d = Uo(t, { doc: n, hackCss: a, cache: c });
+    var n = e.doc, r = e.mirror, i = e.skipChild, o = i !== void 0 && i, s = e.hackCss, a = s === void 0 || s, l = e.afterAppend, c = e.cache, d = Po(t, { doc: n, hackCss: a, cache: c });
     if (!d)
       return null;
     if (t.rootId && r.getNode(t.rootId) !== n && r.replace(t.rootId, n), t.type === le.Document && (n.close(), n.open(), t.compatMode === "BackCompat" && t.childNodes && t.childNodes[0].type !== le.DocumentType && (t.childNodes[0].type === le.Element && "xmlns" in t.childNodes[0].attributes && t.childNodes[0].attributes.xmlns === "http://www.w3.org/1999/xhtml" ? n.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "">') : n.write('<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "">')), d = n), r.add(d, t), (t.type === le.Document || t.type === le.Element) && !o)
       for (var u = 0, g = t.childNodes; u < g.length; u++) {
         var m = g[u], h = lt(m, { doc: n, mirror: r, skipChild: !1, hackCss: a, afterAppend: l, cache: c });
-        h ? (m.isShadow && _o(d) && d.shadowRoot ? d.shadowRoot.appendChild(h) : d.appendChild(h), l && l(h, m.id)) : console.warn("Failed to rebuild", m);
+        h ? (m.isShadow && Go(d) && d.shadowRoot ? d.shadowRoot.appendChild(h) : d.appendChild(h), l && l(h, m.id)) : console.warn("Failed to rebuild", m);
       }
     return d;
   }
-  function Po(t, e) {
-    var n = e.doc, r = e.onVisit, i = e.hackCss, o = i === void 0 || i, s = e.afterAppend, a = e.cache, l = e.mirror, c = l === void 0 ? new Kr() : l, d = lt(t, { doc: n, mirror: c, skipChild: !1, hackCss: o, afterAppend: s, cache: a });
+  function Ko(t, e) {
+    var n = e.doc, r = e.onVisit, i = e.hackCss, o = i === void 0 || i, s = e.afterAppend, a = e.cache, l = e.mirror, c = l === void 0 ? new Yr() : l, d = lt(t, { doc: n, mirror: c, skipChild: !1, hackCss: o, afterAppend: s, cache: a });
     return function(u, g) {
       for (var m = 0, h = u.getIds(); m < h.length; m++) {
         var p = h[m];
@@ -3136,7 +3136,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   }, has: () => (console.error(Ve), !1), reset() {
     console.error(Ve);
   } };
-  function Ko(t) {
+  function Yo(t) {
     const e = {}, n = (i, o) => {
       const s = { value: i, parent: o, children: [] };
       return e[i.node.id] = s, s;
@@ -3160,20 +3160,20 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
     return r;
   }
-  function zr(t, e) {
+  function Hr(t, e) {
     e(t.value);
     for (let n = t.children.length - 1; n >= 0; n--)
-      zr(t.children[n], e);
+      Hr(t.children[n], e);
   }
   function Pt(t, e) {
     return !!(t.nodeName === "IFRAME" && e.getMeta(t));
   }
-  function Hr(t, e) {
+  function Qr(t, e) {
     var n, r;
     const i = (r = (n = t.ownerDocument) === null || n === void 0 ? void 0 : n.defaultView) === null || r === void 0 ? void 0 : r.frameElement;
     if (!i || i === e)
       return { x: 0, y: 0, relativeScale: 1, absoluteScale: 1 };
-    const o = i.getBoundingClientRect(), s = Hr(i, e), a = o.height / i.clientHeight;
+    const o = i.getBoundingClientRect(), s = Qr(i, e), a = o.height / i.clientHeight;
     return { x: o.x * s.relativeScale + s.x, y: o.y * s.relativeScale + s.y, relativeScale: a, absoluteScale: s.absoluteScale * a };
   }
   function Ct(t) {
@@ -3188,7 +3188,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     return { positions: e, index: n };
   }
   typeof window < "u" && window.Proxy && window.Reflect && (Bn = new Proxy(Bn, { get: (t, e, n) => (e === "map" && console.error(Ve), Reflect.get(t, e, n)) }));
-  class Yo {
+  class zo {
     constructor() {
       this.id = 1, this.styleIDMap = /* @__PURE__ */ new WeakMap(), this.idStyleMap = /* @__PURE__ */ new Map();
     }
@@ -3257,26 +3257,26 @@ or you can use record.mirror to access the mirror instance during recording.`;
   }
   for (var Gn = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/", rt = typeof Uint8Array > "u" ? [] : new Uint8Array(256), vt = 0; vt < Gn.length; vt++)
     rt[Gn.charCodeAt(vt)] = vt;
-  var Qr = null;
+  var Jr = null;
   try {
-    var zo = typeof We < "u" && typeof We.require == "function" && We.require("worker_threads") || typeof __non_webpack_require__ == "function" && __non_webpack_require__("worker_threads") || typeof require == "function" && require("worker_threads");
-    Qr = zo.Worker;
+    var Ho = typeof We < "u" && typeof We.require == "function" && We.require("worker_threads") || typeof __non_webpack_require__ == "function" && __non_webpack_require__("worker_threads") || typeof require == "function" && require("worker_threads");
+    Jr = Ho.Worker;
   } catch {
   }
-  function Ho(t, e, n) {
+  function Qo(t, e, n) {
     var r = e === void 0 ? null : e, i = function(a, l) {
       return Buffer.from(a, "base64").toString(l ? "utf16" : "utf8");
     }(t, n !== void 0 && n), o = i.indexOf(`
 `, 10) + 1, s = i.substring(o) + (r ? "//# sourceMappingURL=" + r : "");
     return function(a) {
-      return new Qr(s, Object.assign({}, a, { eval: !0 }));
+      return new Jr(s, Object.assign({}, a, { eval: !0 }));
     };
   }
-  var Vn, Zn, Un, U, Qo = Object.prototype.toString.call(typeof process < "u" ? process : 0) === "[object process]";
-  Vn = "Lyogcm9sbHVwLXBsdWdpbi13ZWItd29ya2VyLWxvYWRlciAqLwooZnVuY3Rpb24gKCkgewogICAgJ3VzZSBzdHJpY3QnOwoKICAgIC8qISAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKg0KICAgIENvcHlyaWdodCAoYykgTWljcm9zb2Z0IENvcnBvcmF0aW9uLg0KDQogICAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgYW5kL29yIGRpc3RyaWJ1dGUgdGhpcyBzb2Z0d2FyZSBmb3IgYW55DQogICAgcHVycG9zZSB3aXRoIG9yIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLg0KDQogICAgVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIFRIRSBBVVRIT1IgRElTQ0xBSU1TIEFMTCBXQVJSQU5USUVTIFdJVEgNCiAgICBSRUdBUkQgVE8gVEhJUyBTT0ZUV0FSRSBJTkNMVURJTkcgQUxMIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkNCiAgICBBTkQgRklUTkVTUy4gSU4gTk8gRVZFTlQgU0hBTEwgVEhFIEFVVEhPUiBCRSBMSUFCTEUgRk9SIEFOWSBTUEVDSUFMLCBESVJFQ1QsDQogICAgSU5ESVJFQ1QsIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFUyBPUiBBTlkgREFNQUdFUyBXSEFUU09FVkVSIFJFU1VMVElORyBGUk9NDQogICAgTE9TUyBPRiBVU0UsIERBVEEgT1IgUFJPRklUUywgV0hFVEhFUiBJTiBBTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIE5FR0xJR0VOQ0UgT1INCiAgICBPVEhFUiBUT1JUSU9VUyBBQ1RJT04sIEFSSVNJTkcgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgVVNFIE9SDQogICAgUEVSRk9STUFOQ0UgT0YgVEhJUyBTT0ZUV0FSRS4NCiAgICAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqLw0KDQogICAgZnVuY3Rpb24gX19hd2FpdGVyKHRoaXNBcmcsIF9hcmd1bWVudHMsIFAsIGdlbmVyYXRvcikgew0KICAgICAgICBmdW5jdGlvbiBhZG9wdCh2YWx1ZSkgeyByZXR1cm4gdmFsdWUgaW5zdGFuY2VvZiBQID8gdmFsdWUgOiBuZXcgUChmdW5jdGlvbiAocmVzb2x2ZSkgeyByZXNvbHZlKHZhbHVlKTsgfSk7IH0NCiAgICAgICAgcmV0dXJuIG5ldyAoUCB8fCAoUCA9IFByb21pc2UpKShmdW5jdGlvbiAocmVzb2x2ZSwgcmVqZWN0KSB7DQogICAgICAgICAgICBmdW5jdGlvbiBmdWxmaWxsZWQodmFsdWUpIHsgdHJ5IHsgc3RlcChnZW5lcmF0b3IubmV4dCh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiByZWplY3RlZCh2YWx1ZSkgeyB0cnkgeyBzdGVwKGdlbmVyYXRvclsidGhyb3ciXSh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiBzdGVwKHJlc3VsdCkgeyByZXN1bHQuZG9uZSA/IHJlc29sdmUocmVzdWx0LnZhbHVlKSA6IGFkb3B0KHJlc3VsdC52YWx1ZSkudGhlbihmdWxmaWxsZWQsIHJlamVjdGVkKTsgfQ0KICAgICAgICAgICAgc3RlcCgoZ2VuZXJhdG9yID0gZ2VuZXJhdG9yLmFwcGx5KHRoaXNBcmcsIF9hcmd1bWVudHMgfHwgW10pKS5uZXh0KCkpOw0KICAgICAgICB9KTsNCiAgICB9CgogICAgLyoKICAgICAqIGJhc2U2NC1hcnJheWJ1ZmZlciAxLjAuMSA8aHR0cHM6Ly9naXRodWIuY29tL25pa2xhc3ZoL2Jhc2U2NC1hcnJheWJ1ZmZlcj4KICAgICAqIENvcHlyaWdodCAoYykgMjAyMSBOaWtsYXMgdm9uIEhlcnR6ZW4gPGh0dHBzOi8vaGVydHplbi5jb20+CiAgICAgKiBSZWxlYXNlZCB1bmRlciBNSVQgTGljZW5zZQogICAgICovCiAgICB2YXIgY2hhcnMgPSAnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLyc7CiAgICAvLyBVc2UgYSBsb29rdXAgdGFibGUgdG8gZmluZCB0aGUgaW5kZXguCiAgICB2YXIgbG9va3VwID0gdHlwZW9mIFVpbnQ4QXJyYXkgPT09ICd1bmRlZmluZWQnID8gW10gOiBuZXcgVWludDhBcnJheSgyNTYpOwogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGFycy5sZW5ndGg7IGkrKykgewogICAgICAgIGxvb2t1cFtjaGFycy5jaGFyQ29kZUF0KGkpXSA9IGk7CiAgICB9CiAgICB2YXIgZW5jb2RlID0gZnVuY3Rpb24gKGFycmF5YnVmZmVyKSB7CiAgICAgICAgdmFyIGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYXJyYXlidWZmZXIpLCBpLCBsZW4gPSBieXRlcy5sZW5ndGgsIGJhc2U2NCA9ICcnOwogICAgICAgIGZvciAoaSA9IDA7IGkgPCBsZW47IGkgKz0gMykgewogICAgICAgICAgICBiYXNlNjQgKz0gY2hhcnNbYnl0ZXNbaV0gPj4gMl07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1soKGJ5dGVzW2ldICYgMykgPDwgNCkgfCAoYnl0ZXNbaSArIDFdID4+IDQpXTsKICAgICAgICAgICAgYmFzZTY0ICs9IGNoYXJzWygoYnl0ZXNbaSArIDFdICYgMTUpIDw8IDIpIHwgKGJ5dGVzW2kgKyAyXSA+PiA2KV07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1tieXRlc1tpICsgMl0gJiA2M107CiAgICAgICAgfQogICAgICAgIGlmIChsZW4gJSAzID09PSAyKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDEpICsgJz0nOwogICAgICAgIH0KICAgICAgICBlbHNlIGlmIChsZW4gJSAzID09PSAxKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDIpICsgJz09JzsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGJhc2U2NDsKICAgIH07CgogICAgY29uc3QgbGFzdEJsb2JNYXAgPSBuZXcgTWFwKCk7DQogICAgY29uc3QgdHJhbnNwYXJlbnRCbG9iTWFwID0gbmV3IE1hcCgpOw0KICAgIGZ1bmN0aW9uIGdldFRyYW5zcGFyZW50QmxvYkZvcih3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucykgew0KICAgICAgICByZXR1cm4gX19hd2FpdGVyKHRoaXMsIHZvaWQgMCwgdm9pZCAwLCBmdW5jdGlvbiogKCkgew0KICAgICAgICAgICAgY29uc3QgaWQgPSBgJHt3aWR0aH0tJHtoZWlnaHR9YDsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgaWYgKHRyYW5zcGFyZW50QmxvYk1hcC5oYXMoaWQpKQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJhbnNwYXJlbnRCbG9iTWFwLmdldChpZCk7DQogICAgICAgICAgICAgICAgY29uc3Qgb2Zmc2NyZWVuID0gbmV3IE9mZnNjcmVlbkNhbnZhcyh3aWR0aCwgaGVpZ2h0KTsNCiAgICAgICAgICAgICAgICBvZmZzY3JlZW4uZ2V0Q29udGV4dCgnMmQnKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGFycmF5QnVmZmVyID0geWllbGQgYmxvYi5hcnJheUJ1ZmZlcigpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGJhc2U2NCA9IGVuY29kZShhcnJheUJ1ZmZlcik7DQogICAgICAgICAgICAgICAgdHJhbnNwYXJlbnRCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICByZXR1cm4gYmFzZTY0Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZWxzZSB7DQogICAgICAgICAgICAgICAgcmV0dXJuICcnOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCiAgICB9DQogICAgY29uc3Qgd29ya2VyID0gc2VsZjsNCiAgICB3b3JrZXIub25tZXNzYWdlID0gZnVuY3Rpb24gKGUpIHsNCiAgICAgICAgcmV0dXJuIF9fYXdhaXRlcih0aGlzLCB2b2lkIDAsIHZvaWQgMCwgZnVuY3Rpb24qICgpIHsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgY29uc3QgeyBpZCwgYml0bWFwLCB3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucyB9ID0gZS5kYXRhOw0KICAgICAgICAgICAgICAgIGNvbnN0IHRyYW5zcGFyZW50QmFzZTY0ID0gZ2V0VHJhbnNwYXJlbnRCbG9iRm9yKHdpZHRoLCBoZWlnaHQsIGRhdGFVUkxPcHRpb25zKTsNCiAgICAgICAgICAgICAgICBjb25zdCBvZmZzY3JlZW4gPSBuZXcgT2Zmc2NyZWVuQ2FudmFzKHdpZHRoLCBoZWlnaHQpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGN0eCA9IG9mZnNjcmVlbi5nZXRDb250ZXh0KCcyZCcpOw0KICAgICAgICAgICAgICAgIGN0eC5kcmF3SW1hZ2UoYml0bWFwLCAwLCAwKTsNCiAgICAgICAgICAgICAgICBiaXRtYXAuY2xvc2UoKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IHR5cGUgPSBibG9iLnR5cGU7DQogICAgICAgICAgICAgICAgY29uc3QgYXJyYXlCdWZmZXIgPSB5aWVsZCBibG9iLmFycmF5QnVmZmVyKCk7DQogICAgICAgICAgICAgICAgY29uc3QgYmFzZTY0ID0gZW5jb2RlKGFycmF5QnVmZmVyKTsNCiAgICAgICAgICAgICAgICBpZiAoIWxhc3RCbG9iTWFwLmhhcyhpZCkgJiYgKHlpZWxkIHRyYW5zcGFyZW50QmFzZTY0KSA9PT0gYmFzZTY0KSB7DQogICAgICAgICAgICAgICAgICAgIGxhc3RCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHdvcmtlci5wb3N0TWVzc2FnZSh7IGlkIH0pOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAobGFzdEJsb2JNYXAuZ2V0KGlkKSA9PT0gYmFzZTY0KQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQgfSk7DQogICAgICAgICAgICAgICAgd29ya2VyLnBvc3RNZXNzYWdlKHsNCiAgICAgICAgICAgICAgICAgICAgaWQsDQogICAgICAgICAgICAgICAgICAgIHR5cGUsDQogICAgICAgICAgICAgICAgICAgIGJhc2U2NCwNCiAgICAgICAgICAgICAgICAgICAgd2lkdGgsDQogICAgICAgICAgICAgICAgICAgIGhlaWdodCwNCiAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgICAgICBsYXN0QmxvYk1hcC5zZXQoaWQsIGJhc2U2NCk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBlbHNlIHsNCiAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQ6IGUuZGF0YS5pZCB9KTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSk7DQogICAgfTsKCn0pKCk7Cgo=", Zn = null, Un = !1, Qo && Ho(Vn, Zn, Un), function(t) {
+  var Vn, Zn, Un, U, Jo = Object.prototype.toString.call(typeof process < "u" ? process : 0) === "[object process]";
+  Vn = "Lyogcm9sbHVwLXBsdWdpbi13ZWItd29ya2VyLWxvYWRlciAqLwooZnVuY3Rpb24gKCkgewogICAgJ3VzZSBzdHJpY3QnOwoKICAgIC8qISAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKg0KICAgIENvcHlyaWdodCAoYykgTWljcm9zb2Z0IENvcnBvcmF0aW9uLg0KDQogICAgUGVybWlzc2lvbiB0byB1c2UsIGNvcHksIG1vZGlmeSwgYW5kL29yIGRpc3RyaWJ1dGUgdGhpcyBzb2Z0d2FyZSBmb3IgYW55DQogICAgcHVycG9zZSB3aXRoIG9yIHdpdGhvdXQgZmVlIGlzIGhlcmVieSBncmFudGVkLg0KDQogICAgVEhFIFNPRlRXQVJFIElTIFBST1ZJREVEICJBUyBJUyIgQU5EIFRIRSBBVVRIT1IgRElTQ0xBSU1TIEFMTCBXQVJSQU5USUVTIFdJVEgNCiAgICBSRUdBUkQgVE8gVEhJUyBTT0ZUV0FSRSBJTkNMVURJTkcgQUxMIElNUExJRUQgV0FSUkFOVElFUyBPRiBNRVJDSEFOVEFCSUxJVFkNCiAgICBBTkQgRklUTkVTUy4gSU4gTk8gRVZFTlQgU0hBTEwgVEhFIEFVVEhPUiBCRSBMSUFCTEUgRk9SIEFOWSBTUEVDSUFMLCBESVJFQ1QsDQogICAgSU5ESVJFQ1QsIE9SIENPTlNFUVVFTlRJQUwgREFNQUdFUyBPUiBBTlkgREFNQUdFUyBXSEFUU09FVkVSIFJFU1VMVElORyBGUk9NDQogICAgTE9TUyBPRiBVU0UsIERBVEEgT1IgUFJPRklUUywgV0hFVEhFUiBJTiBBTiBBQ1RJT04gT0YgQ09OVFJBQ1QsIE5FR0xJR0VOQ0UgT1INCiAgICBPVEhFUiBUT1JUSU9VUyBBQ1RJT04sIEFSSVNJTkcgT1VUIE9GIE9SIElOIENPTk5FQ1RJT04gV0lUSCBUSEUgVVNFIE9SDQogICAgUEVSRk9STUFOQ0UgT0YgVEhJUyBTT0ZUV0FSRS4NCiAgICAqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKioqKiAqLw0KDQogICAgZnVuY3Rpb24gX19hd2FpdGVyKHRoaXNBcmcsIF9hcmd1bWVudHMsIFAsIGdlbmVyYXRvcikgew0KICAgICAgICBmdW5jdGlvbiBhZG9wdCh2YWx1ZSkgeyByZXR1cm4gdmFsdWUgaW5zdGFuY2VvZiBQID8gdmFsdWUgOiBuZXcgUChmdW5jdGlvbiAocmVzb2x2ZSkgeyByZXNvbHZlKHZhbHVlKTsgfSk7IH0NCiAgICAgICAgcmV0dXJuIG5ldyAoUCB8fCAoUCA9IFByb21pc2UpKShmdW5jdGlvbiAocmVzb2x2ZSwgcmVqZWN0KSB7DQogICAgICAgICAgICBmdW5jdGlvbiBmdWxmaWxsZWQodmFsdWUpIHsgdHJ5IHsgc3RlcChnZW5lcmF0b3IubmV4dCh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiByZWplY3RlZCh2YWx1ZSkgeyB0cnkgeyBzdGVwKGdlbmVyYXRvclsidGhyb3ciXSh2YWx1ZSkpOyB9IGNhdGNoIChlKSB7IHJlamVjdChlKTsgfSB9DQogICAgICAgICAgICBmdW5jdGlvbiBzdGVwKHJlc3VsdCkgeyByZXN1bHQuZG9uZSA/IHJlc29sdmUocmVzdWx0LnZhbHVlKSA6IGFkb3B0KHJlc3VsdC52YWx1ZSkudGhlbihmdWxmaWxsZWQsIHJlamVjdGVkKTsgfQ0KICAgICAgICAgICAgc3RlcCgoZ2VuZXJhdG9yID0gZ2VuZXJhdG9yLmFwcGx5KHRoaXNBcmcsIF9hcmd1bWVudHMgfHwgW10pKS5uZXh0KCkpOw0KICAgICAgICB9KTsNCiAgICB9CgogICAgLyoKICAgICAqIGJhc2U2NC1hcnJheWJ1ZmZlciAxLjAuMSA8aHR0cHM6Ly9naXRodWIuY29tL25pa2xhc3ZoL2Jhc2U2NC1hcnJheWJ1ZmZlcj4KICAgICAqIENvcHlyaWdodCAoYykgMjAyMSBOaWtsYXMgdm9uIEhlcnR6ZW4gPGh0dHBzOi8vaGVydHplbi5jb20+CiAgICAgKiBSZWxlYXNlZCB1bmRlciBNSVQgTGljZW5zZQogICAgICovCiAgICB2YXIgY2hhcnMgPSAnQUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVphYmNkZWZnaGlqa2xtbm9wcXJzdHV2d3h5ejAxMjM0NTY3ODkrLyc7CiAgICAvLyBVc2UgYSBsb29rdXAgdGFibGUgdG8gZmluZCB0aGUgaW5kZXguCiAgICB2YXIgbG9va3VwID0gdHlwZW9mIFVpbnQ4QXJyYXkgPT09ICd1bmRlZmluZWQnID8gW10gOiBuZXcgVWludDhBcnJheSgyNTYpOwogICAgZm9yICh2YXIgaSA9IDA7IGkgPCBjaGFycy5sZW5ndGg7IGkrKykgewogICAgICAgIGxvb2t1cFtjaGFycy5jaGFyQ29kZUF0KGkpXSA9IGk7CiAgICB9CiAgICB2YXIgZW5jb2RlID0gZnVuY3Rpb24gKGFycmF5YnVmZmVyKSB7CiAgICAgICAgdmFyIGJ5dGVzID0gbmV3IFVpbnQ4QXJyYXkoYXJyYXlidWZmZXIpLCBpLCBsZW4gPSBieXRlcy5sZW5ndGgsIGJhc2U2NCA9ICcnOwogICAgICAgIGZvciAoaSA9IDA7IGkgPCBsZW47IGkgKz0gMykgewogICAgICAgICAgICBiYXNlNjQgKz0gY2hhcnNbYnl0ZXNbaV0gPj4gMl07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1soKGJ5dGVzW2ldICYgMykgPDwgNCkgfCAoYnl0ZXNbaSArIDFdID4+IDQpXTsKICAgICAgICAgICAgYmFzZTY0ICs9IGNoYXJzWygoYnl0ZXNbaSArIDFdICYgMTUpIDw8IDIpIHwgKGJ5dGVzW2kgKyAyXSA+PiA2KV07CiAgICAgICAgICAgIGJhc2U2NCArPSBjaGFyc1tieXRlc1tpICsgMl0gJiA2M107CiAgICAgICAgfQogICAgICAgIGlmIChsZW4gJSAzID09PSAyKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDEpICsgJz0nOwogICAgICAgIH0KICAgICAgICBlbHNlIGlmIChsZW4gJSAzID09PSAxKSB7CiAgICAgICAgICAgIGJhc2U2NCA9IGJhc2U2NC5zdWJzdHJpbmcoMCwgYmFzZTY0Lmxlbmd0aCAtIDIpICsgJz09JzsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIGJhc2U2NDsKICAgIH07CgogICAgY29uc3QgbGFzdEJsb2JNYXAgPSBuZXcgTWFwKCk7DQogICAgY29uc3QgdHJhbnNwYXJlbnRCbG9iTWFwID0gbmV3IE1hcCgpOw0KICAgIGZ1bmN0aW9uIGdldFRyYW5zcGFyZW50QmxvYkZvcih3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucykgew0KICAgICAgICByZXR1cm4gX19hd2FpdGVyKHRoaXMsIHZvaWQgMCwgdm9pZCAwLCBmdW5jdGlvbiogKCkgew0KICAgICAgICAgICAgY29uc3QgaWQgPSBgJHt3aWR0aH0tJHtoZWlnaHR9YDsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgaWYgKHRyYW5zcGFyZW50QmxvYk1hcC5oYXMoaWQpKQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gdHJhbnNwYXJlbnRCbG9iTWFwLmdldChpZCk7DQogICAgICAgICAgICAgICAgY29uc3Qgb2Zmc2NyZWVuID0gbmV3IE9mZnNjcmVlbkNhbnZhcyh3aWR0aCwgaGVpZ2h0KTsNCiAgICAgICAgICAgICAgICBvZmZzY3JlZW4uZ2V0Q29udGV4dCgnMmQnKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGFycmF5QnVmZmVyID0geWllbGQgYmxvYi5hcnJheUJ1ZmZlcigpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGJhc2U2NCA9IGVuY29kZShhcnJheUJ1ZmZlcik7DQogICAgICAgICAgICAgICAgdHJhbnNwYXJlbnRCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICByZXR1cm4gYmFzZTY0Ow0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgZWxzZSB7DQogICAgICAgICAgICAgICAgcmV0dXJuICcnOw0KICAgICAgICAgICAgfQ0KICAgICAgICB9KTsNCiAgICB9DQogICAgY29uc3Qgd29ya2VyID0gc2VsZjsNCiAgICB3b3JrZXIub25tZXNzYWdlID0gZnVuY3Rpb24gKGUpIHsNCiAgICAgICAgcmV0dXJuIF9fYXdhaXRlcih0aGlzLCB2b2lkIDAsIHZvaWQgMCwgZnVuY3Rpb24qICgpIHsNCiAgICAgICAgICAgIGlmICgnT2Zmc2NyZWVuQ2FudmFzJyBpbiBnbG9iYWxUaGlzKSB7DQogICAgICAgICAgICAgICAgY29uc3QgeyBpZCwgYml0bWFwLCB3aWR0aCwgaGVpZ2h0LCBkYXRhVVJMT3B0aW9ucyB9ID0gZS5kYXRhOw0KICAgICAgICAgICAgICAgIGNvbnN0IHRyYW5zcGFyZW50QmFzZTY0ID0gZ2V0VHJhbnNwYXJlbnRCbG9iRm9yKHdpZHRoLCBoZWlnaHQsIGRhdGFVUkxPcHRpb25zKTsNCiAgICAgICAgICAgICAgICBjb25zdCBvZmZzY3JlZW4gPSBuZXcgT2Zmc2NyZWVuQ2FudmFzKHdpZHRoLCBoZWlnaHQpOw0KICAgICAgICAgICAgICAgIGNvbnN0IGN0eCA9IG9mZnNjcmVlbi5nZXRDb250ZXh0KCcyZCcpOw0KICAgICAgICAgICAgICAgIGN0eC5kcmF3SW1hZ2UoYml0bWFwLCAwLCAwKTsNCiAgICAgICAgICAgICAgICBiaXRtYXAuY2xvc2UoKTsNCiAgICAgICAgICAgICAgICBjb25zdCBibG9iID0geWllbGQgb2Zmc2NyZWVuLmNvbnZlcnRUb0Jsb2IoZGF0YVVSTE9wdGlvbnMpOw0KICAgICAgICAgICAgICAgIGNvbnN0IHR5cGUgPSBibG9iLnR5cGU7DQogICAgICAgICAgICAgICAgY29uc3QgYXJyYXlCdWZmZXIgPSB5aWVsZCBibG9iLmFycmF5QnVmZmVyKCk7DQogICAgICAgICAgICAgICAgY29uc3QgYmFzZTY0ID0gZW5jb2RlKGFycmF5QnVmZmVyKTsNCiAgICAgICAgICAgICAgICBpZiAoIWxhc3RCbG9iTWFwLmhhcyhpZCkgJiYgKHlpZWxkIHRyYW5zcGFyZW50QmFzZTY0KSA9PT0gYmFzZTY0KSB7DQogICAgICAgICAgICAgICAgICAgIGxhc3RCbG9iTWFwLnNldChpZCwgYmFzZTY0KTsNCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHdvcmtlci5wb3N0TWVzc2FnZSh7IGlkIH0pOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBpZiAobGFzdEJsb2JNYXAuZ2V0KGlkKSA9PT0gYmFzZTY0KQ0KICAgICAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQgfSk7DQogICAgICAgICAgICAgICAgd29ya2VyLnBvc3RNZXNzYWdlKHsNCiAgICAgICAgICAgICAgICAgICAgaWQsDQogICAgICAgICAgICAgICAgICAgIHR5cGUsDQogICAgICAgICAgICAgICAgICAgIGJhc2U2NCwNCiAgICAgICAgICAgICAgICAgICAgd2lkdGgsDQogICAgICAgICAgICAgICAgICAgIGhlaWdodCwNCiAgICAgICAgICAgICAgICB9KTsNCiAgICAgICAgICAgICAgICBsYXN0QmxvYk1hcC5zZXQoaWQsIGJhc2U2NCk7DQogICAgICAgICAgICB9DQogICAgICAgICAgICBlbHNlIHsNCiAgICAgICAgICAgICAgICByZXR1cm4gd29ya2VyLnBvc3RNZXNzYWdlKHsgaWQ6IGUuZGF0YS5pZCB9KTsNCiAgICAgICAgICAgIH0NCiAgICAgICAgfSk7DQogICAgfTsKCn0pKCk7Cgo=", Zn = null, Un = !1, Jo && Qo(Vn, Zn, Un), function(t) {
     t[t.Document = 0] = "Document", t[t.DocumentType = 1] = "DocumentType", t[t.Element = 2] = "Element", t[t.Text = 3] = "Text", t[t.CDATA = 4] = "CDATA", t[t.Comment = 5] = "Comment";
   }(U || (U = {}));
-  var Jo = function() {
+  var $o = function() {
     function t() {
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }
@@ -3321,12 +3321,12 @@ or you can use record.mirror to access the mirror instance during recording.`;
       const r = t[n];
       if (typeof r != "string")
         continue;
-      const i = qo(n);
+      const i = es(n);
       e.push(`${i}: ${r};`);
     }
     return e.join(" ");
   }
-  const $o = /-([a-z])/g, Xo = /^--[a-zA-Z0-9-]+$/, Kt = (t) => Xo.test(t) ? t : t.replace($o, (e, n) => n ? n.toUpperCase() : ""), jo = /\B([A-Z])/g, qo = (t) => t.replace(jo, "-$1").toLowerCase();
+  const Xo = /-([a-z])/g, jo = /^--[a-zA-Z0-9-]+$/, Kt = (t) => jo.test(t) ? t : t.replace(Xo, (e, n) => n ? n.toUpperCase() : ""), qo = /\B([A-Z])/g, es = (t) => t.replace(qo, "-$1").toLowerCase();
   class ve {
     constructor(...e) {
       this.childNodes = [], this.parentElement = null, this.parentNode = null, this.ELEMENT_NODE = re.ELEMENT_NODE, this.TEXT_NODE = re.TEXT_NODE;
@@ -3365,7 +3365,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return "RRNode";
     }
   }
-  function Jr(t) {
+  function $r(t) {
     return class extends t {
       constructor(e, n, r) {
         super(), this.nodeType = re.DOCUMENT_TYPE_NODE, this.RRNodeType = U.DocumentType, this.textContent = null, this.name = e, this.publicId = n, this.systemId = r, this.nodeName = e;
@@ -3375,7 +3375,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     };
   }
-  function $r(t) {
+  function Xr(t) {
     return class extends t {
       constructor(e) {
         super(), this.nodeType = re.ELEMENT_NODE, this.RRNodeType = U.Element, this.attributes = {}, this.shadowRoot = null, this.tagName = e.toUpperCase(), this.nodeName = e.toUpperCase();
@@ -3388,7 +3388,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         this.childNodes = [this.ownerDocument.createTextNode(e)];
       }
       get classList() {
-        return new es(this.attributes.class, (e) => {
+        return new ts(this.attributes.class, (e) => {
           this.attributes.class = e;
         });
       }
@@ -3464,7 +3464,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     };
   }
-  function Xr(t) {
+  function jr(t) {
     return class extends t {
       constructor(e) {
         super(), this.nodeType = re.TEXT_NODE, this.nodeName = "#text", this.RRNodeType = U.Text, this.data = e;
@@ -3480,7 +3480,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     };
   }
-  function jr(t) {
+  function qr(t) {
     return class extends t {
       constructor(e) {
         super(), this.nodeType = re.COMMENT_NODE, this.nodeName = "#comment", this.RRNodeType = U.Comment, this.data = e;
@@ -3496,7 +3496,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     };
   }
-  function qr(t) {
+  function ei(t) {
     return class extends t {
       constructor(e) {
         super(), this.nodeName = "#cdata-section", this.nodeType = re.CDATA_SECTION_NODE, this.RRNodeType = U.CDATA, this.data = e;
@@ -3512,7 +3512,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     };
   }
-  class es {
+  class ts {
     constructor(e, n) {
       if (this.classes = [], this.add = (...r) => {
         for (const i of r) {
@@ -3533,7 +3533,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   (function(t) {
     t[t.PLACEHOLDER = 0] = "PLACEHOLDER", t[t.ELEMENT_NODE = 1] = "ELEMENT_NODE", t[t.ATTRIBUTE_NODE = 2] = "ATTRIBUTE_NODE", t[t.TEXT_NODE = 3] = "TEXT_NODE", t[t.CDATA_SECTION_NODE = 4] = "CDATA_SECTION_NODE", t[t.ENTITY_REFERENCE_NODE = 5] = "ENTITY_REFERENCE_NODE", t[t.ENTITY_NODE = 6] = "ENTITY_NODE", t[t.PROCESSING_INSTRUCTION_NODE = 7] = "PROCESSING_INSTRUCTION_NODE", t[t.COMMENT_NODE = 8] = "COMMENT_NODE", t[t.DOCUMENT_NODE = 9] = "DOCUMENT_NODE", t[t.DOCUMENT_TYPE_NODE = 10] = "DOCUMENT_TYPE_NODE", t[t.DOCUMENT_FRAGMENT_NODE = 11] = "DOCUMENT_FRAGMENT_NODE";
   })(re || (re = {}));
-  const sn = { svg: "http://www.w3.org/2000/svg", "xlink:href": "http://www.w3.org/1999/xlink", xmlns: "http://www.w3.org/2000/xmlns/" }, ts = { altglyph: "altGlyph", altglyphdef: "altGlyphDef", altglyphitem: "altGlyphItem", animatecolor: "animateColor", animatemotion: "animateMotion", animatetransform: "animateTransform", clippath: "clipPath", feblend: "feBlend", fecolormatrix: "feColorMatrix", fecomponenttransfer: "feComponentTransfer", fecomposite: "feComposite", feconvolvematrix: "feConvolveMatrix", fediffuselighting: "feDiffuseLighting", fedisplacementmap: "feDisplacementMap", fedistantlight: "feDistantLight", fedropshadow: "feDropShadow", feflood: "feFlood", fefunca: "feFuncA", fefuncb: "feFuncB", fefuncg: "feFuncG", fefuncr: "feFuncR", fegaussianblur: "feGaussianBlur", feimage: "feImage", femerge: "feMerge", femergenode: "feMergeNode", femorphology: "feMorphology", feoffset: "feOffset", fepointlight: "fePointLight", fespecularlighting: "feSpecularLighting", fespotlight: "feSpotLight", fetile: "feTile", feturbulence: "feTurbulence", foreignobject: "foreignObject", glyphref: "glyphRef", lineargradient: "linearGradient", radialgradient: "radialGradient" };
+  const sn = { svg: "http://www.w3.org/2000/svg", "xlink:href": "http://www.w3.org/1999/xlink", xmlns: "http://www.w3.org/2000/xmlns/" }, ns = { altglyph: "altGlyph", altglyphdef: "altGlyphDef", altglyphitem: "altGlyphItem", animatecolor: "animateColor", animatemotion: "animateMotion", animatetransform: "animateTransform", clippath: "clipPath", feblend: "feBlend", fecolormatrix: "feColorMatrix", fecomponenttransfer: "feComponentTransfer", fecomposite: "feComposite", feconvolvematrix: "feConvolveMatrix", fediffuselighting: "feDiffuseLighting", fedisplacementmap: "feDisplacementMap", fedistantlight: "feDistantLight", fedropshadow: "feDropShadow", feflood: "feFlood", fefunca: "feFuncA", fefuncb: "feFuncB", fefuncg: "feFuncG", fefuncr: "feFuncR", fegaussianblur: "feGaussianBlur", feimage: "feImage", femerge: "feMerge", femergenode: "feMergeNode", femorphology: "feMorphology", feoffset: "feOffset", fepointlight: "fePointLight", fespecularlighting: "feSpecularLighting", fespotlight: "feSpotLight", fetile: "feTile", feturbulence: "feTurbulence", foreignobject: "foreignObject", glyphref: "glyphRef", lineargradient: "linearGradient", radialgradient: "radialGradient" };
   function be(t, e, n, r) {
     const i = t.childNodes, o = e.childNodes;
     r = r || e.mirror || e.ownerDocument.mirror, (i.length > 0 || o.length > 0) && Kn(Array.from(i), o, t, n, r);
@@ -3671,7 +3671,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         break;
       case U.Element: {
         let s = t.tagName.toLowerCase();
-        s = ts[s] || s, o = i && "isSVG" in i && (i != null && i.isSVG) ? document.createElementNS(sn.svg, s) : document.createElement(t.tagName);
+        s = ns[s] || s, o = i && "isSVG" in i && (i != null && i.isSVG) ? document.createElementNS(sn.svg, s) : document.createElement(t.tagName);
         break;
       }
       case U.Text:
@@ -3686,7 +3686,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     return i && e.add(o, Object.assign({}, i)), o;
   }
   class je extends function(e) {
-    return class ei extends e {
+    return class ti extends e {
       constructor() {
         super(...arguments), this.nodeType = re.DOCUMENT_NODE, this.nodeName = "#document", this.compatMode = "CSS1Compat", this.RRNodeType = U.Document, this.textContent = null;
       }
@@ -3743,29 +3743,29 @@ or you can use record.mirror to access the mirror instance during recording.`;
         }
       }
       createDocument(r, i, o) {
-        return new ei();
+        return new ti();
       }
       createDocumentType(r, i, o) {
-        const s = new (Jr(ve))(r, i, o);
+        const s = new ($r(ve))(r, i, o);
         return s.ownerDocument = this, s;
       }
       createElement(r) {
-        const i = new ($r(ve))(r);
+        const i = new (Xr(ve))(r);
         return i.ownerDocument = this, i;
       }
       createElementNS(r, i) {
         return this.createElement(i);
       }
       createTextNode(r) {
-        const i = new (Xr(ve))(r);
-        return i.ownerDocument = this, i;
-      }
-      createComment(r) {
         const i = new (jr(ve))(r);
         return i.ownerDocument = this, i;
       }
-      createCDATASection(r) {
+      createComment(r) {
         const i = new (qr(ve))(r);
+        return i.ownerDocument = this, i;
+      }
+      createCDATASection(r) {
+        const i = new (ei(ve))(r);
         return i.ownerDocument = this, i;
       }
       toString() {
@@ -3774,7 +3774,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     };
   }(ve) {
     constructor(e) {
-      super(), this.UNSERIALIZED_STARTING_ID = -2, this._unserializedId = this.UNSERIALIZED_STARTING_ID, this.mirror = new us(), this.scrollData = null, e && (this.mirror = e);
+      super(), this.UNSERIALIZED_STARTING_ID = -2, this._unserializedId = this.UNSERIALIZED_STARTING_ID, this.mirror = new hs(), this.scrollData = null, e && (this.mirror = e);
     }
     get unserializedId() {
       return this._unserializedId--;
@@ -3783,7 +3783,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return new je();
     }
     createDocumentType(e, n, r) {
-      const i = new ns(e, n, r);
+      const i = new rs(e, n, r);
       return i.ownerDocument = this, i;
     }
     createElement(e) {
@@ -3792,16 +3792,16 @@ or you can use record.mirror to access the mirror instance during recording.`;
       switch (n) {
         case "AUDIO":
         case "VIDEO":
-          r = new rs(n);
-          break;
-        case "IFRAME":
-          r = new ss(n, this.mirror);
-          break;
-        case "CANVAS":
           r = new is(n);
           break;
-        case "STYLE":
+        case "IFRAME":
+          r = new as(n, this.mirror);
+          break;
+        case "CANVAS":
           r = new os(n);
+          break;
+        case "STYLE":
+          r = new ss(n);
           break;
         default:
           r = new mt(n);
@@ -3809,15 +3809,15 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return r.ownerDocument = this, r;
     }
     createComment(e) {
-      const n = new ls(e);
-      return n.ownerDocument = this, n;
-    }
-    createCDATASection(e) {
       const n = new cs(e);
       return n.ownerDocument = this, n;
     }
+    createCDATASection(e) {
+      const n = new ds(e);
+      return n.ownerDocument = this, n;
+    }
     createTextNode(e) {
-      const n = new as(e);
+      const n = new ls(e);
       return n.ownerDocument = this, n;
     }
     destroyTree() {
@@ -3827,13 +3827,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
       super.open(), this._unserializedId = this.UNSERIALIZED_STARTING_ID;
     }
   }
-  const ns = Jr(ve);
-  class mt extends $r(ve) {
+  const rs = $r(ve);
+  class mt extends Xr(ve) {
     constructor() {
       super(...arguments), this.inputData = null, this.scrollData = null;
     }
   }
-  class rs extends function(e) {
+  class is extends function(e) {
     return class extends e {
       attachShadow(n) {
         throw new Error("RRDomException: Failed to execute 'attachShadow' on 'RRElement': This RRElement does not support attachShadow");
@@ -3847,7 +3847,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     };
   }(mt) {
   }
-  class is extends mt {
+  class os extends mt {
     constructor() {
       super(...arguments), this.rr_dataURL = null, this.canvasMutations = [];
     }
@@ -3855,18 +3855,18 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return null;
     }
   }
-  class os extends mt {
+  class ss extends mt {
     constructor() {
       super(...arguments), this.rules = [];
     }
   }
-  class ss extends mt {
+  class as extends mt {
     constructor(e, n) {
       super(e), this.contentDocument = new je(), this.contentDocument.mirror = n;
     }
   }
-  const as = Xr(ve), ls = jr(ve), cs = qr(ve);
-  function ti(t, e, n, r) {
+  const ls = jr(ve), cs = qr(ve), ds = ei(ve);
+  function ni(t, e, n, r) {
     let i;
     switch (t.nodeType) {
       case re.DOCUMENT_NODE:
@@ -3904,13 +3904,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
         return null;
     }
     let o = n.getMeta(t);
-    return e instanceof je && (o || (o = ni(i, e.unserializedId), n.add(t, o)), e.mirror.add(i, Object.assign({}, o))), i;
+    return e instanceof je && (o || (o = ri(i, e.unserializedId), n.add(t, o)), e.mirror.add(i, Object.assign({}, o))), i;
   }
-  function ds(t, e = function() {
-    return new Jo();
+  function us(t, e = function() {
+    return new $o();
   }(), n = new je()) {
     return function r(i, o) {
-      const s = ti(i, n, e, o);
+      const s = ni(i, n, e, o);
       if (s !== null)
         if ((o == null ? void 0 : o.nodeName) !== "IFRAME" && i.nodeType !== re.DOCUMENT_FRAGMENT_NODE && (o == null || o.appendChild(s), s.parentNode = o, s.parentElement = o), i.nodeName === "IFRAME") {
           const a = i.contentDocument;
@@ -3919,7 +3919,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
           i.nodeType !== re.DOCUMENT_NODE && i.nodeType !== re.ELEMENT_NODE && i.nodeType !== re.DOCUMENT_FRAGMENT_NODE || (i.nodeType === re.ELEMENT_NODE && i.shadowRoot && r(i.shadowRoot, s), i.childNodes.forEach((a) => r(a, s)));
     }(t, null), n;
   }
-  class us {
+  class hs {
     constructor() {
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }
@@ -3965,7 +3965,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       this.idNodeMap = /* @__PURE__ */ new Map(), this.nodeMetaMap = /* @__PURE__ */ new WeakMap();
     }
   }
-  function ni(t, e) {
+  function ri(t, e) {
     switch (t.RRNodeType) {
       case U.Document:
         return { id: e, type: t.RRNodeType, childNodes: [] };
@@ -3982,7 +3982,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         return { id: e, type: t.RRNodeType, textContent: "" };
     }
   }
-  var ye = Uint8Array, Me = Uint16Array, ln = Uint32Array, ri = new ye([0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 0, 0, 0, 0]), ii = new ye([0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 0, 0]), hs = new ye([16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]), oi = function(t, e) {
+  var ye = Uint8Array, Me = Uint16Array, ln = Uint32Array, ii = new ye([0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 0, 0, 0, 0]), oi = new ye([0, 0, 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 9, 9, 10, 10, 11, 11, 12, 12, 13, 13, 0, 0]), gs = new ye([16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15]), si = function(t, e) {
     for (var n = new Me(31), r = 0; r < 31; ++r)
       n[r] = e += 1 << t[r - 1];
     var i = new ln(n[30]);
@@ -3990,9 +3990,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       for (var o = n[r]; o < n[r + 1]; ++o)
         i[o] = o - n[r] << 5 | r;
     return [n, i];
-  }, si = oi(ri, 2), ai = si[0], gs = si[1];
-  ai[28] = 258, gs[258] = 28;
-  for (var ps = oi(ii, 0)[0], cn = new Me(32768), ne = 0; ne < 32768; ++ne) {
+  }, ai = si(ii, 2), li = ai[0], ps = ai[1];
+  li[28] = 258, ps[258] = 28;
+  for (var ms = si(oi, 0)[0], cn = new Me(32768), ne = 0; ne < 32768; ++ne) {
     var De = (43690 & ne) >>> 1 | (21845 & ne) << 1;
     De = (61680 & (De = (52428 & De) >>> 2 | (13107 & De) << 2)) >>> 4 | (3855 & De) << 4, cn[ne] = ((65280 & De) >>> 8 | (255 & De) << 8) >>> 1;
   }
@@ -4022,10 +4022,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
     ft[ne] = 7;
   for (ne = 280; ne < 288; ++ne)
     ft[ne] = 8;
-  var li = new ye(32);
+  var ci = new ye(32);
   for (ne = 0; ne < 32; ++ne)
-    li[ne] = 5;
-  var ms = ct(ft, 9, 1), fs = ct(li, 5, 1), Yt = function(t) {
+    ci[ne] = 5;
+  var fs = ct(ft, 9, 1), ys = ct(ci, 5, 1), Yt = function(t) {
     for (var e = t[0], n = 1; n < t.length; ++n)
       t[n] > e && (e = t[n]);
     return e;
@@ -4035,12 +4035,12 @@ or you can use record.mirror to access the mirror instance during recording.`;
   }, zt = function(t, e) {
     var n = e / 8 >> 0;
     return (t[n] | t[n + 1] << 8 | t[n + 2] << 16) >>> (7 & e);
-  }, ci = function(t, e, n) {
+  }, di = function(t, e, n) {
     (e == null || e < 0) && (e = 0), (n == null || n > t.length) && (n = t.length);
     var r = new (t instanceof Me ? Me : t instanceof ln ? ln : ye)(n - e);
     return r.set(t.subarray(e, n)), r;
   };
-  function ys(t, e) {
+  function Is(t, e) {
     return function(n, r, i) {
       var o = n.length, s = !r || i, a = !i || i.i;
       i || (i = {}), r || (r = new ye(3 * o));
@@ -4066,14 +4066,14 @@ or you can use record.mirror to access the mirror instance during recording.`;
             continue;
           }
           if (f == 1)
-            m = ms, h = fs, p = 9, y = 5;
+            m = fs, h = ys, p = 9, y = 5;
           else {
             if (f != 2)
               throw "invalid block type";
             var O = Ie(n, u, 31) + 257, F = Ie(n, u + 10, 15) + 4, W = O + Ie(n, u + 5, 31) + 1;
             u += 14;
             for (var R = new ye(W), b = new ye(19), x = 0; x < F; ++x)
-              b[hs[x]] = Ie(n, u + 3 * x, 7);
+              b[gs[x]] = Ie(n, u + 3 * x, 7);
             u += 3 * F;
             var A = Yt(b), v = (1 << A) - 1;
             if (!a && u + W * (A + 7) > I)
@@ -4111,13 +4111,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
             }
             var N = z - 254;
             if (z > 264) {
-              var V = ri[x = z - 257];
-              N = Ie(n, u, (1 << V) - 1) + ai[x], u += V;
+              var V = ii[x = z - 257];
+              N = Ie(n, u, (1 << V) - 1) + li[x], u += V;
             }
             var E = h[zt(n, u) & X], q = E >>> 4;
             if (!E)
               throw "invalid distance";
-            if (u += 15 & E, D = ps[q], q > 3 && (V = ii[q], D += zt(n, u) & (1 << V) - 1, u += V), u > I)
+            if (u += 15 & E, D = ms[q], q > 3 && (V = oi[q], D += zt(n, u) & (1 << V) - 1, u += V), u > I)
               throw "unexpected EOF";
             s && c(g + 131072);
             for (var k = g + N; g < k; g += 4)
@@ -4127,7 +4127,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         }
         i.l = m, i.p = u, i.b = g, m && (d = 1, i.m = p, i.d = h, i.n = y);
       } while (!d);
-      return g == r.length ? r : ci(r, 0, g);
+      return g == r.length ? r : di(r, 0, g);
     }((function(n) {
       if ((15 & n[0]) != 8 || n[0] >>> 4 > 7 || (n[0] << 8 | n[1]) % 31)
         throw "invalid zlib data";
@@ -4135,7 +4135,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         throw "invalid zlib data: preset dictionaries not supported";
     }(t), t.subarray(2, -4)), e);
   }
-  const Is = (t) => {
+  const Cs = (t) => {
     if (typeof t != "string")
       return t;
     try {
@@ -4154,7 +4154,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
           s < 128 || r ? i += String.fromCharCode(s) : s < 224 ? i += String.fromCharCode((31 & s) << 6 | 63 & n[o++]) : s < 240 ? i += String.fromCharCode((15 & s) << 12 | (63 & n[o++]) << 6 | 63 & n[o++]) : (s = ((15 & s) << 18 | (63 & n[o++]) << 12 | (63 & n[o++]) << 6 | 63 & n[o++]) - 65536, i += String.fromCharCode(55296 | s >> 10, 56320 | 1023 & s));
         }
         return i;
-      }(ys(function(n, r) {
+      }(Is(function(n, r) {
         var i = n.length;
         if (!r && typeof TextEncoder < "u")
           return new TextEncoder().encode(n);
@@ -4168,7 +4168,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
           var d = n.charCodeAt(l);
           d < 128 || r ? a(d) : d < 2048 ? (a(192 | d >>> 6), a(128 | 63 & d)) : d > 55295 && d < 57344 ? (a(240 | (d = 65536 + (1047552 & d) | 1023 & n.charCodeAt(++l)) >>> 18), a(128 | d >>> 12 & 63), a(128 | d >>> 6 & 63), a(128 | 63 & d)) : (a(224 | d >>> 12), a(128 | d >>> 6 & 63), a(128 | 63 & d));
         }
-        return ci(o, 0, s);
+        return di(o, 0, s);
       }(t, !0))));
       if (e.v === "v1")
         return e;
@@ -4177,7 +4177,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       throw console.error(e), new Error("Unknown data format.");
     }
   };
-  function di(t) {
+  function ui(t) {
     return { all: t = t || /* @__PURE__ */ new Map(), on: function(e, n) {
       var r = t.get(e);
       r ? r.push(n) : t.set(e, [n]);
@@ -4193,8 +4193,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
       });
     } };
   }
-  var ze, Cs = Object.freeze({ __proto__: null, default: di });
-  function vs(t = window, e = document) {
+  var ze, vs = Object.freeze({ __proto__: null, default: ui });
+  function bs(t = window, e = document) {
     if ("scrollBehavior" in e.documentElement.style && t.__forceSmoothScrollPolyfill__ !== !0)
       return;
     const n = t.HTMLElement || t.Element, r = { scroll: t.scroll || t.scrollTo, scrollBy: t.scrollBy, elementScroll: n.prototype.scroll || a, scrollIntoView: n.prototype.scrollIntoView }, i = t.performance && t.performance.now ? t.performance.now.bind(t.performance) : Date.now, o = (s = t.navigator.userAgent, new RegExp(["MSIE ", "Trident/", "Edge/"].join("|")).test(s) ? 1 : 0);
@@ -4258,7 +4258,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       p !== e.body ? (h.call(this, p, p.scrollLeft + I.left - y.left, p.scrollTop + I.top - y.top), t.getComputedStyle(p).position !== "fixed" && t.scrollBy({ left: y.left, top: y.top, behavior: "smooth" })) : t.scrollBy({ left: I.left, top: I.top, behavior: "smooth" });
     };
   }
-  class bs {
+  class As {
     constructor(e = [], n) {
       this.timeOffset = 0, this.raf = null, this.actions = e, this.speed = n.speed, this.liveMode = n.liveMode;
     }
@@ -4354,7 +4354,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
   (function(t) {
     t[t.NotStarted = 0] = "NotStarted", t[t.Running = 1] = "Running", t[t.Stopped = 2] = "Stopped";
   })(ze || (ze = {}));
-  var ui = { type: "xstate.init" };
+  var hi = { type: "xstate.init" };
   function Ht(t) {
     return t === void 0 ? [] : [].concat(t);
   }
@@ -4369,7 +4369,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return t === e;
     };
   }
-  function hi(t) {
+  function gi(t) {
     return typeof t == "string" ? { type: t } : t;
   }
   function Qn(t, e) {
@@ -4388,12 +4388,12 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return !0;
     }), r, i];
   }
-  function gi(t, e) {
+  function pi(t, e) {
     e === void 0 && (e = {});
     var n = zn(Jn(Ht(t.states[t.initial].entry).map(function(s) {
       return Hn(s, e.actions);
-    }), t.context, ui), 2), r = n[0], i = n[1], o = { config: t, _options: e, initialState: { value: t.initial, actions: r, context: i, matches: Ot(t.initial) }, transition: function(s, a) {
-      var l, c, d = typeof s == "string" ? { value: s, context: t.context } : s, u = d.value, g = d.context, m = hi(a), h = t.states[u];
+    }), t.context, hi), 2), r = n[0], i = n[1], o = { config: t, _options: e, initialState: { value: t.initial, actions: r, context: i, matches: Ot(t.initial) }, transition: function(s, a) {
+      var l, c, d = typeof s == "string" ? { value: s, context: t.context } : s, u = d.value, g = d.context, m = gi(a), h = t.states[u];
       if (h.on) {
         var p = Ht(h.on[m.type]);
         try {
@@ -4443,9 +4443,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return r && r(t.context, e);
     });
   };
-  function pi(t) {
+  function mi(t) {
     var e = t.initialState, n = ze.NotStarted, r = /* @__PURE__ */ new Set(), i = { _machine: t, send: function(o) {
-      n === ze.Running && (e = t.transition(e, o), $n(e, hi(o)), r.forEach(function(s) {
+      n === ze.Running && (e = t.transition(e, o), $n(e, gi(o)), r.forEach(function(s) {
         return s(e);
       }));
     }, subscribe: function(o) {
@@ -4457,7 +4457,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         var s = typeof o == "object" ? o : { context: t.config.context, value: o };
         e = { value: s.value, actions: [], context: s.context, matches: Ot(s.value) };
       }
-      return n = ze.Running, $n(e, ui), i;
+      return n = ze.Running, $n(e, hi), i;
     }, stop: function() {
       return n = ze.Stopped, r.clear(), i;
     }, get state() {
@@ -4467,8 +4467,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
     } };
     return i;
   }
-  function As(t, { getCastFn: e, applyEventsSynchronously: n, emitter: r }) {
-    const i = gi({ id: "player", context: t, initial: "paused", states: { playing: { on: { PAUSE: { target: "paused", actions: ["pause"] }, CAST_EVENT: { target: "playing", actions: "castEvent" }, END: { target: "paused", actions: ["resetLastPlayedEvent", "pause"] }, ADD_EVENT: { target: "playing", actions: ["addEvent"] } } }, paused: { on: { PLAY: { target: "playing", actions: ["recordTimeOffset", "play"] }, CAST_EVENT: { target: "paused", actions: "castEvent" }, TO_LIVE: { target: "live", actions: ["startLive"] }, ADD_EVENT: { target: "paused", actions: ["addEvent"] } } }, live: { on: { ADD_EVENT: { target: "live", actions: ["addEvent"] }, CAST_EVENT: { target: "live", actions: ["castEvent"] } } } } }, { actions: { castEvent: Ze({ lastPlayedEvent: (o, s) => s.type === "CAST_EVENT" ? s.payload.event : o.lastPlayedEvent }), recordTimeOffset: Ze((o, s) => {
+  function Ss(t, { getCastFn: e, applyEventsSynchronously: n, emitter: r }) {
+    const i = pi({ id: "player", context: t, initial: "paused", states: { playing: { on: { PAUSE: { target: "paused", actions: ["pause"] }, CAST_EVENT: { target: "playing", actions: "castEvent" }, END: { target: "paused", actions: ["resetLastPlayedEvent", "pause"] }, ADD_EVENT: { target: "playing", actions: ["addEvent"] } } }, paused: { on: { PLAY: { target: "playing", actions: ["recordTimeOffset", "play"] }, CAST_EVENT: { target: "paused", actions: "castEvent" }, TO_LIVE: { target: "live", actions: ["startLive"] }, ADD_EVENT: { target: "paused", actions: ["addEvent"] } } }, live: { on: { ADD_EVENT: { target: "live", actions: ["addEvent"] }, CAST_EVENT: { target: "live", actions: ["castEvent"] } } } } }, { actions: { castEvent: Ze({ lastPlayedEvent: (o, s) => s.type === "CAST_EVENT" ? s.payload.event : o.lastPlayedEvent }), recordTimeOffset: Ze((o, s) => {
       let a = o.timeOffset;
       return "payload" in s && "timeOffset" in s.payload && (a = s.payload.timeOffset), Object.assign(Object.assign({}, o), { timeOffset: a, baselineTime: o.events[0].timestamp + a });
     }), play(o) {
@@ -4524,10 +4524,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
       return Object.assign(Object.assign({}, o), { events: c });
     }) } });
-    return pi(i);
+    return mi(i);
   }
   const Xn = /* @__PURE__ */ new Map();
-  function mi(t, e) {
+  function fi(t, e) {
     let n = Xn.get(t);
     return n || (n = /* @__PURE__ */ new Map(), Xn.set(t, n)), n.has(e) || n.set(e, []), n.get(e);
   }
@@ -4542,7 +4542,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
           if (n || e === null)
             return r;
           const { rr_type: i, index: o } = r;
-          return mi(e, i)[o];
+          return fi(e, i)[o];
         }
         if ("args" in r) {
           const { rr_type: i, args: o } = r;
@@ -4575,8 +4575,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return r;
     });
   }
-  const Ss = ["WebGLActiveInfo", "WebGLBuffer", "WebGLFramebuffer", "WebGLProgram", "WebGLRenderbuffer", "WebGLShader", "WebGLShaderPrecisionFormat", "WebGLTexture", "WebGLUniformLocation", "WebGLVertexArrayObject"];
-  function ws({ mutation: t, target: e, type: n, imageMap: r, errorHandler: i }) {
+  const ws = ["WebGLActiveInfo", "WebGLBuffer", "WebGLFramebuffer", "WebGLProgram", "WebGLRenderbuffer", "WebGLShader", "WebGLShaderPrecisionFormat", "WebGLTexture", "WebGLUniformLocation", "WebGLVertexArrayObject"];
+  function Ns({ mutation: t, target: e, type: n, imageMap: r, errorHandler: i }) {
     return Le(this, void 0, void 0, function* () {
       try {
         const o = function(l, c) {
@@ -4595,9 +4595,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
           if (!(c != null && c.constructor))
             return;
           const { name: d } = c.constructor;
-          if (!Ss.includes(d))
+          if (!ws.includes(d))
             return;
-          const u = mi(l, d);
+          const u = fi(l, d);
           u.includes(c) || u.push(c);
         })(o, s.apply(o, a));
       } catch (o) {
@@ -4605,7 +4605,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     });
   }
-  function Ns({ event: t, mutation: e, target: n, imageMap: r, errorHandler: i }) {
+  function Es({ event: t, mutation: e, target: n, imageMap: r, errorHandler: i }) {
     return Le(this, void 0, void 0, function* () {
       try {
         const o = n.getContext("2d");
@@ -4630,26 +4630,26 @@ or you can use record.mirror to access the mirror instance during recording.`;
         if ([Ft.WebGL, Ft.WebGL2].includes(e.type)) {
           for (let l = 0; l < a.length; l++) {
             const c = a[l];
-            yield ws({ mutation: c, type: e.type, target: n, imageMap: r, errorHandler: o });
+            yield Ns({ mutation: c, type: e.type, target: n, imageMap: r, errorHandler: o });
           }
           return;
         }
         for (let l = 0; l < a.length; l++) {
           const c = a[l];
-          yield Ns({ event: t, mutation: c, target: n, imageMap: r, errorHandler: o });
+          yield Es({ event: t, mutation: c, target: n, imageMap: r, errorHandler: o });
         }
       } catch (s) {
         o(e, s);
       }
     });
   }
-  const Es = di || Cs, Qt = { duration: 500, lineCap: "round", lineWidth: 3, strokeStyle: "red" };
+  const Ts = ui || vs, Qt = { duration: 500, lineCap: "round", lineWidth: 3, strokeStyle: "red" };
   function qn(t) {
     return t.type == te.IncrementalSnapshot && (t.data.source == H.TouchMove || t.data.source == H.MouseInteraction && t.data.type == he.TouchStart);
   }
-  class Ts {
+  class Ms {
     constructor(e, n) {
-      if (this.usingVirtualDom = !1, this.virtualDom = new je(), this.mouseTail = null, this.tailPositions = [], this.emitter = Es(), this.legacy_missingNodeRetryMap = {}, this.cache = Wn(), this.imageMap = /* @__PURE__ */ new Map(), this.canvasEventMap = /* @__PURE__ */ new Map(), this.mirror = Go(), this.styleMirror = new Yo(), this.firstFullSnapshot = null, this.newDocumentQueue = [], this.mousePos = null, this.touchActive = null, this.lastSelectionData = null, this.constructedStyleMutations = [], this.adoptedStyleSheets = [], this.handleResize = (a) => {
+      if (this.usingVirtualDom = !1, this.virtualDom = new je(), this.mouseTail = null, this.tailPositions = [], this.emitter = Ts(), this.legacy_missingNodeRetryMap = {}, this.cache = Wn(), this.imageMap = /* @__PURE__ */ new Map(), this.canvasEventMap = /* @__PURE__ */ new Map(), this.mirror = Vo(), this.styleMirror = new zo(), this.firstFullSnapshot = null, this.newDocumentQueue = [], this.mousePos = null, this.touchActive = null, this.lastSelectionData = null, this.constructedStyleMutations = [], this.adoptedStyleSheets = [], this.handleResize = (a) => {
         this.iframe.style.display = "inherit";
         for (const l of [this.mouseTail, this.iframe])
           l && (l.setAttribute("width", String(a.width)), l.setAttribute("height", String(a.height)));
@@ -4755,10 +4755,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }), this.emitter.on(j.PlayBack, () => {
         this.firstFullSnapshot = null, this.mirror.reset(), this.styleMirror.reset();
       });
-      const i = new bs([], { speed: this.config.speed, liveMode: this.config.liveMode });
-      this.service = As({ events: e.map((a) => n && n.unpackFn ? n.unpackFn(a) : a).sort((a, l) => a.timestamp - l.timestamp), timer: i, timeOffset: 0, baselineTime: 0, lastPlayedEvent: null }, { getCastFn: this.getCastFn, applyEventsSynchronously: this.applyEventsSynchronously, emitter: this.emitter }), this.service.start(), this.service.subscribe((a) => {
+      const i = new As([], { speed: this.config.speed, liveMode: this.config.liveMode });
+      this.service = Ss({ events: e.map((a) => n && n.unpackFn ? n.unpackFn(a) : a).sort((a, l) => a.timestamp - l.timestamp), timer: i, timeOffset: 0, baselineTime: 0, lastPlayedEvent: null }, { getCastFn: this.getCastFn, applyEventsSynchronously: this.applyEventsSynchronously, emitter: this.emitter }), this.service.start(), this.service.subscribe((a) => {
         this.emitter.emit(j.StateChange, { player: a });
-      }), this.speedService = pi(gi({ id: "speed", context: { normalSpeed: -1, timer: i }, initial: "normal", states: { normal: { on: { FAST_FORWARD: { target: "skipping", actions: ["recordSpeed", "setSpeed"] }, SET_SPEED: { target: "normal", actions: ["setSpeed"] } } }, skipping: { on: { BACK_TO_NORMAL: { target: "normal", actions: ["restoreSpeed"] }, SET_SPEED: { target: "normal", actions: ["setSpeed"] } } } } }, { actions: { setSpeed: (a, l) => {
+      }), this.speedService = mi(pi({ id: "speed", context: { normalSpeed: -1, timer: i }, initial: "normal", states: { normal: { on: { FAST_FORWARD: { target: "skipping", actions: ["recordSpeed", "setSpeed"] }, SET_SPEED: { target: "normal", actions: ["setSpeed"] } } }, skipping: { on: { BACK_TO_NORMAL: { target: "normal", actions: ["restoreSpeed"] }, SET_SPEED: { target: "normal", actions: ["setSpeed"] } } } } }, { actions: { setSpeed: (a, l) => {
         "payload" in l && a.timer.setSpeed(l.payload.speed);
       }, recordSpeed: Ze({ normalSpeed: (a) => a.timer.speed }), restoreSpeed: (a) => {
         a.timer.setSpeed(a.normalSpeed);
@@ -4838,7 +4838,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     setupDom() {
       this.wrapper = document.createElement("div"), this.wrapper.classList.add("replayer-wrapper"), this.config.root.appendChild(this.wrapper), this.mouse = document.createElement("div"), this.mouse.classList.add("replayer-mouse"), this.wrapper.appendChild(this.mouse), this.config.mouseTail !== !1 && (this.mouseTail = document.createElement("canvas"), this.mouseTail.classList.add("replayer-mouse-tail"), this.mouseTail.style.display = "inherit", this.wrapper.appendChild(this.mouseTail)), this.iframe = document.createElement("iframe");
       const e = ["allow-same-origin"];
-      this.config.UNSAFE_replayCanvas && e.push("allow-scripts"), this.iframe.style.display = "none", this.iframe.setAttribute("sandbox", e.join(" ")), this.disableInteract(), this.wrapper.appendChild(this.iframe), this.iframe.contentWindow && this.iframe.contentDocument && (vs(this.iframe.contentWindow, this.iframe.contentDocument), function(n = window) {
+      this.config.UNSAFE_replayCanvas && e.push("allow-scripts"), this.iframe.style.display = "none", this.iframe.setAttribute("sandbox", e.join(" ")), this.disableInteract(), this.wrapper.appendChild(this.iframe), this.iframe.contentWindow && this.iframe.contentDocument && (bs(this.iframe.contentWindow, this.iframe.contentDocument), function(n = window) {
         "NodeList" in n && !n.NodeList.prototype.forEach && (n.NodeList.prototype.forEach = Array.prototype.forEach), "DOMTokenList" in n && !n.DOMTokenList.prototype.forEach && (n.DOMTokenList.prototype.forEach = Array.prototype.forEach), Node.prototype.contains || (Node.prototype.contains = (...r) => {
           let i = r[0];
           if (!(0 in r))
@@ -4860,7 +4860,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         for (const c of this.config.plugins || [])
           c.onBuild && c.onBuild(a, { id: l, replayer: this });
       };
-      Po(e.data.node, { doc: this.iframe.contentDocument, afterAppend: i, cache: this.cache, mirror: this.mirror }), i(this.iframe.contentDocument, e.data.node.id);
+      Ko(e.data.node, { doc: this.iframe.contentDocument, afterAppend: i, cache: this.cache, mirror: this.mirror }), i(this.iframe.contentDocument, e.data.node.id);
       for (const { mutationInQueue: a, builtNode: l } of r)
         this.attachDocumentToIframe(a, l), this.newDocumentQueue = this.newDocumentQueue.filter((c) => c !== a);
       const { documentElement: o, head: s } = this.iframe.contentDocument;
@@ -4872,7 +4872,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       var o;
       if (this.config.pauseAnimation && i.push("html.rrweb-paused *, html.rrweb-paused *:before, html.rrweb-paused *:after { animation-play-state: paused !important; }"), this.usingVirtualDom) {
         const s = this.virtualDom.createElement("style");
-        this.virtualDom.mirror.add(s, ni(s, this.virtualDom.unserializedId)), e.insertBefore(s, n), s.rules.push({ source: H.StyleSheetRule, adds: i.map((a, l) => ({ rule: a, index: l })) });
+        this.virtualDom.mirror.add(s, ri(s, this.virtualDom.unserializedId)), e.insertBefore(s, n), s.rules.push({ source: H.StyleSheetRule, adds: i.map((a, l) => ({ rule: a, index: l })) });
       } else {
         const s = document.createElement("style");
         e.insertBefore(s, n);
@@ -5093,10 +5093,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }
     }
     applyMutation(e, n) {
-      if (this.config.useVirtualDom && !this.usingVirtualDom && n && (this.usingVirtualDom = !0, ds(this.iframe.contentDocument, this.mirror, this.virtualDom), Object.keys(this.legacy_missingNodeRetryMap).length))
+      if (this.config.useVirtualDom && !this.usingVirtualDom && n && (this.usingVirtualDom = !0, us(this.iframe.contentDocument, this.mirror, this.virtualDom), Object.keys(this.legacy_missingNodeRetryMap).length))
         for (const l in this.legacy_missingNodeRetryMap)
           try {
-            const c = this.legacy_missingNodeRetryMap[l], d = ti(c.node, this.virtualDom, this.mirror);
+            const c = this.legacy_missingNodeRetryMap[l], d = ni(c.node, this.virtualDom, this.mirror);
             d && (c.node = d);
           } catch (c) {
             this.config.showWarning && console.warn(c);
@@ -5171,13 +5171,13 @@ or you can use record.mirror to access the mirror instance during recording.`;
       });
       const a = Date.now();
       for (; o.length; ) {
-        const l = Ko(o);
+        const l = Yo(o);
         if (o.length = 0, Date.now() - a > 500) {
           this.warn("Timeout in the loop, please check the resolve tree data:", l);
           break;
         }
         for (const c of l)
-          r.getNode(c.value.parentId) ? zr(c, (d) => {
+          r.getNode(c.value.parentId) ? Hr(c, (d) => {
             s(d);
           }) : this.debug("Drop resolve tree since there is no parent for the root node.", c);
       }
@@ -5359,7 +5359,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       const s = this.mirror.getNode(r);
       if (!s)
         return this.debugNodeNotFound(o, r);
-      const a = Hr(s, this.iframe), l = e * a.absoluteScale + a.x, c = n * a.absoluteScale + a.y;
+      const a = Qr(s, this.iframe), l = e * a.absoluteScale + a.x, c = n * a.absoluteScale + a.y;
       this.mouse.style.left = `${l}px`, this.mouse.style.top = `${c}px`, i || this.drawMouseTail({ x: l, y: c }), this.hoverElements(s);
     }
     drawMouseTail(e) {
@@ -5439,10 +5439,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
   function nr(t) {
     return { "[object Boolean]": "boolean", "[object Number]": "number", "[object String]": "string", "[object Function]": "function", "[object Array]": "array", "[object Date]": "date", "[object RegExp]": "regExp", "[object Undefined]": "undefined", "[object Null]": "null", "[object Object]": "object" }[Object.prototype.toString.call(t)];
   }
-  function Ms(t) {
+  function Rs(t) {
     return t.type === te.IncrementalSnapshot && t.data.source > H.Mutation && t.data.source <= H.Input;
   }
-  function Rs(t) {
+  function ks(t) {
     let e, n, r, i, o, s, a, l, c;
     return { c() {
       e = ae("div"), n = ae("input"), r = fe(), i = ae("label"), o = fe(), s = ae("span"), a = Be(t[3]), L(n, "type", "checkbox"), L(n, "id", t[2]), n.disabled = t[1], L(n, "class", "svelte-9brlez"), L(i, "for", t[2]), L(i, "class", "svelte-9brlez"), L(s, "class", "label svelte-9brlez"), L(e, "class", "switch svelte-9brlez"), Je(e, "disabled", t[1]);
@@ -5454,7 +5454,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       d && Ae(e), l = !1, c();
     } };
   }
-  function ks(t, e, n) {
+  function Ds(t, e, n) {
     let { disabled: r } = e, { checked: i } = e, { id: o } = e, { label: s } = e;
     return t.$$set = (a) => {
       "disabled" in a && n(1, r = a.disabled), "checked" in a && n(0, i = a.checked), "id" in a && n(2, o = a.id), "label" in a && n(3, s = a.label);
@@ -5462,9 +5462,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       i = this.checked, n(0, i);
     }];
   }
-  class Ds extends fn {
+  class xs extends fn {
     constructor(e) {
-      super(), mn(this, e, ks, Rs, hn, { disabled: 1, checked: 0, id: 2, label: 3 });
+      super(), mn(this, e, Ds, ks, hn, { disabled: 1, checked: 0, id: 2, label: 3 });
     }
   }
   function rr(t, e, n) {
@@ -5487,7 +5487,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
     for (let N = 0; N < G.length; N += 1)
       B[N] = lr(ir(t, G, N));
     function S(N, V) {
-      return N[7] === "playing" ? Fs : xs;
+      return N[7] === "playing" ? Os : Fs;
     }
     let _ = S(t), D = _(t), Z = t[3], X = [];
     for (let N = 0; N < Z.length; N += 1)
@@ -5496,7 +5496,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       t[30](N);
     }
     let z = { id: "skip", disabled: t[10] === "skipping", label: "skip inactive" };
-    return t[0] !== void 0 && (z.checked = t[0]), w = new Ds({ props: z }), ke.push(() => function(N, V, E) {
+    return t[0] !== void 0 && (z.checked = t[0]), w = new xs({ props: z }), ke.push(() => function(N, V, E) {
       const q = N.$$.props[V];
       q !== void 0 && (N.$$.bound[q] = E, E(N.$$.ctx[q]));
     }(w, "checked", $)), { c() {
@@ -5509,7 +5509,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       d = fe(), u = ae("div"), g = fe(), m = ae("span"), h = Be(v), p = fe(), y = ae("div"), I = ae("button"), D.c(), f = fe();
       for (let N = 0; N < X.length; N += 1)
         X[N].c();
-      C = fe(), Pr(w.$$.fragment), F = fe(), W = ae("button"), W.innerHTML = `<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16"><defs><style type="text/css"></style></defs><path d="M916 380c-26.4 0-48-21.6-48-48L868 223.2 613.6 477.6c-18.4
+      C = fe(), Kr(w.$$.fragment), F = fe(), W = ae("button"), W.innerHTML = `<svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16"><defs><style type="text/css"></style></defs><path d="M916 380c-26.4 0-48-21.6-48-48L868 223.2 613.6 477.6c-18.4
             18.4-48.8 18.4-68 0-18.4-18.4-18.4-48.8 0-68L800 156 692 156c-26.4
             0-48-21.6-48-48 0-26.4 21.6-48 48-48l224 0c26.4 0 48 21.6 48 48l0
             224C964 358.4 942.4 380 916 380zM231.2 860l108.8 0c26.4 0 48 21.6 48
@@ -5593,7 +5593,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       r && Ae(e);
     } };
   }
-  function xs(t) {
+  function Fs(t) {
     let e, n;
     return { c() {
       e = Dt("svg"), n = Dt("path"), L(n, "d", `M170.65984 896l0-768 640 384zM644.66944
@@ -5604,7 +5604,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       r && Ae(e);
     } };
   }
-  function Fs(t) {
+  function Os(t) {
     let e, n;
     return { c() {
       e = Dt("svg"), n = Dt("path"), L(n, "d", `M682.65984 128q53.00224 0 90.50112 37.49888t37.49888 90.50112l0
@@ -5642,16 +5642,16 @@ or you can use record.mirror to access the mirror instance during recording.`;
       c && Ae(e), o = !1, s();
     } };
   }
-  function Os(t) {
+  function Ls(t) {
     let e, n, r = t[2] && sr(t);
     return { c() {
       r && r.c(), e = Be("");
     }, m(i, o) {
       r && r.m(i, o), Ee(i, e, o), n = !0;
     }, p(i, o) {
-      i[2] ? r ? (r.p(i, o), 4 & o[0] && Ne(r, 1)) : (r = sr(i), r.c(), Ne(r, 1), r.m(e.parentNode, e)) : r && (Zr(), $e(r, 1, 1, () => {
+      i[2] ? r ? (r.p(i, o), 4 & o[0] && Ne(r, 1)) : (r = sr(i), r.c(), Ne(r, 1), r.m(e.parentNode, e)) : r && (Ur(), $e(r, 1, 1, () => {
         r = null;
-      }), Ur());
+      }), Pr());
     }, i(i) {
       n || (Ne(r), n = !0);
     }, o(i) {
@@ -5663,8 +5663,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
   function dr(t, e, n) {
     return (100 - (e - n) / (e - t) * 100).toFixed(2);
   }
-  function Ls(t, e, n) {
-    const r = Oo();
+  function Ws(t, e, n) {
+    const r = Lo();
     let i, o, s, a, l, c, d, u, g, m, { replayer: h } = e, { showController: p } = e, { autoPlay: y } = e, { skipInactive: I } = e, { speedOption: f } = e, { speed: C = f.length ? f[0] : 1 } = e, { tags: w = {} } = e, { inactiveColor: O } = e, F = 0, W = null, R = !1, b = null;
     const x = () => {
       W && (cancelAnimationFrame(W), W = null);
@@ -5681,7 +5681,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       n(1, C = S), _ && h.pause(), h.setConfig({ speed: C }), _ && h.play(F);
     };
     var B;
-    return _r(() => {
+    return Gr(() => {
       n(7, i = h.service.state.value), n(10, o = h.speedService.state.value), h.on("state-change", (S) => {
         const { player: _, speed: D } = S;
         if (_ != null && _.value && i !== _.value)
@@ -5700,7 +5700,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }), y && h.play();
     }), B = () => {
       I !== h.config.skipInactive && h.setConfig({ skipInactive: I });
-    }, Wt().$$.after_update.push(B), Gr(() => {
+    }, Wt().$$.after_update.push(B), Vr(() => {
       h.pause(), x();
     }), t.$$set = (S) => {
       "replayer" in S && n(17, h = S.replayer), "showController" in S && n(2, p = S.showController), "autoPlay" in S && n(18, y = S.autoPlay), "skipInactive" in S && n(0, I = S.skipInactive), "speedOption" in S && n(3, f = S.speedOption), "speed" in S && n(1, C = S.speed), "tags" in S && n(19, w = S.tags), "inactiveColor" in S && n(20, O = S.inactiveColor);
@@ -5723,7 +5723,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
             const N = [];
             let V = z[0].timestamp;
             for (const E of z)
-              Ms(E) && (E.timestamp - V > 1e4 && N.push([V, E.timestamp]), V = E.timestamp);
+              Rs(E) && (E.timestamp - V > 1e4 && N.push([V, E.timestamp]), V = E.timestamp);
             return N;
           }(S.events), $ = (z, N, V, E) => ((E - V) / (N - z) * 100).toFixed(2);
           return X.map((z) => ({ name: "inactive period", background: O, position: `${dr(D, Z, z[0])}%`, width: `${$(D, Z, z[0], z[1])}%` }));
@@ -5763,9 +5763,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       I = S, n(0, I);
     }, () => r("fullscreen")];
   }
-  class Ws extends fn {
+  class Bs extends fn {
     constructor(e) {
-      super(), mn(this, e, Ls, Os, hn, { replayer: 17, showController: 2, autoPlay: 18, skipInactive: 0, speedOption: 3, speed: 1, tags: 19, inactiveColor: 20, toggle: 4, play: 21, pause: 22, goto: 23, playRange: 24, setSpeed: 5, toggleSkipInactive: 25, triggerUpdateMeta: 26 }, null, [-1, -1]);
+      super(), mn(this, e, Ws, Ls, hn, { replayer: 17, showController: 2, autoPlay: 18, skipInactive: 0, speedOption: 3, speed: 1, tags: 19, inactiveColor: 20, toggle: 4, play: 21, pause: 22, goto: 23, playRange: 24, setSpeed: 5, toggleSkipInactive: 25, triggerUpdateMeta: 26 }, null, [-1, -1]);
     }
     get toggle() {
       return this.$$.ctx[4];
@@ -5794,8 +5794,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
   }
   function ur(t) {
     let e, n, r = { replayer: t[7], showController: t[3], autoPlay: t[1], speedOption: t[2], skipInactive: t[0], tags: t[4], inactiveColor: t[5] };
-    return e = new Ws({ props: r }), t[32](e), e.$on("fullscreen", t[33]), { c() {
-      Pr(e.$$.fragment);
+    return e = new Bs({ props: r }), t[32](e), e.$on("fullscreen", t[33]), { c() {
+      Kr(e.$$.fragment);
     }, m(i, o) {
       gn(e, i, o), n = !0;
     }, p(i, o) {
@@ -5809,16 +5809,16 @@ or you can use record.mirror to access the mirror instance during recording.`;
       t[32](null), pn(e, i);
     } };
   }
-  function Bs(t) {
+  function _s(t) {
     let e, n, r, i, o = t[7] && ur(t);
     return { c() {
       e = ae("div"), n = ae("div"), r = fe(), o && o.c(), L(n, "class", "rr-player__frame"), L(n, "style", t[11]), L(e, "class", "rr-player"), L(e, "style", t[12]);
     }, m(s, a) {
       Ee(s, e, a), J(e, n), t[31](n), J(e, r), o && o.m(e, null), t[34](e), i = !0;
     }, p(s, a) {
-      (!i || 2048 & a[0]) && L(n, "style", s[11]), s[7] ? o ? (o.p(s, a), 128 & a[0] && Ne(o, 1)) : (o = ur(s), o.c(), Ne(o, 1), o.m(e, null)) : o && (Zr(), $e(o, 1, 1, () => {
+      (!i || 2048 & a[0]) && L(n, "style", s[11]), s[7] ? o ? (o.p(s, a), 128 & a[0] && Ne(o, 1)) : (o = ur(s), o.c(), Ne(o, 1), o.m(e, null)) : o && (Ur(), $e(o, 1, 1, () => {
         o = null;
-      }), Ur()), (!i || 4096 & a[0]) && L(e, "style", s[12]);
+      }), Pr()), (!i || 4096 & a[0]) && L(e, "style", s[12]);
     }, i(s) {
       i || (Ne(o), i = !0);
     }, o(s) {
@@ -5827,7 +5827,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       s && Ae(e), t[31](null), o && o.d(), t[34](null);
     } };
   }
-  function _s(t, e, n) {
+  function Gs(t, e, n) {
     let r, { width: i = 1024 } = e, { height: o = 576 } = e, { maxScale: s = 1 } = e, { events: a = [] } = e, { skipInactive: l = !0 } = e, { autoPlay: c = !0 } = e, { speedOption: d = [1, 2, 4, 8] } = e, { speed: u = 1 } = e, { showController: g = !0 } = e, { tags: m = {} } = e, { inactiveColor: h = "#D4D4D4" } = e, p, y, I, f, C, w, O = i, F = o;
     const W = (b, x) => {
       const A = [i / x.width, o / x.height];
@@ -5836,7 +5836,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       var b;
       p && (tr() ? document.exitFullscreen ? document.exitFullscreen() : document.mozExitFullscreen ? document.mozExitFullscreen() : document.webkitExitFullscreen ? document.webkitExitFullscreen() : document.msExitFullscreen && document.msExitFullscreen() : (b = p).requestFullscreen ? b.requestFullscreen() : b.mozRequestFullScreen ? b.mozRequestFullScreen() : b.webkitRequestFullscreen ? b.webkitRequestFullscreen() : b.msRequestFullscreen && b.msRequestFullscreen());
     };
-    return _r(() => {
+    return Gr(() => {
       if (d !== void 0 && nr(d) !== "array")
         throw new Error("speedOption must be array");
       if (d.forEach((x) => {
@@ -5853,7 +5853,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
         }
         `);
       var b;
-      n(7, r = new Ts(a, Object.assign({ speed: u, root: y, unpackFn: Is }, e))), r.on("resize", (x) => {
+      n(7, r = new Ms(a, Object.assign({ speed: u, root: y, unpackFn: Cs }, e))), r.on("resize", (x) => {
         W(r.wrapper, x);
       }), b = () => {
         tr() ? setTimeout(() => {
@@ -5862,7 +5862,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       }, document.addEventListener("fullscreenchange", b), document.addEventListener("webkitfullscreenchange", b), document.addEventListener("mozfullscreenchange", b), document.addEventListener("MSFullscreenChange", b), I = () => {
         document.removeEventListener("fullscreenchange", b), document.removeEventListener("webkitfullscreenchange", b), document.removeEventListener("mozfullscreenchange", b), document.removeEventListener("MSFullscreenChange", b);
       };
-    }), Gr(() => {
+    }), Vr(() => {
       I && I();
     }), t.$$set = (b) => {
       n(39, e = kn(kn({}, e), xn(b))), "width" in b && n(13, i = b.width), "height" in b && n(14, o = b.height), "maxScale" in b && n(15, s = b.maxScale), "events" in b && n(16, a = b.events), "skipInactive" in b && n(0, l = b.skipInactive), "autoPlay" in b && n(1, c = b.autoPlay), "speedOption" in b && n(2, d = b.speedOption), "speed" in b && n(17, u = b.speed), "showController" in b && n(3, g = b.showController), "tags" in b && n(4, m = b.tags), "inactiveColor" in b && n(5, h = b.inactiveColor);
@@ -5907,9 +5907,9 @@ or you can use record.mirror to access the mirror instance during recording.`;
       });
     }];
   }
-  class Gs extends fn {
+  class Vs extends fn {
     constructor(e) {
-      super(), mn(this, e, _s, Bs, hn, { width: 13, height: 14, maxScale: 15, events: 16, skipInactive: 0, autoPlay: 1, speedOption: 2, speed: 17, showController: 3, tags: 4, inactiveColor: 5, getMirror: 18, triggerResize: 19, toggleFullscreen: 6, addEventListener: 20, addEvent: 21, getMetaData: 22, getReplayer: 23, toggle: 24, setSpeed: 25, toggleSkipInactive: 26, play: 27, pause: 28, goto: 29, playRange: 30 }, null, [-1, -1]);
+      super(), mn(this, e, Gs, _s, hn, { width: 13, height: 14, maxScale: 15, events: 16, skipInactive: 0, autoPlay: 1, speedOption: 2, speed: 17, showController: 3, tags: 4, inactiveColor: 5, getMirror: 18, triggerResize: 19, toggleFullscreen: 6, addEventListener: 20, addEvent: 21, getMetaData: 22, getReplayer: 23, toggle: 24, setSpeed: 25, toggleSkipInactive: 26, play: 27, pause: 28, goto: 29, playRange: 30 }, null, [-1, -1]);
     }
     get getMirror() {
       return this.$$.ctx[18];
@@ -5954,35 +5954,51 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return this.$$.ctx[30];
     }
   }
-  class Vs extends Gs {
+  class Zs extends Vs {
     constructor(e) {
       super({ target: e.target, props: e.data || e.props });
     }
   }
-  let Bt = [], fi = null;
-  const yi = document.createElement("div");
-  yi.classList.add("recording-frame");
-  const Zs = () => {
-    Ys(), Ii(), fi = pt({
+  let Bt = [], yi = null;
+  const Ii = document.createElement("div");
+  Ii.classList.add("recording-frame");
+  const Us = () => {
+    zs(), Ci(), yi = pt({
       emit(t) {
         Bt.push(t);
       },
       recordCanvas: !0
     });
-  }, Us = () => {
-    fi();
+  }, hr = () => {
+    const t = window.innerHeight, e = document.querySelector(
+      ".record-player-frame"
+    );
+    if (e) {
+      const n = window.getComputedStyle(e), r = parseInt(
+        n.getPropertyValue("padding-top"),
+        10
+      );
+      console.log(t);
+      const i = t - (r * 2 + 60 + 20);
+      return console.log(i), i;
+    }
+    return 0;
+  }, Ps = () => {
+    hr(), yi();
     const t = document.getElementById(
       "record-player"
     );
-    Ks(t), setTimeout(() => {
-      new Vs({
+    Ys(t), setTimeout(() => {
+      new Zs({
         target: t,
         props: {
-          events: Bt
+          events: Bt,
+          height: hr(),
+          skipInactive: !0
         }
       });
-    }, 200), zs();
-  }, Ps = (t, e) => {
+    }, 200), Hs();
+  }, Ks = (t, e) => {
     var n;
     (n = e.contentWindow) == null || n.postMessage(
       {
@@ -5993,18 +6009,18 @@ or you can use record.mirror to access the mirror instance during recording.`;
       },
       t
     );
-  }, Ii = () => {
+  }, Ci = () => {
     Bt = [];
   };
-  function Ks(t) {
+  function Ys(t) {
     for (; t.firstChild; )
       t.removeChild(t.firstChild);
   }
-  const Ys = () => {
-    document.body.classList.add("crowd-recording-frame"), document.body.appendChild(yi);
-  }, zs = () => {
+  const zs = () => {
+    document.body.classList.add("crowd-recording-frame"), document.body.appendChild(Ii);
+  }, Hs = () => {
     document.body.classList.remove("crowd-recording-frame");
-  }, Hs = (t, e) => {
+  }, Qs = (t, e) => {
     const n = /* @__PURE__ */ new Date();
     n.setTime(
       n.getTime() + e * 60 * 60 * 1e3
@@ -6013,17 +6029,17 @@ or you can use record.mirror to access the mirror instance during recording.`;
       Ue("crowd-widget-user-session")
     )}; expires=${n.toUTCString()}; path=/`;
     document.cookie = r;
-  }, Qs = (t) => {
+  }, Js = (t) => {
     const e = `${t}-user-session`, r = document.cookie.split(";");
     let i = null;
     return r.forEach((o) => {
       const [s, a] = o.trim().split("=");
       s === e && (i = decodeURIComponent(a));
     }), i !== null;
-  }, Ue = (t) => `${t}-${(/* @__PURE__ */ new Date()).getTime()}${Math.floor(Math.random() * 100)}`, Js = () => {
+  }, Ue = (t) => `${t}-${(/* @__PURE__ */ new Date()).getTime()}${Math.floor(Math.random() * 100)}`, $s = () => {
     const t = navigator.userAgent;
     return /Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(t) ? "Mobile" : /Tablet|iPad/i.test(t) ? "Tablet" : "Desktop";
-  }, $s = (t, e, n) => {
+  }, Xs = (t, e, n) => {
     if (t === "ALLPAGES")
       return !0;
     if (t === "SPECIFICPAGES") {
@@ -6042,8 +6058,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
         return new RegExp(n, "i").test(r);
     } else
       return !1;
-  }, Xs = async (t) => {
-    const e = Js().toLowerCase(), n = $s(
+  }, js = async (t) => {
+    const e = $s().toLowerCase(), n = Xs(
       t.visibilityOption,
       t.specificPageOption,
       t.specificPageValue
@@ -6052,7 +6068,7 @@ or you can use record.mirror to access the mirror instance during recording.`;
       position: t.position,
       showAfter: t.showWidgetAfter
     } : !1;
-  }, js = (t) => {
+  }, qs = (t) => {
     let e = 0, n = 0, r = 0, i = 0;
     function o(l) {
       l = l || window.event, l.preventDefault(), r = l.clientX, i = l.clientY, document.onmouseup = a, document.onmousemove = s;
@@ -6064,18 +6080,18 @@ or you can use record.mirror to access the mirror instance during recording.`;
       document.onmouseup = null, document.onmousemove = null;
     }
     t.onmousedown = o;
-  }, Jt = "*", xe = "crowd-widget", qs = 0.5, $t = "https://staging.crowdapp.io/widget-extension";
+  }, ea = "*", Jt = "https://staging.crowdapp.io", xe = "crowd-widget", ta = 0.5, $t = "https://staging.crowdapp.io/widget-extension";
   let Xt = !1;
-  const ea = () => {
+  const na = () => {
     if (window.CrowdApp && window.CrowdApp.widget_token) {
       const t = window.CrowdApp.widget_token;
-      new ta(t).setupWidgetContainer();
+      new ra(t).setupWidgetContainer();
     } else
       console.error(
         "Crowd App installation failed. Please ensure that you are using the correct code snippet"
       );
   };
-  class ta {
+  class ra {
     constructor(e) {
       //** Variable that holds the widget token and it will be used across the class*/
       Se(this, "widgetToken", "");
@@ -6130,8 +6146,8 @@ or you can use record.mirror to access the mirror instance during recording.`;
     }
     setupWidgetContainer() {
       this.widgetParentContainer = document.createElement("div"), this.widgetParentContainer.classList.add("crowd-widget"), this.setupWidgetLauncherElement(), this.setupWidgetPanelElement(), this.setupWidgetControllerElement(), this.setupWidgetRecordPlayerElement(), document.body.appendChild(this.widgetParentContainer), window.addEventListener("message", (e) => {
-        this.listenAndExecutePostMessageInteration(e);
-      }), this.assignWidgetPanelAndLauncherEndpoints(), js(
+        e.origin === Jt && this.listenAndExecutePostMessageInteration(e);
+      }), this.assignWidgetPanelAndLauncherEndpoints(), qs(
         this.getWidgetElementsReference().controllerWapper
       ), this.assignListenerToControlButton();
     }
@@ -6166,10 +6182,10 @@ or you can use record.mirror to access the mirror instance during recording.`;
     assignListenerToControlButton() {
       var e, n;
       (e = document.getElementById("delete-screen-record")) == null || e.addEventListener("click", () => {
-        Ii(), this.toggleCrowdWidgetControllerVisibility("CLOSEPLAYER");
+        Ci(), this.toggleCrowdWidgetControllerVisibility("CLOSEPLAYER");
       }), (n = document.getElementById("save-screen-record")) == null || n.addEventListener("click", () => {
-        Ps(
-          Jt,
+        Ks(
+          ea,
           this.getWidgetElementsReference().panelIframe
         ), this.toggleCrowdWidgetControllerVisibility("CLOSEPLAYER");
       });
@@ -6219,26 +6235,21 @@ or you can use record.mirror to access the mirror instance during recording.`;
           this.clearWidgetOnDeactivation();
           return;
         }
-        Xs(e.data.body.displayRule).then(
+        js(e.data.body.displayRule).then(
           (r) => {
-            if (r)
-              setTimeout(() => {
-                var i;
-                this.adjustWidgetLauncherPositionDimension("Position", r), Qs(xe) || (i = n.launcherIframe.contentWindow) == null || i.postMessage(
-                  {
-                    eventType: "WIDGETIMPRESSION"
-                  },
-                  Jt
-                );
-              }, r.showAfter);
-            else {
-              this.clearWidgetOnDeactivation();
-              return;
-            }
+            r ? setTimeout(() => {
+              var i;
+              this.adjustWidgetLauncherPositionDimension("Position", r), Js(xe) || (i = n.launcherIframe.contentWindow) == null || i.postMessage(
+                {
+                  eventType: "WIDGETIMPRESSION"
+                },
+                Jt
+              );
+            }, r.showAfter) : this.clearWidgetOnDeactivation();
           }
         );
       } else
-        e.data.eventType === "LAUNCHERRESIZE" ? this.adjustWidgetLauncherPositionDimension("Resize", e.data.body) : e.data.eventType === "IMPRESSIONRECORDED" ? Hs(xe, qs) : e.data.eventType === "OPENPANEL" ? (this.toggleWidgetVisibility(), n.controllerWapper !== null && !this.iframesLoaded.controllerFrame && (this.assignWidgetControllerEndpoints(), this.iframesLoaded.controllerFrame = !0)) : e.data.eventType === "STARTSCREENRECORD" ? (Zs(), this.toggleCrowdWidgetControllerVisibility("STARTRECORDING")) : e.data.eventType === "STOPSCREENRECORD" && (Us(), n.controllerWapper.style.visibility = "hidden", this.toggleCrowdWidgetControllerVisibility("STOPRECORDING"));
+        e.data.eventType === "LAUNCHERRESIZE" ? this.adjustWidgetLauncherPositionDimension("Resize", e.data.body) : e.data.eventType === "IMPRESSIONRECORDED" ? Qs(xe, ta) : e.data.eventType === "OPENPANEL" ? (this.toggleWidgetVisibility(), n.controllerWapper !== null && !this.iframesLoaded.controllerFrame && (this.assignWidgetControllerEndpoints(), this.iframesLoaded.controllerFrame = !0)) : e.data.eventType === "STARTSCREENRECORD" ? (Us(), this.toggleCrowdWidgetControllerVisibility("STARTRECORDING")) : e.data.eventType === "STOPSCREENRECORD" && (Ps(), n.controllerWapper.style.visibility = "hidden", this.toggleCrowdWidgetControllerVisibility("STOPRECORDING"));
     }
     clearWidgetOnDeactivation() {
       this.widgetParentContainer.remove();
@@ -6248,6 +6259,6 @@ or you can use record.mirror to access the mirror instance during recording.`;
       return console.log(r), r;
     }
   }
-  ea();
+  na();
 });
-export default na();
+export default ia();
