@@ -14,7 +14,7 @@ import {
 } from "./utils";
 
 const widgetOrigin = "*";
-const crowdOrigin = "https://staging.crowdapp.io"; // "http://localhost:2222";
+const crowdOrigin = "http://localhost:2222"; // "https://staging.crowdapp.io"; // "http://localhost:2222";
 const widgetVariablePrefix = "crowd-widget";
 const cookieLifetime = 0.5; // Hour(s)
 // const environment = "dev";
@@ -23,8 +23,8 @@ const cookieLifetime = 0.5; // Hour(s)
 //     ? "http://localhost:2222/widget-extension"
 //     : "https://staging.crowdapp.io/widget-extension"; // "https://staging.crowdapp.io/widget-extension";
 
-const baseURL = "https://staging.crowdapp.io/widget-extension";
-
+// const baseURL = "https://staging.crowdapp.io/widget-extension";
+const baseURL = "http://localhost:2222/widget-extension";
 // https://admin200.lfxedu.com/test.html
 
 let isWidgetPanelVisible = false;
@@ -105,9 +105,15 @@ class SetupCrowdWidget {
    */
   private getwidgetFrameEndpoint() {
     return {
-      panelEndpoint: `${baseURL}?token=${this.widgetToken}`,
-      launcherEndpoint: `${baseURL}/launcher?token=${this.widgetToken}`,
-      controllerEndpoint: `${baseURL}/recorder-controller`,
+      panelEndpoint: `${baseURL}?token=${this.widgetToken}&domain=${
+        this.getClientSiteDomain().hostname
+      }&origin=${this.getClientSiteDomain().origin}`,
+      launcherEndpoint: `${baseURL}/launcher?token=${this.widgetToken}&domain=${
+        this.getClientSiteDomain().hostname
+      }&origin=${this.getClientSiteDomain().origin}`,
+      controllerEndpoint: `${baseURL}/recorder-controller&domain=${
+        this.getClientSiteDomain().hostname
+      }&origin=${this.getClientSiteDomain().origin}`,
     };
   }
 
@@ -291,6 +297,12 @@ class SetupCrowdWidget {
         this.clearWidgetOnDeactivation();
         return;
       }
+      elementRefs.launcherIframe.contentWindow?.postMessage(
+        {
+          eventType: "INSTALLWIDGET",
+        },
+        crowdOrigin
+      );
       checkDeviceAndPageCompability(event.data.body.displayRule).then(
         (response) => {
           if (response) {
@@ -340,9 +352,10 @@ class SetupCrowdWidget {
   getClientSiteDomain() {
     const currentURL = window.location.href;
     const url = new URL(currentURL);
-    const hostname = url.hostname;
-    console.log(hostname);
-    return hostname;
+    return {
+      hostname: url.hostname,
+      origin: url.origin,
+    };
   }
 }
 initCrowdWidget();
