@@ -18,13 +18,9 @@ const crowdOrigin = "https://staging.crowdapp.io"; // "http://localhost:2222";
 const widgetVariablePrefix = "crowd-widget";
 const cookieLifetime = 0.5; // Hour(s)
 // const environment = "dev";
-// const baseURL =
-//   environment === "dev"
-//     ? "http://localhost:2222/widget-extension"
-//     : "https://staging.crowdapp.io/widget-extension"; // "https://staging.crowdapp.io/widget-extension";
 
-const baseURL = "https://staging.crowdapp.io/widget-extension";
-// const baseURL = "http://localhost:2222/widget-extension";
+const baseURL = "https://staging.crowdapp.io/crowd-extension/feedback-widget"; // "https://staging.crowdapp.io/widget-extension";
+// const baseURL = "http://localhost:2222/crowd-extension/feedback-widget";
 // https://admin200.lfxedu.com/test.html
 
 let isWidgetPanelVisible = false;
